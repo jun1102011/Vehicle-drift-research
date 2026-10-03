@@ -1,0 +1,1 @@
+{"source_gain_sha256":"6c3a4c34c125468592e8fef680535fd8d9ec0a569473b658c96c22e58c692101","state_feedback":["V","beta","AVz","kappa_f","kappa_r"],"input":["delta_f","kappa_f_target","kappa_r_target"],"entry_nodes_zero_based":[1,2,3,4,5,6,7],"cycle_nodes_zero_based":[7,8,9,10,1],"changed_gain_values":false,"K_shape":[3,5]}

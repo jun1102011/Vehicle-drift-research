@@ -1,0 +1,10 @@
+slprj/
+__pycache__/
+*.slxc
+*.mexw64
+*.asv
+*.autosave
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db

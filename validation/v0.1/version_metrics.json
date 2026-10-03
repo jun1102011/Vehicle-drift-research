@@ -1,0 +1,83 @@
+{
+  "case": "v01_five",
+  "actual_end": 30,
+  "error": "",
+  "mode": "drift_entry",
+  "feedback_state_count": 5,
+  "version": 1,
+  "phase_first_s": {
+    "0": 0.0,
+    "1": 2.62,
+    "2": 5.18,
+    "3": 5.67
+  },
+  "min_speed_mps": 8.333332397419724,
+  "max_speed_mps": 12.32874565727597,
+  "roll_peak_deg": 4.0671352453474094,
+  "avx_peak_deg_s": 4.397626937694134,
+  "wheel_load_min_N": 1935.1277198001476,
+  "wheel_load_max_N": 7574.790301591202,
+  "torque_peak_Nm": 1270.6653315455048,
+  "torque_protection_max_s": 0.0,
+  "torque_protection_fraction": 0.0,
+  "wheel_speed_projection_fraction": 0.0003332222592469177,
+  "request_constraint_fraction": 0.017994001999333556,
+  "all_required_signals_finite": true,
+  "prepare_failed": false,
+  "time_strictly_increasing": true,
+  "capture_backtracks": 0,
+  "straight_capture_backtracks": null,
+  "steer_actual_peak_deg": 2.767091422341112,
+  "wheel_drive_positive_work_J": 1317544.0608654693,
+  "wheel_drive_negative_work_J": -403193.92971046193,
+  "extra_suspension_force_peak_N": 0.0,
+  "table_warnings": [
+    "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+    "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+    "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+    "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+    "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+    "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+    "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+    "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+    "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+    "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027",
+    "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027",
+    "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775",
+    "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775"
+  ],
+  "takeover_s": 5.67,
+  "exit_start_s": null,
+  "drift_window_s": [
+    25.0,
+    30.0
+  ],
+  "drift_rmse": [
+    0.0005795374618470112,
+    0.015433811677580353,
+    0.00010523953393287826
+  ],
+  "drift_window_qualified": true,
+  "drift_abs_error_peak": [
+    0.0005802127671454826,
+    0.015443542001673194,
+    0.00010708612332088752
+  ],
+  "drift_threshold_exceed_fraction": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "drift_last_minus_first_second": [
+    -3.033623006132302e-07,
+    8.289330580169008e-06,
+    3.4639654100665496e-07
+  ],
+  "drift_radius_m": 19.952237986756582,
+  "drift_sat_fraction": 0.0,
+  "drift_pass": true,
+  "entry_min_speed_mps": 11.730490204189064,
+  "entry_beta_min_deg": -9.687044830783863,
+  "entry_rear_slip_max": 0.3550205949135171,
+  "passed": true
+}

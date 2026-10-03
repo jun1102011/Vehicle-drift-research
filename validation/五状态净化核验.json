@@ -1,0 +1,58 @@
+{
+  "three_versions_passed": true,
+  "five_feedback_only": true,
+  "frozen_gain_values_unchanged": true,
+  "compiled_sample_times": {
+    "control": [
+      0.01,
+      0
+    ],
+    "guidance": [
+      0.01,
+      0
+    ],
+    "plant": [
+      0.0005,
+      0
+    ]
+  },
+  "closed_loop_equivalence": [
+    {
+      "version": "V0.1",
+      "max_absolute_difference": {
+        "repair_plant_raw": 0.0,
+        "repair_actuator_command": 0.0,
+        "repair_entry_diag": 0.0,
+        "repair_cycle_diag": 0.0,
+        "repair_stadium_diag": 0.0,
+        "asb_import12": 0.0
+      },
+      "identical_execution": true
+    },
+    {
+      "version": "V0.2",
+      "max_absolute_difference": {
+        "repair_plant_raw": 0.0,
+        "repair_actuator_command": 0.0,
+        "repair_entry_diag": 0.0,
+        "repair_cycle_diag": 0.0,
+        "repair_stadium_diag": 0.0,
+        "asb_import12": 0.0
+      },
+      "identical_execution": true
+    },
+    {
+      "version": "V0.3",
+      "max_absolute_difference": {
+        "repair_plant_raw": 0.0,
+        "repair_actuator_command": 0.0,
+        "repair_entry_diag": 0.0,
+        "repair_cycle_diag": 0.0,
+        "repair_stadium_diag": 0.0,
+        "asb_import12": 0.0
+      },
+      "identical_execution": true
+    }
+  ],
+  "source_gain_sha256": "6c3a4c34c125468592e8fef680535fd8d9ec0a569473b658c96c22e58c692101"
+}

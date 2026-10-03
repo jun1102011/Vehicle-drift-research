@@ -1,0 +1,2 @@
+# Preserve archived bytes for reproducible SHA256 verification.
+* -text
