@@ -1,0 +1,11 @@
+flowchart LR
+  R[版本任务与局部参考<br/>V β AVz κf κr] --> F[本轮修改：五项误差反馈<br/>局部模型增益 K：3×5]
+  P[CarSim车辆<br/>侧倾 + 查表组合滑移] -->|V β AVz κf κr| F
+  F --> U[前轮角 δf + 前后轴滑移请求<br/>约束与变化率限制]
+  U --> W[轮速执行<br/>实际 Fx 负载补偿 + 轮惯量<br/>力矩预算 + 轮速限速]
+  W -->|前轮目标角 + 四轮轮矩| P
+  P -.-> D[Roll / AVx / 轮荷<br/>诊断与接管门控]
+  classDef changed fill:#f8cf91,stroke:#a75d17,stroke-width:2px,color:#242424;
+  class F changed;
+  P -->|实测质心位置 XY 与行进方向 χ| S[冻结操场路线<br/>路径投影与轻量纠偏]
+  S -->|局部参考与横摆请求修正| U
