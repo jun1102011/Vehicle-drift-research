@@ -113,7 +113,7 @@ fprintf('模型使用现有GUI配置：%s\n',repair_simfile);
 %% 可选研究模式：普通直行→滑移建立→入漂→局部维持
 % 在运行本入口前设置repair_run_mode='drift_entry'启用；'normal'保持原普通路径模式。
 % 此入口只初始化，不启动仿真。25m/50m均通过原生对照，默认25m。
-if ~exist('repair_run_mode','var'), repair_run_mode='drift_entry'; end
+if ~exist('repair_run_mode','var'), repair_run_mode='drift_cycle'; end
 assert(ismember(string(repair_run_mode),["normal","drift_entry","drift_cycle","drift_turn","drift_stadium"]),'repair_run_mode只支持normal、drift_entry、drift_cycle、drift_turn或drift_stadium');
 if ~exist('repair_entry_length','var'), repair_entry_length=25; end
 assert(ismember(repair_entry_length,[25,50]),'入漂长度仅有25m和50m经过本轮对照');
