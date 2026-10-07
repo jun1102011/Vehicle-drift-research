@@ -1,0 +1,62 @@
+[
+  {
+    "case": "kf384_kr384",
+    "historical_batch": "step35f_continuous_entry_20261007",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat",
+    "raw_sha256": "8a6139affee2d4e656e0ee58b5c83c7769e18d090434003520a30b526e9df29c",
+    "raw_bytes": 74802194,
+    "channel_count": 55,
+    "native_step_s": 0.0005,
+    "public_raw_included": false,
+    "necessary_large_evidence_local": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384",
+    "controller_snapshot": "evidence/kf384_kr384/controller_numeric.mat"
+  },
+  {
+    "case": "kf192_kr384",
+    "historical_batch": "step35g_continuous_stiffness_20261007",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\raw_numeric.mat",
+    "raw_sha256": "c5d8f482a31e20a7b3af0057288333c348ea42e50969ec89a652d140b20c3a87",
+    "raw_bytes": 73548228,
+    "channel_count": 55,
+    "native_step_s": 0.0005,
+    "public_raw_included": false,
+    "necessary_large_evidence_local": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384",
+    "controller_snapshot": "evidence/kf192_kr384/controller_numeric.mat"
+  },
+  {
+    "case": "kf576_kr384",
+    "historical_batch": "step35g_continuous_stiffness_20261007",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\raw_numeric.mat",
+    "raw_sha256": "ef1dcf8b17482ccb70b70ebf92a15f0696cd6a0e798e21a973bd27fbff14a2cc",
+    "raw_bytes": 58578065,
+    "channel_count": 55,
+    "native_step_s": 0.0005,
+    "public_raw_included": false,
+    "necessary_large_evidence_local": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384",
+    "controller_snapshot": "evidence/kf576_kr384/controller_numeric.mat"
+  },
+  {
+    "case": "kf384_kr192",
+    "historical_batch": "step35g_continuous_stiffness_20261007",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\raw_numeric.mat",
+    "raw_sha256": "dc59842afb6af3e2626fad9af5ffa2ec90dbdf96ef7cb3333282384603cf5963",
+    "raw_bytes": 74617973,
+    "channel_count": 55,
+    "native_step_s": 0.0005,
+    "public_raw_included": false,
+    "necessary_large_evidence_local": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192",
+    "controller_snapshot": "evidence/kf384_kr192/controller_numeric.mat"
+  },
+  {
+    "case": "kf384_kr576",
+    "historical_batch": "step35g_continuous_stiffness_20261007",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\raw_numeric.mat",
+    "raw_sha256": "32ae2b6dc9b25b828525de4670cfd1b9dc7ebbcd61d9c78d2baa8c000fab2278",
+    "raw_bytes": 58484940,
+    "channel_count": 55,
+    "native_step_s": 0.0005,
+    "public_raw_included": false,
+    "necessary_large_evidence_local": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576",
+    "controller_snapshot": "evidence/kf384_kr576/controller_numeric.mat"
+  }
+]

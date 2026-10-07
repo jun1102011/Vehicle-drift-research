@@ -1,0 +1,67 @@
+{
+  "schema": "step35g-state-only-config-manifest-v1",
+  "preparation_only_no_simulation": true,
+  "gui_database_mutated": false,
+  "cases": [
+    {
+      "case": "kf192_kr384",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "configuration_identity_sha256": "7cfe98189eb6f12201f0e2fab7750bdd7bb0e3b8ee1621c76529f807c8b5dc7a",
+      "origin_par_sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+      "origin_sim_sha256": "53a7f5c9a5db554e30ad09df171ff3e89b8a796f493f2eb05fdd9d6c181bb121",
+      "derived_par_sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+      "derived_sim_sha256": "ac3be5a5e370274c572a77febef3d14b4dc6b1d6bf15efc6d9a0490129bf3584",
+      "byte_whitelist_review": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf576_kr384",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "configuration_identity_sha256": "1c7866175decadac2af7591cd09551ca619aac888c64b441dfb26c06e758d6fe",
+      "origin_par_sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+      "origin_sim_sha256": "7851b8f9c3b15b19228f7c0f59e77010c62b7f047cd6c35d45b353157c373311",
+      "derived_par_sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+      "derived_sim_sha256": "9d4b2643b2b634ed4b473ca28b4adfe58d77d838298f0f06ea57c28f42fef5e6",
+      "byte_whitelist_review": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf384_kr192",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "configuration_identity_sha256": "2383ae39b4d0fce9bd30de462b96acccf5f2ac1d8fe08274bc8abd8967271014",
+      "origin_par_sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+      "origin_sim_sha256": "5925986adbbce4232d760ce58a934ccc55f5f2eabb5235625879f3d60559d1b9",
+      "derived_par_sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+      "derived_sim_sha256": "b4da76439cd787ebaec8f26aaffae3f2868666fade4b54ee1289db72645842b7",
+      "byte_whitelist_review": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf384_kr576",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "configuration_identity_sha256": "9ffb18d18aa6eb696c24e21c1dbc3fd9ad0d9d2a2ea5b69a1245dc7a735ea4a4",
+      "origin_par_sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+      "origin_sim_sha256": "9166ac9cd7ce0906d6e12e7467f1933712e471442d4f864df0cc44ef3ecb15b2",
+      "derived_par_sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+      "derived_sim_sha256": "a19d4970b3a91adf12329d6c02500f2498b0535c45eaf7cbd6d7229229e53cc7",
+      "byte_whitelist_review": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    }
+  ]
+}

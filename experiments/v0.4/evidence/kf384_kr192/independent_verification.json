@@ -1,0 +1,84 @@
+{
+  "schema": "step35c-independent-native-v1",
+  "passed": true,
+  "protocol_PASS": true,
+  "profile_id": "V12_beta30_state_only_R3",
+  "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+  "run_id": "V12_beta30_state_only_R3_kf384_kr192",
+  "raw_sha256": "dc59842afb6af3e2626fad9af5ffa2ec90dbdf96ef7cb3333282384603cf5963",
+  "source_freeze_sha256": "eababd50fb043c9eacddababa5c86428528d55740ff3d355f1fac8b4b4e2b692",
+  "checks": {
+    "native_shape_and_time": true,
+    "control_time": true,
+    "entry_diagnostics_control_time": true,
+    "native_inputs_and_physical_time": true,
+    "actual_eight_inputs_equal_commands": true,
+    "external_asb_import_command_received_zero": true,
+    "unique_archive_55_verified_channels": true,
+    "vehicle_completed_60s_without_error": true,
+    "ordinary_initial_state": true,
+    "five_feedback_all_nodes": true,
+    "no_path_runtime_flags": true,
+    "rear_upper_disabled_identity": true,
+    "public_numeric_budgets": true,
+    "actual_source_freeze_unchanged": true,
+    "actual_profile_unchanged": true,
+    "actual_internal_aux_stiffness": true,
+    "aux_moment_linear_identity": true,
+    "native_capture_event_matches": true
+  },
+  "failed_checks": [],
+  "entry_first600": {
+    "start_s": 7.385,
+    "confirmed_s": 7.6845,
+    "first_last_span_s": 0.2995000000000001,
+    "required_samples": 600,
+    "complete_qualifying_run_samples": 1610
+  },
+  "hold_first_fixed_10s": {
+    "fixed_window_valid": true,
+    "samples": 20000,
+    "start_s": 8.19,
+    "end_exclusive_s": 18.189999999999998,
+    "state_rmse": [
+      0.034328208875322244,
+      0.2466656521250145,
+      0.0017517990502062964
+    ],
+    "state_peak_abs_error": [
+      0.07139222634143927,
+      0.587343998111912,
+      0.008617087462749473
+    ],
+    "state_out_of_band_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "state_longest_out_of_band_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_out_of_band_s": 0.0,
+    "joint_longest_out_of_band_s": 0.0,
+    "torque_protection_fraction": 0.0,
+    "torque_protection_longest_s": 0.0,
+    "min_wheel_load_N": 2400.8719568592824,
+    "passed": true
+  },
+  "exit_first2000": {
+    "start_s": 25.020500000000002,
+    "confirmed_s": 26.02,
+    "first_last_span_s": 0.9994999999999976,
+    "required_samples": 2000,
+    "complete_qualifying_run_samples": 69960,
+    "elapsed_from_phase4_s": 6.830500000000001
+  },
+  "native_samples": 120001,
+  "actual_end_s": 60.0,
+  "min_wheel_load_all_N": 1435.5306851756834,
+  "max_abs_actual_wheel_torque_Nm": 1447.206509687991,
+  "aux_moment_identity_max_error_Nm": 2.2737367544323206e-13,
+  "scope": "Independent full-native arithmetic and source checks; no vehicle calls, no use of production metrics. Half-open fixed 10 s; radius and natural heading are not acceptance gates."
+}

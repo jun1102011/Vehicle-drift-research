@@ -1,0 +1,672 @@
+{
+  "source_batch": "Step35f baseline + Step35g four cases",
+  "new_simulations_for_publication": 0,
+  "byte_preserved_files": [
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\a001_step35g_initialize.m",
+      "published": "experiments/v0.4/model/a001_step35g_initialize.m",
+      "sha256": "397f82644ee8e5d874b2bdcb7939c5b5e1855d770abc598b07c963f9aacdc709",
+      "bytes": 12658
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\stabilizer_bar_step35g.slx",
+      "published": "experiments/v0.4/model/stabilizer_bar_step35g.slx",
+      "sha256": "731696f0a89800154b2c777e5b4059a2d17e731f2cfe1001fb44a051ac6831fa",
+      "bytes": 168247
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "published": "experiments/v0.4/model/repair_support/asb_approved_Run_all.par.evidence",
+      "sha256": "2b045ad9fd00a4f5f685b4ce6f603b1f464691a00beb194c792ae9deb2717fd6",
+      "bytes": 153204
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\asb_validate_config.m",
+      "published": "experiments/v0.4/model/repair_support/asb_validate_config.m",
+      "sha256": "29df5ef185fb0b628efcc6951c6946921e875c0c21610e0f29234dc045029df8",
+      "bytes": 4718
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_build_geometry.m",
+      "published": "experiments/v0.4/model/repair_support/repair_build_geometry.m",
+      "sha256": "855c0c10b69e1a17c533f072a8bcc935e196964bc951410c3f3b3177b544311e",
+      "bytes": 535
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_cycle_bank.json",
+      "published": "experiments/v0.4/model/repair_support/repair_cycle_bank.json",
+      "sha256": "9b47486f515fefc9c7a6da27bc5e5aa990c623f67fcfcda7768ba192e33a59cb",
+      "bytes": 3192
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_entry_bank.json",
+      "published": "experiments/v0.4/model/repair_support/repair_entry_bank.json",
+      "sha256": "12b7a6e643af9c743d4aec36758a1420d9572a3e08773aee5412567aa212eca1",
+      "bytes": 5707
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_path_profile.m",
+      "published": "experiments/v0.4/model/repair_support/repair_path_profile.m",
+      "sha256": "d4008b10fee8722a6fa20aa4a05e58f7c4e342f101f45db972ae77deca3b4a66",
+      "bytes": 2660
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_stadium_reference.json",
+      "published": "experiments/v0.4/model/repair_support/repair_stadium_reference.json",
+      "sha256": "b953f01de53511b1ed8203d048771dec05f808439a000c7c1d7324de52e67652",
+      "bytes": 2514155
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "published": "experiments/v0.4/source/profiles/V12_beta30_state_only_R3.json",
+      "sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+      "bytes": 20460
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\protocol.json",
+      "published": "experiments/v0.4/source/protocol.json",
+      "sha256": "fbb96813c63ecb0399c6e8d368002004458b2cf303341b5c8bd31822d6edfe61",
+      "bytes": 480
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\public_executor_frozen.txt",
+      "published": "experiments/v0.4/source/public_executor_frozen.txt",
+      "sha256": "3e7c5c9cd8b30d492949ca08a7f0841270f72a390540d3330682c91297af0f86",
+      "bytes": 1493
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\runner_freeze.json",
+      "published": "experiments/v0.4/source/runner_freeze.json",
+      "sha256": "eababd50fb043c9eacddababa5c86428528d55740ff3d355f1fac8b4b4e2b692",
+      "bytes": 151659
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\config_manifest.json",
+      "published": "experiments/v0.4/source/config_manifest.json",
+      "sha256": "66e7f8d891f9b0a8e6189c19405b62f0b8ab91ecf39795698bc2d9e7f62b5f49",
+      "bytes": 4000
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\state_cycle_core.m",
+      "published": "experiments/v0.4/internal/state_cycle_core.m",
+      "sha256": "4617424114094dabc239582d27d41ed6cb735927c154a9c774564852da5c6694",
+      "bytes": 7162
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\native_state_capture.m",
+      "published": "experiments/v0.4/internal/native_state_capture.m",
+      "sha256": "a00667658ca78a83c8a651f37b9f4017c91e9341ac111ddf8dce8edd0dcaa318",
+      "bytes": 1427
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\state_only_metrics_v2.py",
+      "published": "experiments/v0.4/internal/state_only_metrics_v2.py",
+      "sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+      "bytes": 19138
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\independent_native_verification.py",
+      "published": "experiments/v0.4/internal/independent_native_verification.py",
+      "sha256": "5c20b5d4fa1294de2e56483a4161f7cb1974d7a07932e9972e7a64715a649d5d",
+      "bytes": 9974
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\independent_state_harness.m",
+      "published": "experiments/v0.4/internal/independent_state_harness.m",
+      "sha256": "e211978181a6a6f95c56c983c7570addb7f6a82402c22fd0fdac70c1198432f4",
+      "bytes": 5333
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\analyze_five.py",
+      "published": "experiments/v0.4/internal/analyze_five.py",
+      "sha256": "3508beab79a79e49d770df95013e5374ffa2b055190c7652ab50e2c995085df7",
+      "bytes": 7764
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\plot_five.m",
+      "published": "experiments/v0.4/internal/plot_five.m",
+      "sha256": "04cea612cb4a2ae7b71a2cc13065e646245ebc91a4cfe2d44c41e7254a9eeedd",
+      "bytes": 5780
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\plot_structure.m",
+      "published": "experiments/v0.4/internal/plot_structure.m",
+      "sha256": "42475cfa5ab786fe66b77b922abfb26ef72ded3c9b1881f25507923395b8bd87",
+      "bytes": 2165
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\run_state_only_case.m",
+      "published": "experiments/v0.4/internal/run_state_only_case.m",
+      "sha256": "c805c4b4598e5c6ea98b0487159bb4e574bbe142b33b275325fabb54efa6cd93",
+      "bytes": 27898
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\run_four_cases.m",
+      "published": "experiments/v0.4/internal/run_four_cases.m",
+      "sha256": "db5735a0ebebf3d862ca14ce5df66a0cfd2aa4a5de4c4ba3a28b6fc0e2be191f",
+      "bytes": 930
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\internal\\data_archive.py",
+      "published": "experiments/v0.4/internal/data_archive.py",
+      "sha256": "d88d19fee0ac4ace0bf6449dc52b40deca5d3f366751363a1f88924db6817a81",
+      "bytes": 8246
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\save_numeric_archive.m",
+      "published": "experiments/v0.4/internal/save_numeric_archive.m",
+      "sha256": "5dd3289b2844d7f222159c3b58efe6e40fdb99f389aaa63cf030e41b2226a3de",
+      "bytes": 5353
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "published": "experiments/v0.4/source/file_cases/kf384_kr384/aux_case_cfg.json",
+      "sha256": "885dcc21e66e39cebe64b46ba1aa9fd58821726fc29bf15b2680a028bca817b7",
+      "bytes": 1922
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35f_state_only_file_runs\\kf384_kr384\\Run_all.par",
+      "published": "experiments/v0.4/config/kf384_kr384/Run_all.par.snapshot",
+      "sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "bytes": 153204
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35f_state_only_file_runs\\kf384_kr384\\simfile.sim",
+      "published": "experiments/v0.4/config/kf384_kr384/simfile.sim.snapshot",
+      "sha256": "059802d6df72f61d15ed32c112ce115979da8358b329552fa2012f994fed4fa8",
+      "bytes": 1211
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\case.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/case.json",
+      "sha256": "31e3ddfd456a2ba93c1ebbbfd7053b31c01b259916cfd402b7be8dc25bcb9b19",
+      "bytes": 257
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\summary.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/summary.json",
+      "sha256": "2cba9a07a5d01dcddf534c0a95542a203b96a61dde10269c2946e6969c00977d",
+      "bytes": 299
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\completion.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/completion.json",
+      "sha256": "0a9089dca8614aeae58884155ec50cc1a849c659043b01e1c7ad1dbaf4d262e0",
+      "bytes": 223
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\archive_index.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/archive_index.json",
+      "sha256": "721baac2e2dc61986129a84154def0d4551a4fd242314aa16e0eedc2bd791073",
+      "bytes": 25243
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\input_verification.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/input_verification.json",
+      "sha256": "ba546d4515c7a7ed48c38290b19cd7cc4b77cf50425381a4e5c2a6debd5165f3",
+      "bytes": 443
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\source_identity.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/source_identity.json",
+      "sha256": "77ec56016a58f57a87c7ae76f453db9ce6c21571c694c1a434e3df38f0cea80e",
+      "bytes": 2439
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\used_config.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/used_config.json",
+      "sha256": "288ded68d0da9ab1f27263e1be44fde6f86633a2dedbb4aafdf510f013615656",
+      "bytes": 27797
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\controller_numeric.mat",
+      "published": "experiments/v0.4/evidence/kf384_kr384/controller_numeric.mat",
+      "sha256": "d6261c5200a57f9929d768c3744843dc8d8fa911b0bacfb0532d2faf0ba404c4",
+      "bytes": 4995
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_echo.par.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr384/LastRun_echo.par.evidence",
+      "sha256": "1f96d2310d5a2c66134ce649d3b8962b3c1ee8ae36a0ce47713b9508e97c342b",
+      "bytes": 355596
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_log.txt.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr384/LastRun_log.txt.evidence",
+      "sha256": "6be8e50f5e04b0473d63509595b867de551a43bccd145d4453a3c820fc81cf40",
+      "bytes": 13844
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr384.json",
+      "published": "experiments/v0.4/evidence/kf384_kr384/independent_verification.json",
+      "sha256": "0bdf0fa9aa3ff9bf95e436815e777f4a0f10ab4cf0d131a16830409693516bc4",
+      "bytes": 2892
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "published": "experiments/v0.4/source/file_cases/kf192_kr384/aux_case_cfg.json",
+      "sha256": "7cfe98189eb6f12201f0e2fab7750bdd7bb0e3b8ee1621c76529f807c8b5dc7a",
+      "bytes": 1922
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\Run_all.par",
+      "published": "experiments/v0.4/config/kf192_kr384/Run_all.par.snapshot",
+      "sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+      "bytes": 153204
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\simfile.sim",
+      "published": "experiments/v0.4/config/kf192_kr384/simfile.sim.snapshot",
+      "sha256": "ac3be5a5e370274c572a77febef3d14b4dc6b1d6bf15efc6d9a0490129bf3584",
+      "bytes": 1211
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\case.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/case.json",
+      "sha256": "dbc75cbc1c0c371ccc702fb18d1a7bae8ae5a1d924802d46beddcae339f8a1f2",
+      "bytes": 257
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\summary.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/summary.json",
+      "sha256": "19a6f989f1789edd8458dd64c1a53857d3be7c01f5467598ace95ca1724d4d22",
+      "bytes": 299
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\completion.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/completion.json",
+      "sha256": "0a9089dca8614aeae58884155ec50cc1a849c659043b01e1c7ad1dbaf4d262e0",
+      "bytes": 223
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\archive_index.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/archive_index.json",
+      "sha256": "a322b286dee2578058ffbc781cfbb3e416646c68ebb0320972f0a2b0812682d3",
+      "bytes": 25243
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\input_verification.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/input_verification.json",
+      "sha256": "b5b4e559c16b113ffd1e5ce5baa594c0f46e5a7153b143a1fa42a63722034def",
+      "bytes": 443
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\source_identity.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/source_identity.json",
+      "sha256": "edc286370b9e389c4d8fa374c27ad29a12ab0c50c2273a5c3ef2a3499c0d326d",
+      "bytes": 2863
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\used_config.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/used_config.json",
+      "sha256": "d5ea727eab61ca7ff30a74a3cd9d0bae26bc271c93a8b3e11ce4721f437b4bdb",
+      "bytes": 27801
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\controller_numeric.mat",
+      "published": "experiments/v0.4/evidence/kf192_kr384/controller_numeric.mat",
+      "sha256": "d5c7c10b5a382f0fa0e37cc7f64fa8b14c75cc398d4439c6679003e36325e2ce",
+      "bytes": 4995
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_echo.par.evidence",
+      "published": "experiments/v0.4/evidence/kf192_kr384/LastRun_echo.par.evidence",
+      "sha256": "b97fffebef97418d4775228f85be797cd1640aa5c8e1a1a7335843a6ba5e90ec",
+      "bytes": 355596
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_log.txt.evidence",
+      "published": "experiments/v0.4/evidence/kf192_kr384/LastRun_log.txt.evidence",
+      "sha256": "bf980bff3a96666dee281bffd6ba29c4a1ca14ec984ebb7fdf6de49cb362f0f8",
+      "bytes": 13757
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\independent_V12_beta30_state_only_R3_kf192_kr384.json",
+      "published": "experiments/v0.4/evidence/kf192_kr384/independent_verification.json",
+      "sha256": "2d5f28cab04e3b0e6c07b1cea4c30b9daec712c26323551676ef23bdb7b19be0",
+      "bytes": 2879
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "published": "experiments/v0.4/source/file_cases/kf576_kr384/aux_case_cfg.json",
+      "sha256": "1c7866175decadac2af7591cd09551ca619aac888c64b441dfb26c06e758d6fe",
+      "bytes": 1922
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\Run_all.par",
+      "published": "experiments/v0.4/config/kf576_kr384/Run_all.par.snapshot",
+      "sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+      "bytes": 153204
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\simfile.sim",
+      "published": "experiments/v0.4/config/kf576_kr384/simfile.sim.snapshot",
+      "sha256": "9d4b2643b2b634ed4b473ca28b4adfe58d77d838298f0f06ea57c28f42fef5e6",
+      "bytes": 1211
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\case.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/case.json",
+      "sha256": "f85178fdefa186f741c345419404015c64075755e95f20e057cc1b5af21f0929",
+      "bytes": 257
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\summary.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/summary.json",
+      "sha256": "7f1b113ba8f049da6227fdd575c809b572f4bd07bb583101313f4d9bb163d080",
+      "bytes": 299
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\completion.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/completion.json",
+      "sha256": "0a9089dca8614aeae58884155ec50cc1a849c659043b01e1c7ad1dbaf4d262e0",
+      "bytes": 223
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\archive_index.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/archive_index.json",
+      "sha256": "00a59a637da1588eb10ab93c6917770ceaa350dc15d0b6f898c4169311d0c7e5",
+      "bytes": 25243
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\input_verification.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/input_verification.json",
+      "sha256": "3209811345243ee01e9a0988020bdb30f00f4d2d5846168d222f3198c7cfeb64",
+      "bytes": 443
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\source_identity.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/source_identity.json",
+      "sha256": "9c3b0cb05fa847b0db5d845e7d445771d2f32ba061234e76b5554631f7059471",
+      "bytes": 2863
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\used_config.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/used_config.json",
+      "sha256": "1fd2b46e15635cc3dc69d1976e040d2f8376f1d0cd7005a8414898d5914af223",
+      "bytes": 27801
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\controller_numeric.mat",
+      "published": "experiments/v0.4/evidence/kf576_kr384/controller_numeric.mat",
+      "sha256": "2edbbf12c15e992bb63c9da5acc33921f43be83b1653dc745d23abb2fcd505e9",
+      "bytes": 4995
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_echo.par.evidence",
+      "published": "experiments/v0.4/evidence/kf576_kr384/LastRun_echo.par.evidence",
+      "sha256": "35791efc5152f51bacbbfb89ee09736882d36bef36cb703f4d958c2530d3929a",
+      "bytes": 355596
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_log.txt.evidence",
+      "published": "experiments/v0.4/evidence/kf576_kr384/LastRun_log.txt.evidence",
+      "sha256": "5d6879f270f4c9eb89d937f1f00b71c444256bb7a26898f3314493ab716b7774",
+      "bytes": 13748
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\independent_V12_beta30_state_only_R3_kf576_kr384.json",
+      "published": "experiments/v0.4/evidence/kf576_kr384/independent_verification.json",
+      "sha256": "90c14405cb244439564e7df0811a1d7ecc29fe1481ef30096fa3b80acd4d275d",
+      "bytes": 2888
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "published": "experiments/v0.4/source/file_cases/kf384_kr192/aux_case_cfg.json",
+      "sha256": "2383ae39b4d0fce9bd30de462b96acccf5f2ac1d8fe08274bc8abd8967271014",
+      "bytes": 1922
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\Run_all.par",
+      "published": "experiments/v0.4/config/kf384_kr192/Run_all.par.snapshot",
+      "sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+      "bytes": 153204
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\simfile.sim",
+      "published": "experiments/v0.4/config/kf384_kr192/simfile.sim.snapshot",
+      "sha256": "b4da76439cd787ebaec8f26aaffae3f2868666fade4b54ee1289db72645842b7",
+      "bytes": 1211
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\case.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/case.json",
+      "sha256": "550863e2830b672f5dd394f37840299f8d93ecef6eb92e3b51bbdfd2d30982d7",
+      "bytes": 257
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\summary.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/summary.json",
+      "sha256": "856db2dad94b1e796a101b4db51bdbbfce1233f3ecc733a542f31a29c2bd2503",
+      "bytes": 299
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\completion.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/completion.json",
+      "sha256": "0a9089dca8614aeae58884155ec50cc1a849c659043b01e1c7ad1dbaf4d262e0",
+      "bytes": 223
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\archive_index.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/archive_index.json",
+      "sha256": "f50568a6551e58c8923c9ecf65b09ea28695b32572fe7f6f0c25e1ff9aea51e8",
+      "bytes": 25243
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\input_verification.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/input_verification.json",
+      "sha256": "2972bd21ac9a456eaf5e9949db17d4fc0feefab32eae3d4f2dee1ce47c6fc0c4",
+      "bytes": 443
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\source_identity.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/source_identity.json",
+      "sha256": "e1fe3c511dd6b7e3a901e560417ac0ca9e76eac8c3df0c8ca2cf613062da7081",
+      "bytes": 2863
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\used_config.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/used_config.json",
+      "sha256": "b7384e85136d2a0362a1836e82410ca4891fda3da8b4fd8f52ae023af8bdf551",
+      "bytes": 27801
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\controller_numeric.mat",
+      "published": "experiments/v0.4/evidence/kf384_kr192/controller_numeric.mat",
+      "sha256": "329885a4a3605684545b4e6d350d9753f0b87b58c6279bad7dda90ddba18772e",
+      "bytes": 4995
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_echo.par.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr192/LastRun_echo.par.evidence",
+      "sha256": "2be4f2ea5aa520719c70126814e9b125ff03b2d72388f1033d5b7b4c45b5e387",
+      "bytes": 355596
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_log.txt.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr192/LastRun_log.txt.evidence",
+      "sha256": "ce2ac8c8433966a18cc8d21ce2985ada16d567d6a7e5204ca5128839d9c853e1",
+      "bytes": 13852
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr192.json",
+      "published": "experiments/v0.4/evidence/kf384_kr192/independent_verification.json",
+      "sha256": "a4fa3744d7d5580cd3de151004964e0088c044d4947752afc43156a8d1e439d1",
+      "bytes": 2912
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "published": "experiments/v0.4/source/file_cases/kf384_kr576/aux_case_cfg.json",
+      "sha256": "9ffb18d18aa6eb696c24e21c1dbc3fd9ad0d9d2a2ea5b69a1245dc7a735ea4a4",
+      "bytes": 1922
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\Run_all.par",
+      "published": "experiments/v0.4/config/kf384_kr576/Run_all.par.snapshot",
+      "sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+      "bytes": 153204
+    },
+    {
+      "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\simfile.sim",
+      "published": "experiments/v0.4/config/kf384_kr576/simfile.sim.snapshot",
+      "sha256": "a19d4970b3a91adf12329d6c02500f2498b0535c45eaf7cbd6d7229229e53cc7",
+      "bytes": 1211
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\case.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/case.json",
+      "sha256": "b1d42b935c2456497b5f09e7cef03b8751694e6f049142441a292bcdfc8f1ce8",
+      "bytes": 257
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\summary.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/summary.json",
+      "sha256": "34b25f12fc51b44632e45a1421ed263761ef6c63d69dda4243a35cff27bf3e96",
+      "bytes": 299
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\completion.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/completion.json",
+      "sha256": "0a9089dca8614aeae58884155ec50cc1a849c659043b01e1c7ad1dbaf4d262e0",
+      "bytes": 223
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\archive_index.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/archive_index.json",
+      "sha256": "18b5eb4395a989c05a6a958fe42b6e58904f1d1d1cadf423782a096022632136",
+      "bytes": 25243
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\input_verification.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/input_verification.json",
+      "sha256": "81551bce8c842b218e0784f9cdaeb71fcbc924ed78a9de05c4f4b20d96dd690b",
+      "bytes": 443
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\source_identity.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/source_identity.json",
+      "sha256": "09dac206110d747ab60566390ca18f8e2868fc64000e6f088b28b34ae7a4f3f0",
+      "bytes": 2863
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\used_config.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/used_config.json",
+      "sha256": "c63edc30baf0d27395df3b51e9015b87a2b539031ecd05efc7acf9ac4242324f",
+      "bytes": 27801
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\controller_numeric.mat",
+      "published": "experiments/v0.4/evidence/kf384_kr576/controller_numeric.mat",
+      "sha256": "7348cd5743f4fbc7dced0bde461b09be54d8ca4af39503977d6f1431d307ac1e",
+      "bytes": 4995
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_echo.par.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr576/LastRun_echo.par.evidence",
+      "sha256": "6210523ab00e9438e9c2a5465464df3dad2fe6d6d30d02dc800580736e2eabf5",
+      "bytes": 355596
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_log.txt.evidence",
+      "published": "experiments/v0.4/evidence/kf384_kr576/LastRun_log.txt.evidence",
+      "sha256": "343f8abffc861692bcdd61d4b35a316fdcd7f7d83e5955381e0deb0842577756",
+      "bytes": 13750
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr576.json",
+      "published": "experiments/v0.4/evidence/kf384_kr576/independent_verification.json",
+      "sha256": "179e1f6ce822e5d744890998ef3d7e3bfc2cd0a0cb4db3330bf5387080d7f62f",
+      "bytes": 2904
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\compile_validation.json",
+      "published": "experiments/v0.4/evidence/batch/compile_validation.json",
+      "sha256": "3e3a022d17f2887bdb7909cae907f8d319001578112617682322cca89d292730",
+      "bytes": 198
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\independent_matlab_harness.json",
+      "published": "experiments/v0.4/evidence/batch/independent_matlab_harness.json",
+      "sha256": "ec254b36448ace65203af0b40fa8a7367a4b49b7fa70c8e4b583441781438af5",
+      "bytes": 681
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\physical_config_comparison.json",
+      "published": "experiments/v0.4/evidence/batch/physical_config_comparison.json",
+      "sha256": "e54f7db1ab2f94f6f78d031a98258f2d8066e6c3f5818cbc2d59b7bc712fa5ad",
+      "bytes": 1287
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\suspension_domain_audit.json",
+      "published": "experiments/v0.4/evidence/batch/suspension_domain_audit.json",
+      "sha256": "7de84186779235e766bec0cae134c160919ac8e0c34a4c6c729919965b62b95f",
+      "bytes": 483425
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\audit\\final_integrity.json",
+      "published": "experiments/v0.4/evidence/batch/final_integrity.json",
+      "sha256": "c8a4ba0b4c0a75371f7e9cb36c4ab2572789e87bbdae90a91a10465e43816895",
+      "bytes": 165472
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\audit\\suspension_domain_audit.json",
+      "published": "experiments/v0.4/evidence/batch/baseline_suspension_domain_audit.json",
+      "sha256": "27822bb4802e26e9abefa48828cf8b8c63126455c0dc8aaa2f8429983c559a9a",
+      "bytes": 122227
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\summary.csv",
+      "published": "docs/v0.4/summary.csv",
+      "sha256": "765a5874ec49df73eafcfcfe25868f43c21d788006e3da93dbb8df291389e3e7",
+      "bytes": 3318
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\comparison.json",
+      "published": "docs/v0.4/comparison.json",
+      "sha256": "5be5e91771bbc323b7d0550c6000f102f29a3a550cad0c56ecd2ab3136eaf034",
+      "bytes": 49887
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\01_beta_five.png",
+      "published": "docs/v0.4/figures/01_beta_five.png",
+      "sha256": "ccf3752c2be80c68a4f8c608ac0aa6bd09248d11162606f7f7d18d8f8105378a",
+      "bytes": 101890
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\02_states.png",
+      "published": "docs/v0.4/figures/02_states.png",
+      "sha256": "14352b5e842fba9ca79bf4e91bd177284287dde5f1c9a810f568860453119edb",
+      "bytes": 214479
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\03_inputs_constraints.png",
+      "published": "docs/v0.4/figures/03_inputs_constraints.png",
+      "sha256": "3f8001d3686aee277d52f27b7be780abde70f9c3d20857d1d82d8c3686fc8e73",
+      "bytes": 216485
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\04_tires_loads.png",
+      "published": "docs/v0.4/figures/04_tires_loads.png",
+      "sha256": "d781669fca7806cd623b3d279286c07fa1dd957827909ca34aa17f7695782550",
+      "bytes": 343936
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\05_trajectory_aux_hold_exit.png",
+      "published": "docs/v0.4/figures/05_trajectory_aux_hold_exit.png",
+      "sha256": "f3b02d337235999a92d742c9b22be2d9041d3437f47e94b6df5c6559e9690358",
+      "bytes": 205233
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\06_actual_structure.png",
+      "published": "docs/v0.4/figures/06_actual_structure.png",
+      "sha256": "23ec2edca69bcb9fe32941ccc8edaf344ab0d5e6e28c9f6fbd85171970c8ba6e",
+      "bytes": 152748
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\analysis\\figures\\06_actual_structure.svg",
+      "published": "docs/v0.4/figures/06_actual_structure.svg",
+      "sha256": "0b190c62ca6361b848b8d8931f0724de73b09d9f85ed66d6d2ec2ba8ecb8fcf2",
+      "bytes": 243693
+    }
+  ]
+}

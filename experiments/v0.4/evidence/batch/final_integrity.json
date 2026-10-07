@@ -1,0 +1,3896 @@
+{
+  "passed": true,
+  "failures": [],
+  "new_vehicle_simulations": 4,
+  "referenced_baseline_simulations": 1,
+  "five_classifications": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "local_protected_files": 30,
+  "external_protected_files": 509,
+  "raw_bytes": 265229206,
+  "necessary_evidence_bytes": 64270400,
+  "raw_audit": [
+    {
+      "case": "kf192_kr384",
+      "raw_sha256": "c5d8f482a31e20a7b3af0057288333c348ea42e50969ec89a652d140b20c3a87",
+      "all_55_shapes": [
+        {
+          "channel": "AVz_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Ay_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Roll_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "asb_diag",
+          "shape": [
+            120001,
+            45
+          ]
+        },
+        {
+          "channel": "asb_import12",
+          "shape": [
+            120001,
+            13
+          ]
+        },
+        {
+          "channel": "asb_roll_feedback",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "asb_suspension",
+          "shape": [
+            120001,
+            27
+          ]
+        },
+        {
+          "channel": "beta_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "feedback_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "logsout_001",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_002",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_003",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_004",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_005",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_006",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_007",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_008",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_009",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_010",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_011",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_012",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_013",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_014",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_015",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_016",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_017",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_018",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_019",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_020",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_021",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_022",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_023",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_024",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_025",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_026",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_actual_load_allocation",
+          "shape": [
+            6001,
+            29
+          ]
+        },
+        {
+          "channel": "repair_actuator_command",
+          "shape": [
+            120001,
+            9
+          ]
+        },
+        {
+          "channel": "repair_cycle_diag",
+          "shape": [
+            6001,
+            17
+          ]
+        },
+        {
+          "channel": "repair_entry_diag",
+          "shape": [
+            6001,
+            71
+          ]
+        },
+        {
+          "channel": "repair_entry_force_diag",
+          "shape": [
+            6001,
+            21
+          ]
+        },
+        {
+          "channel": "repair_force_correction",
+          "shape": [
+            6001,
+            33
+          ]
+        },
+        {
+          "channel": "repair_force_request",
+          "shape": [
+            6001,
+            5
+          ]
+        },
+        {
+          "channel": "repair_governor_diag",
+          "shape": [
+            6001,
+            135
+          ]
+        },
+        {
+          "channel": "repair_inverse_residual",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_inverse_status",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_path_diag",
+          "shape": [
+            6001,
+            43
+          ]
+        },
+        {
+          "channel": "repair_plant_raw",
+          "shape": [
+            120001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_plant_sampled",
+          "shape": [
+            6001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_reference_log",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_stadium_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "repair_stage_stop",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_state_packet",
+          "shape": [
+            6001,
+            14
+          ]
+        },
+        {
+          "channel": "repair_steer_diag",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "repair_wheel_diag",
+          "shape": [
+            6001,
+            72
+          ]
+        },
+        {
+          "channel": "tout",
+          "shape": [
+            120001,
+            1
+          ]
+        }
+      ],
+      "independent_passed": true
+    },
+    {
+      "case": "kf384_kr192",
+      "raw_sha256": "dc59842afb6af3e2626fad9af5ffa2ec90dbdf96ef7cb3333282384603cf5963",
+      "all_55_shapes": [
+        {
+          "channel": "AVz_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Ay_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Roll_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "asb_diag",
+          "shape": [
+            120001,
+            45
+          ]
+        },
+        {
+          "channel": "asb_import12",
+          "shape": [
+            120001,
+            13
+          ]
+        },
+        {
+          "channel": "asb_roll_feedback",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "asb_suspension",
+          "shape": [
+            120001,
+            27
+          ]
+        },
+        {
+          "channel": "beta_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "feedback_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "logsout_001",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_002",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_003",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_004",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_005",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_006",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_007",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_008",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_009",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_010",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_011",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_012",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_013",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_014",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_015",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_016",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_017",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_018",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_019",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_020",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_021",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_022",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_023",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_024",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_025",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_026",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_actual_load_allocation",
+          "shape": [
+            6001,
+            29
+          ]
+        },
+        {
+          "channel": "repair_actuator_command",
+          "shape": [
+            120001,
+            9
+          ]
+        },
+        {
+          "channel": "repair_cycle_diag",
+          "shape": [
+            6001,
+            17
+          ]
+        },
+        {
+          "channel": "repair_entry_diag",
+          "shape": [
+            6001,
+            71
+          ]
+        },
+        {
+          "channel": "repair_entry_force_diag",
+          "shape": [
+            6001,
+            21
+          ]
+        },
+        {
+          "channel": "repair_force_correction",
+          "shape": [
+            6001,
+            33
+          ]
+        },
+        {
+          "channel": "repair_force_request",
+          "shape": [
+            6001,
+            5
+          ]
+        },
+        {
+          "channel": "repair_governor_diag",
+          "shape": [
+            6001,
+            135
+          ]
+        },
+        {
+          "channel": "repair_inverse_residual",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_inverse_status",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_path_diag",
+          "shape": [
+            6001,
+            43
+          ]
+        },
+        {
+          "channel": "repair_plant_raw",
+          "shape": [
+            120001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_plant_sampled",
+          "shape": [
+            6001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_reference_log",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_stadium_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "repair_stage_stop",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_state_packet",
+          "shape": [
+            6001,
+            14
+          ]
+        },
+        {
+          "channel": "repair_steer_diag",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "repair_wheel_diag",
+          "shape": [
+            6001,
+            72
+          ]
+        },
+        {
+          "channel": "tout",
+          "shape": [
+            120001,
+            1
+          ]
+        }
+      ],
+      "independent_passed": true
+    },
+    {
+      "case": "kf384_kr576",
+      "raw_sha256": "32ae2b6dc9b25b828525de4670cfd1b9dc7ebbcd61d9c78d2baa8c000fab2278",
+      "all_55_shapes": [
+        {
+          "channel": "AVz_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Ay_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Roll_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "asb_diag",
+          "shape": [
+            120001,
+            45
+          ]
+        },
+        {
+          "channel": "asb_import12",
+          "shape": [
+            120001,
+            13
+          ]
+        },
+        {
+          "channel": "asb_roll_feedback",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "asb_suspension",
+          "shape": [
+            120001,
+            27
+          ]
+        },
+        {
+          "channel": "beta_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "feedback_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "logsout_001",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_002",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_003",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_004",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_005",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_006",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_007",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_008",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_009",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_010",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_011",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_012",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_013",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_014",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_015",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_016",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_017",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_018",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_019",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_020",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_021",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_022",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_023",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_024",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_025",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_026",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_actual_load_allocation",
+          "shape": [
+            6001,
+            29
+          ]
+        },
+        {
+          "channel": "repair_actuator_command",
+          "shape": [
+            120001,
+            9
+          ]
+        },
+        {
+          "channel": "repair_cycle_diag",
+          "shape": [
+            6001,
+            17
+          ]
+        },
+        {
+          "channel": "repair_entry_diag",
+          "shape": [
+            6001,
+            71
+          ]
+        },
+        {
+          "channel": "repair_entry_force_diag",
+          "shape": [
+            6001,
+            21
+          ]
+        },
+        {
+          "channel": "repair_force_correction",
+          "shape": [
+            6001,
+            33
+          ]
+        },
+        {
+          "channel": "repair_force_request",
+          "shape": [
+            6001,
+            5
+          ]
+        },
+        {
+          "channel": "repair_governor_diag",
+          "shape": [
+            6001,
+            135
+          ]
+        },
+        {
+          "channel": "repair_inverse_residual",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_inverse_status",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_path_diag",
+          "shape": [
+            6001,
+            43
+          ]
+        },
+        {
+          "channel": "repair_plant_raw",
+          "shape": [
+            120001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_plant_sampled",
+          "shape": [
+            6001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_reference_log",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_stadium_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "repair_stage_stop",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_state_packet",
+          "shape": [
+            6001,
+            14
+          ]
+        },
+        {
+          "channel": "repair_steer_diag",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "repair_wheel_diag",
+          "shape": [
+            6001,
+            72
+          ]
+        },
+        {
+          "channel": "tout",
+          "shape": [
+            120001,
+            1
+          ]
+        }
+      ],
+      "independent_passed": true
+    },
+    {
+      "case": "kf576_kr384",
+      "raw_sha256": "ef1dcf8b17482ccb70b70ebf92a15f0696cd6a0e798e21a973bd27fbff14a2cc",
+      "all_55_shapes": [
+        {
+          "channel": "AVz_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Ay_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "Roll_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "asb_diag",
+          "shape": [
+            120001,
+            45
+          ]
+        },
+        {
+          "channel": "asb_import12",
+          "shape": [
+            120001,
+            13
+          ]
+        },
+        {
+          "channel": "asb_roll_feedback",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "asb_suspension",
+          "shape": [
+            120001,
+            27
+          ]
+        },
+        {
+          "channel": "beta_out1",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "feedback_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "logsout_001",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_002",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_003",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_004",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_005",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_006",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_007",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_008",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_009",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_010",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_011",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_012",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_013",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_014",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_015",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_016",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_017",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_018",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_019",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_020",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_021",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_022",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_023",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_024",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_025",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "logsout_026",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_actual_load_allocation",
+          "shape": [
+            6001,
+            29
+          ]
+        },
+        {
+          "channel": "repair_actuator_command",
+          "shape": [
+            120001,
+            9
+          ]
+        },
+        {
+          "channel": "repair_cycle_diag",
+          "shape": [
+            6001,
+            17
+          ]
+        },
+        {
+          "channel": "repair_entry_diag",
+          "shape": [
+            6001,
+            71
+          ]
+        },
+        {
+          "channel": "repair_entry_force_diag",
+          "shape": [
+            6001,
+            21
+          ]
+        },
+        {
+          "channel": "repair_force_correction",
+          "shape": [
+            6001,
+            33
+          ]
+        },
+        {
+          "channel": "repair_force_request",
+          "shape": [
+            6001,
+            5
+          ]
+        },
+        {
+          "channel": "repair_governor_diag",
+          "shape": [
+            6001,
+            135
+          ]
+        },
+        {
+          "channel": "repair_inverse_residual",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_inverse_status",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_path_diag",
+          "shape": [
+            6001,
+            43
+          ]
+        },
+        {
+          "channel": "repair_plant_raw",
+          "shape": [
+            120001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_plant_sampled",
+          "shape": [
+            6001,
+            51
+          ]
+        },
+        {
+          "channel": "repair_reference_log",
+          "shape": [
+            6001,
+            4
+          ]
+        },
+        {
+          "channel": "repair_stadium_diag",
+          "shape": [
+            120001,
+            18
+          ]
+        },
+        {
+          "channel": "repair_stage_stop",
+          "shape": [
+            6001,
+            2
+          ]
+        },
+        {
+          "channel": "repair_state_packet",
+          "shape": [
+            6001,
+            14
+          ]
+        },
+        {
+          "channel": "repair_steer_diag",
+          "shape": [
+            120001,
+            7
+          ]
+        },
+        {
+          "channel": "repair_wheel_diag",
+          "shape": [
+            6001,
+            72
+          ]
+        },
+        {
+          "channel": "tout",
+          "shape": [
+            120001,
+            1
+          ]
+        }
+      ],
+      "independent_passed": true
+    }
+  ],
+  "cleanup": {
+    "deleted_bytes": 64883216.0,
+    "verified_before_delete": true,
+    "files": [
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun_echo.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_echo.par.evidence",
+        "sha256": "b97fffebef97418d4775228f85be797cd1640aa5c8e1a1a7335843a6ba5e90ec",
+        "bytes": 355596
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun_end.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_end.par.evidence",
+        "sha256": "b38d4911d7e8fb286db84636da17a0df2841f1659545900ccd7ff0cebf5d769a",
+        "bytes": 375925
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun_log.txt",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_log.txt.evidence",
+        "sha256": "bf980bff3a96666dee281bffd6ba29c4a1ca14ec984ebb7fdf6de49cb362f0f8",
+        "bytes": 13757
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun.vs",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vs.evidence",
+        "sha256": "9f036bfded9d8e7f4c241e26b24824d5efb44552cc0840dea500c2d78812fd21",
+        "bytes": 151783
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun.vsb",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vsb.evidence",
+        "sha256": "a2afcfc4e0643351266ae1164a8742b0e3596384d236800da975deb07cacc5fe",
+        "bytes": 15170552
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\LastRun_all.par",
+        "retained": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf192_kr384\\Run_all.par",
+        "sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+        "bytes": 153204
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun_echo.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_echo.par.evidence",
+        "sha256": "2be4f2ea5aa520719c70126814e9b125ff03b2d72388f1033d5b7b4c45b5e387",
+        "bytes": 355596
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun_end.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_end.par.evidence",
+        "sha256": "bce298dec530ed87e916fef284a4b6c6c7529281ca063dcb545b1e29f67d3328",
+        "bytes": 375806
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun_log.txt",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_log.txt.evidence",
+        "sha256": "ce2ac8c8433966a18cc8d21ce2985ada16d567d6a7e5204ca5128839d9c853e1",
+        "bytes": 13852
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun.vs",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vs.evidence",
+        "sha256": "7d8796066a5326485c9d3b833cbbedf9f74ce43a89ca5de14a704e2e178d5b78",
+        "bytes": 151783
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun.vsb",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vsb.evidence",
+        "sha256": "f7b56123598cda78dd59a0a9bf12e1d806a7fd0a763d6f5c8064a6ee7b0a9ee4",
+        "bytes": 15170552
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\LastRun_all.par",
+        "retained": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr192\\Run_all.par",
+        "sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+        "bytes": 153204
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun_echo.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_echo.par.evidence",
+        "sha256": "6210523ab00e9438e9c2a5465464df3dad2fe6d6d30d02dc800580736e2eabf5",
+        "bytes": 355596
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun_end.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_end.par.evidence",
+        "sha256": "75a89809fcaf61de27c2eb67f50a49f3b3bf3700889e94e50a0222aadef7ac0b",
+        "bytes": 375916
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun_log.txt",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_log.txt.evidence",
+        "sha256": "343f8abffc861692bcdd61d4b35a316fdcd7f7d83e5955381e0deb0842577756",
+        "bytes": 13750
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun.vs",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vs.evidence",
+        "sha256": "fdc64506460ab0a6c950f1f7073b25cf3ba8465e7453b0b66e5b0307c69bfa30",
+        "bytes": 151783
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun.vsb",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vsb.evidence",
+        "sha256": "7b8b7c1bbce0851dfb8dfb4fd15e022974dad27878644c4dda94b7bbf75745d7",
+        "bytes": 15170552
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\LastRun_all.par",
+        "retained": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf384_kr576\\Run_all.par",
+        "sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+        "bytes": 153204
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun_echo.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_echo.par.evidence",
+        "sha256": "35791efc5152f51bacbbfb89ee09736882d36bef36cb703f4d958c2530d3929a",
+        "bytes": 355596
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun_end.par",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_end.par.evidence",
+        "sha256": "5e7b7adb6ffdc44a7060a5e8926c7d8aad04582e813705bd1c5c6a2c3597d909",
+        "bytes": 375922
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun_log.txt",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_log.txt.evidence",
+        "sha256": "5d6879f270f4c9eb89d937f1f00b71c444256bb7a26898f3314493ab716b7774",
+        "bytes": 13748
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun.vs",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vs.evidence",
+        "sha256": "2e9a606919123b82eb4a33323c44e5b67e344210e9d9eec2f1ac01946d7f8bdb",
+        "bytes": 151783
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun.vsb",
+        "retained": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vsb.evidence",
+        "sha256": "7e009a53f5338426e9bdaa3f39064520099d73ad3af9e929e7c27c283fcab0f0",
+        "bytes": 15170552
+      },
+      {
+        "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\LastRun_all.par",
+        "retained": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35g_state_only_file_runs\\kf576_kr384\\Run_all.par",
+        "sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+        "bytes": 153204
+      }
+    ],
+    "deleted_count": 24
+  },
+  "checks": [
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\a001_step35g_initialize.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\model\\stabilizer_bar_step35g.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\config_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\protocol.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\source\\public_executor_frozen.txt",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\build_frozen_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\freeze_sources.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\independent_native_verification.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\independent_state_harness.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\native_state_capture.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\prepare_experiment.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\prepare_state_configs.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\run_four_cases.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\run_state_only_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\state_cycle_core.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\state_only_metrics_v2.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\suspension_domain_audit.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\internal\\validate_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\a001_step35c_initialize.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\stabilizer_bar_step35c.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\state_cycle_core.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\native_state_capture.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\run_state_only_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\prepare_state_configs.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\build_state_sources.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\build_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\validate_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\state_only_metrics.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\internal\\independent_state_harness.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\source\\profiles\\V12_beta30_state_only_R1.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\source\\config_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\source\\public_executor_frozen.txt",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\a001_new_Design_LQR_Controller.m",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\stabilizer_bar_repair.slx",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf192_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf192_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr192\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr192\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr576\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf384_kr576\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf576_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step33d_file_runs\\kf576_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Results\\Run_54cb954f-d91a-4b4d-b546-9ec1dbf045e8\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\A_baseline\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\entry_initial_front_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\entry_initial_front_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\entry_initial_rear_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\entry_initial_rear_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\near_drift_front_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\near_drift_front_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\near_drift_rear_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\near_drift_rear_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\rear_utilization_rise_front_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\rear_utilization_rise_front_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\rear_utilization_rise_rear_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\results\\runs\\rear_utilization_rise_rear_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\source\\common_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33_asb_entry_map_20261004\\source\\common_used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33b_entry_replay_20261004\\results\\runs\\R0_replay_zero\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33b_entry_replay_20261004\\results\\runs\\R1_replay_rear_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\results\\runs\\rear_neg250\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\results\\runs\\rear_neg500\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\results\\runs\\rear_pos250\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\results\\runs\\rear_pos500\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33c_asb_amplitude_20261005\\results\\runs\\zero_regression\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\internal\\run_file_stiffness_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\internal\\save_numeric_archive.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\a001_new_Design_LQR_Controller.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\model_file\\stabilizer_bar_repair.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\results\\runs\\kf192_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\results\\runs\\kf384_kr192\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\results\\runs\\kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\results\\runs\\kf384_kr576\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\results\\runs\\kf576_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\cases.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\controller_freeze.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\configuration_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\provenance.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\sim_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\simfile.sim.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf192_kr384\\source_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\configuration_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\provenance.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\sim_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\simfile.sim.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr192\\source_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\configuration_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\provenance.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\sim_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\simfile.sim.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr384\\source_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\configuration_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\provenance.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\sim_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\simfile.sim.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf384_kr576\\source_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\configuration_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\provenance.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\sim_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\simfile.sim.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33d_aux_roll_stiffness_20261005\\source\\file_cases\\kf576_kr384\\source_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33e_rear_differential_slip_20261006\\results\\runs\\A_new\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33e_rear_differential_slip_20261006\\results\\runs\\C_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33e_rear_differential_slip_20261006\\results\\runs\\C_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33e_rear_differential_slip_20261006\\results\\runs\\D_neg\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step33e_rear_differential_slip_20261006\\results\\runs\\D_pos\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\MANIFEST.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\先看这里.md",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\beta30_first_console.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\cache_rebuild_initial_scope.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\cache_rebuild_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\compile_console.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\compile_metadata_scope_error.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\compile_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\continuation_entry_update.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\delivery_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\figure_console.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\figure_final_console.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\figure_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\final_source_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\first_beta30_gate.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\first_beta30_gate_preliminary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\first_beta30_gate_preliminary_missing_phase.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\independent_first_result.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\independent_first_result.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\independent_implementation_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\independent_implementation_review.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\protected_sources.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\protected_sources_final.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\regression_console.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\storage_cleanup_plan.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\storage_cleanup_result.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\storage_cleanup_root_reviewed.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\audit\\zero_regression.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\figures\\actual_structure.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\figures\\actual_structure.svg",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\analyze_beta30.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\cleanup_reviewed.ps1",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\finalize_delivery.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\finalize_storage.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\patch_beta30_slx.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\plot_actual_structure.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\plot_beta30.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\plot_beta30.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\prepare_beta30_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\protect_sources.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\run_beta30_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\save_numeric_archive.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\verify_cache_rebuild.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\internal\\verify_compilation.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\a001_new_Design_LQR_Controller.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\stabilizer_bar_repair.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\batch_status.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\source\\beta30_protocol.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\source\\runner_freeze.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\source\\task_scope.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\entry_events.csv",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\report.md",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\summary.csv",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\table_domain_summary.csv",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\validation.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\aux_roll.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\constraints_and_path.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\control_inputs.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\references.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\slip_targets_vs_measured.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\state_and_xy.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\tire_fx.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\tire_fy.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\tire_fz.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\analysis\\figures\\tire_kappa.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\beta_reference_selection.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\controller_checks.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\post_run_source_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\pre_run_source_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\version_hashes.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\beta30_kf384_kr384\\zero_regression_gate.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\beta_reference_selection.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\controller_checks.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\post_run_source_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\pre_run_source_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\version_hashes.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35a_beta30_20261006\\results\\runs\\regression_beta10\\zero_regression_gate.json",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf192_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf192_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr192\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr192\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr576\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf384_kr576\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf576_kr384\\Run_all.par",
+      "passed": true
+    },
+    {
+      "path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35c_state_only_file_runs\\kf576_kr384\\simfile.sim",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35c_state_only_beta30_20261006\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\a001_step35d_initialize.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\model\\stabilizer_bar_step35d.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\build_accelerated_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\check_preflight_sources.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\freeze_step35d.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\independent_native_verification.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\independent_state_harness.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\native_state_capture.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\prepare_state_configs.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\prepare_step35d.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\run_state_only_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\state_cycle_core.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\state_only_metrics_v2.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\suspension_domain_audit.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\validate_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\config_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\public_executor_frozen.txt",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\analysis_console.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\build_compile.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\build_compile_retry.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\compile_cache_cleanup.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\compile_validation.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\duplicate_cleanup_completed.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\duplicate_cleanup_plan.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\final_integrity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\first_metrics\\summary.csv",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\first_metrics\\V12_beta30_state_only_R3_kf384_kr384.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_harness_functions\\independent_core_a.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_harness_functions\\independent_core_b.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_harness_functions\\independent_native_a.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_harness_functions\\independent_native_b.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_matlab_harness.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_V12_beta30_state_only_R3_kf192_kr384.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr192.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr384.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr576.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\independent_V12_beta30_state_only_R3_kf576_kr384.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\initial_blocked_readme.md",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\matlab_runtime_check.txt",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\offline_figures.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\offline_figures_final.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\offline_figures_phase_aligned.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\run_kf384_kr384.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\run_remaining_four.log",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\runner_changes.diff",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\runtime_recovery.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\source_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\source_derivation.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\audit\\suspension_domain_audit.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\batch_status.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\analyze_acceleration.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\clean_verified_duplicates.ps1",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\finalize_integrity.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\finish_delivery.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\plot_acceleration_matlab.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\internal\\review_first_case.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\analysis.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\01_entry_state_comparison.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\02_full_state_task.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\03_request_transmission.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\04_actual_inputs.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\05_tire_wheel_loads.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\06_auxiliary_roll.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\07_natural_trajectory.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\08_actual_structure.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\08_actual_structure.svg",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\figures\\09_hold_exit_phase_aligned.png",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\report.md",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\summary.csv",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\final\\suspension_summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\controller_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\post_run_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\source_identity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\controller_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\post_run_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\source_identity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\controller_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\post_run_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\source_identity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\controller_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\post_run_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\source_identity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\archive_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\arrays.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\CarSim_evidence_index.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\case.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\completion.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\controller_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\input_verification.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vs.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun.vsb.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_echo.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_end.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\LastRun_log.txt.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\post_run_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\source_identity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\summary.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384\\used_config.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\first_case_interface_review.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\source\\runner_freeze.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35d_entry_acceleration_20261007\\先看这里.md",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\a001_step35e_initialize.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\model\\stabilizer_bar_step35e.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\config_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\source\\public_executor_frozen.txt",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\build_accelerated_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\freeze_sources.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\independent_native_verification.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\independent_state_harness.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\native_state_capture.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\prepare_experiment.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\prepare_state_configs.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\review_first_case.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\run_state_only_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\state_cycle_core.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\state_only_metrics_v2.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\suspension_domain_audit.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\internal\\validate_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35e_entry_1p5_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\a001_step35f_initialize.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\asb_approved_Run_all.par.evidence",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\asb_validate_config.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\repair_build_geometry.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\repair_cycle_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\repair_entry_bank.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\repair_path_profile.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\repair_support\\repair_stadium_reference.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\model\\stabilizer_bar_step35f.slx",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\config_manifest.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\profiles\\V12_beta30_state_only_R3.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\protocol.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\public_executor_frozen.txt",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\build_continuous_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\check_and_freeze.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\independent_native_verification.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\independent_state_harness.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\native_state_capture.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\prepare_experiment.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\prepare_state_configs.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\run_state_only_case.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\state_cycle_core.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\state_only_metrics_v2.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\suspension_domain_audit.py",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\internal\\validate_state_model.m",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\analysis\\comparison.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\audit\\final_integrity.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\audit\\independent_V12_beta30_state_only_R3_kf384_kr384.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\audit\\reference_formula_check.json",
+      "passed": true
+    },
+    {
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\source\\runner_freeze.json",
+      "passed": true
+    }
+  ]
+}

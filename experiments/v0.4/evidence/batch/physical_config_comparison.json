@@ -1,0 +1,54 @@
+[
+  {
+    "configuration": "kf192_kr384",
+    "only_aux_coefficients_differ": true,
+    "diff_lines": [
+      "--- \n",
+      "+++ \n",
+      "@@ -1224,3 +1224,3 @@\n",
+      " MX_AUX_COMBINE ADD",
+      "-MX_AUX_COEFFICIENT 384",
+      "+MX_AUX_COEFFICIENT 192",
+      " MX_AUX_FSTATIC_CONSTANT 0"
+    ]
+  },
+  {
+    "configuration": "kf384_kr192",
+    "only_aux_coefficients_differ": true,
+    "diff_lines": [
+      "--- \n",
+      "+++ \n",
+      "@@ -2588,3 +2588,3 @@\n",
+      " MX_AUX_COMBINE ADD",
+      "-MX_AUX_COEFFICIENT 384",
+      "+MX_AUX_COEFFICIENT 192",
+      " MX_AUX_FSTATIC_CONSTANT 0"
+    ]
+  },
+  {
+    "configuration": "kf384_kr576",
+    "only_aux_coefficients_differ": true,
+    "diff_lines": [
+      "--- \n",
+      "+++ \n",
+      "@@ -2588,3 +2588,3 @@\n",
+      " MX_AUX_COMBINE ADD",
+      "-MX_AUX_COEFFICIENT 384",
+      "+MX_AUX_COEFFICIENT 576",
+      " MX_AUX_FSTATIC_CONSTANT 0"
+    ]
+  },
+  {
+    "configuration": "kf576_kr384",
+    "only_aux_coefficients_differ": true,
+    "diff_lines": [
+      "--- \n",
+      "+++ \n",
+      "@@ -1224,3 +1224,3 @@\n",
+      " MX_AUX_COMBINE ADD",
+      "-MX_AUX_COEFFICIENT 384",
+      "+MX_AUX_COEFFICIENT 576",
+      " MX_AUX_FSTATIC_CONSTANT 0"
+    ]
+  }
+]

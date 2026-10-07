@@ -1,0 +1,1 @@
+{"vehicle_simulations":0,"initialization_cases":["kf384_kr384","kf192_kr384","kf576_kr384","kf384_kr192","kf384_kr576"],"all_frozen_controller_structs_equal":true,"model_compiled":true,"chart_count":19,"native_step_s":0.0005,"compilation_only_not_new_vehicle_validation":true}

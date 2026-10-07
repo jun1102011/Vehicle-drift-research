@@ -1,0 +1,3391 @@
+{
+  "scope": "Current CarSim parameter/extrapolation model, offline retained native and VS/VSB evidence only; no physical safety certification.",
+  "time_convention": "Cumulative and longest durations integrate left-held sample values to next timestamp; terminal endpoint adds no time. Native 0.0005s and direct VSB 0.01s remain distinct.",
+  "native_mapping_python_zero_based_including_time": {
+    "Jnc": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "CmpS": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "tire_alpha": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "tire_kappa": [
+      27,
+      28,
+      29,
+      30
+    ],
+    "tire_Fz": [
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "limitations": [
+    "Pure-slip tire carpet row/column exposure from native alpha/kappa/Fz is a proxy; exact combined-slip internal carpet arguments are not reconstructed.",
+    "A stop table outside its narrow zero-force interval is not necessarily engaged; direct/reconstructed force engagement is reported separately.",
+    "Unmapped warnings retain the logged event only; no inferred duration or peak is assigned.",
+    "0.01s VSB lagged-slip/stop force statistics cannot certify unobserved between-sample peaks.",
+    "Native and VSB values at the same nominal timestamp differ beyond float32 roundoff; formula checks within VSB and cross-stream residuals are both retained, with no time shifts."
+  ],
+  "runs": [
+    {
+      "run_id": "V12_beta30_state_only_R3_kf384_kr384",
+      "sources": {
+        "raw_numeric.mat": "8a6139affee2d4e656e0ee58b5c83c7769e18d090434003520a30b526e9df29c",
+        "LastRun.vs.evidence": "4ffdf2459cde66948b2a452953c5a1b29a51b1ccfe771cbf85438b759136d47e",
+        "LastRun.vsb.evidence": "d20e576cc46042327d2f3df5af519e1ac11668524aca86f7c23bc71c31db65c6",
+        "LastRun_echo.par.evidence": "1f96d2310d5a2c66134ce649d3b8962b3c1ee8ae36a0ce47713b9508e97c342b",
+        "LastRun_log.txt.evidence": "6be8e50f5e04b0473d63509595b867de551a43bccd145d4453a3c820fc81cf40"
+      },
+      "native_samples": 120001,
+      "native_step_s": 0.0005,
+      "VSB_samples": 6001,
+      "VSB_step_s": 0.01,
+      "same_timestamp_mapping_checks": [
+        {
+          "wheel": "FL",
+          "native_signal": "Jnc",
+          "VSB_alias": "Jnc_L1",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.012593393049460389,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FL",
+          "native_signal": "CmpS",
+          "VSB_alias": "CmpS_L1",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.012076311044069143,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FL",
+          "native_signal": "Fz",
+          "VSB_alias": "Fz_L1",
+          "unit": "N",
+          "same_timestamp_no_interpolation_max_abs_difference": 3.2210485646369307,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FL",
+          "native_signal": "Alpha",
+          "VSB_alias": "Alpha_L1",
+          "unit": "deg",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.1884759292978213,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FL",
+          "native_signal": "Kappa",
+          "VSB_alias": "Kappa_L1",
+          "unit": "-",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.0008821324398746197,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FR",
+          "native_signal": "Jnc",
+          "VSB_alias": "Jnc_R1",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.01991590522013098,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FR",
+          "native_signal": "CmpS",
+          "VSB_alias": "CmpS_R1",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.019100387401408625,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FR",
+          "native_signal": "Fz",
+          "VSB_alias": "Fz_R1",
+          "unit": "N",
+          "same_timestamp_no_interpolation_max_abs_difference": 1.889934443207494,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FR",
+          "native_signal": "Alpha",
+          "VSB_alias": "Alpha_R1",
+          "unit": "deg",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.2408513047358296,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "FR",
+          "native_signal": "Kappa",
+          "VSB_alias": "Kappa_R1",
+          "unit": "-",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.0005948378231398269,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RL",
+          "native_signal": "Jnc",
+          "VSB_alias": "Jnc_L2",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.016409008535784864,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RL",
+          "native_signal": "CmpS",
+          "VSB_alias": "CmpS_L2",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.013077960451205684,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RL",
+          "native_signal": "Fz",
+          "VSB_alias": "Fz_L2",
+          "unit": "N",
+          "same_timestamp_no_interpolation_max_abs_difference": 3.037856382201653,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RL",
+          "native_signal": "Alpha",
+          "VSB_alias": "Alpha_L2",
+          "unit": "deg",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.0062710637008134285,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RL",
+          "native_signal": "Kappa",
+          "VSB_alias": "Kappa_L2",
+          "unit": "-",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.00020328665129099033,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RR",
+          "native_signal": "Jnc",
+          "VSB_alias": "Jnc_R2",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.02031103298627812,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RR",
+          "native_signal": "CmpS",
+          "VSB_alias": "CmpS_R2",
+          "unit": "mm",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.01618957394254039,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RR",
+          "native_signal": "Fz",
+          "VSB_alias": "Fz_R2",
+          "unit": "N",
+          "same_timestamp_no_interpolation_max_abs_difference": 1.6348810796444013,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RR",
+          "native_signal": "Alpha",
+          "VSB_alias": "Alpha_R2",
+          "unit": "deg",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.005540568836835291,
+          "VSB_float32": true
+        },
+        {
+          "wheel": "RR",
+          "native_signal": "Kappa",
+          "VSB_alias": "Kappa_R2",
+          "unit": "-",
+          "same_timestamp_no_interpolation_max_abs_difference": 0.00022033034085414127,
+          "VSB_float32": true
+        }
+      ],
+      "table_domains": [
+        {
+          "wheel": "FL",
+          "table": "SUSP_X_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6145,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -40.547546916568585,
+            "max": 0.0017828765801467185,
+            "abs_peak": 40.547546916568585,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "SUSP_LAT_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6012,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -40.547546916568585,
+            "max": 0.0017828765801467185,
+            "abs_peak": 40.547546916568585,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "CAMBER_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 730,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -40.547546916568585,
+            "max": 0.0017828765801467185,
+            "abs_peak": 40.547546916568585,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "TOE_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6286,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -40.547546916568585,
+            "max": 0.0017828765801467185,
+            "abs_peak": 40.547546916568585,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "SUSP_DIVE_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 5917,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -40.547546916568585,
+            "max": 0.0017828765801467185,
+            "abs_peak": 40.547546916568585,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "F_JNC_STOP_TABLE(1,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2427,
+          "source_signal": "CmpJStL1 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -39.128382774488685,
+            "max": 0.0017204758998415834,
+            "abs_peak": 39.128382774488685,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": 58.0,
+          "upper": 60.0,
+          "low": {
+            "max_excess": 97.12838277448868,
+            "peak_excess_time_s": 5.1825,
+            "samples": 120001,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 60.0,
+            "longest_left_hold_s": 60.0,
+            "segment_count": 1
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "F_REB_STOP_TABLE(1,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2488,
+          "source_signal": "CmpRStL1 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -39.128382774488685,
+            "max": 0.0017204758998415834,
+            "abs_peak": 39.128382774488685,
+            "abs_peak_time_s": 5.1825
+          },
+          "lower": -40.0,
+          "upper": -38.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 38.001720475899845,
+            "peak_excess_time_s": 0.033,
+            "samples": 84697,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 42.348,
+            "longest_left_hold_s": 37.1915,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "FX_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 1798,
+          "source_signal": "Kappa native absolute transformed proxy",
+          "query_unit": "-",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 6.394884621840897e-16,
+            "max": 0.09712910883319457,
+            "abs_peak": 0.09712910883319457,
+            "abs_peak_time_s": 3.8735
+          },
+          "lower": 0.0,
+          "upper": 1.02,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "FX_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 1798,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 2312.8291092717454,
+            "max": 5360.245114371117,
+            "abs_peak": 5360.245114371117,
+            "abs_peak_time_s": 2.1285
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "FY_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 2090,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805418959242648e-15,
+            "max": 9.740912755873099,
+            "abs_peak": 9.740912755873099,
+            "abs_peak_time_s": 21.792
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "FY_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 2090,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 2312.8291092717454,
+            "max": 5360.245114371117,
+            "abs_peak": 5360.245114371117,
+            "abs_peak_time_s": 2.1285
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "MZ_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 3523,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805418959242648e-15,
+            "max": 9.740912755873099,
+            "abs_peak": 9.740912755873099,
+            "abs_peak_time_s": 21.792
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "MZ_TIRE_CARPET(1,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 3523,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 2312.8291092717454,
+            "max": 5360.245114371117,
+            "abs_peak": 5360.245114371117,
+            "abs_peak_time_s": 2.1285
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "L_RELAX_X_TABLE(1,1)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 2747,
+          "source_signal": "KappL_L1",
+          "query_unit": "-",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -0.09626037627458572,
+            "max": 0.04344676062464714,
+            "abs_peak": 0.09626037627458572,
+            "abs_peak_time_s": 3.88
+          },
+          "lower": -0.1,
+          "upper": 0.1,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "L_RELAX_X_FZ_TABLE(1,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2796,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.28910363865896815,
+            "max": 0.6700306392963896,
+            "abs_peak": 0.6700306392963896,
+            "abs_peak_time_s": 2.1285
+          },
+          "lower": 0.0,
+          "upper": 1.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "L_RELAX_Y_TABLE(1,1)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 2987,
+          "source_signal": "AlphL_L1",
+          "query_unit": "deg",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -9.69493293762207,
+            "max": 0.09973638504743576,
+            "abs_peak": 9.69493293762207,
+            "abs_peak_time_s": 21.8
+          },
+          "lower": -10.0,
+          "upper": 10.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FL",
+          "table": "L_RELAX_Y_FZ_TABLE(1,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 3036,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.28910363865896815,
+            "max": 0.6700306392963896,
+            "abs_peak": 0.6700306392963896,
+            "abs_peak_time_s": 2.1285
+          },
+          "lower": 0.0,
+          "upper": 2.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "SUSP_X_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6175,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -18.29428712213308,
+            "max": 61.22349600905674,
+            "abs_peak": 61.22349600905674,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "SUSP_LAT_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6042,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -18.29428712213308,
+            "max": 61.22349600905674,
+            "abs_peak": 61.22349600905674,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "CAMBER_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 757,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -18.29428712213308,
+            "max": 61.22349600905674,
+            "abs_peak": 61.22349600905674,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "TOE_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6313,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -18.29428712213308,
+            "max": 61.22349600905674,
+            "abs_peak": 61.22349600905674,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "SUSP_DIVE_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 5946,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -18.29428712213308,
+            "max": 61.22349600905674,
+            "abs_peak": 61.22349600905674,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "F_JNC_STOP_TABLE(1,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2440,
+          "source_signal": "CmpJStR1 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -17.653987072858424,
+            "max": 59.08067364873975,
+            "abs_peak": 59.08067364873975,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": 58.0,
+          "upper": 60.0,
+          "low": {
+            "max_excess": 75.65398707285843,
+            "peak_excess_time_s": 1.427,
+            "samples": 112928,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 56.463499999999996,
+            "longest_left_hold_s": 37.1555,
+            "segment_count": 2
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "F_REB_STOP_TABLE(1,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2501,
+          "source_signal": "CmpRStR1 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -17.653987072858424,
+            "max": 59.08067364873975,
+            "abs_peak": 59.08067364873975,
+            "abs_peak_time_s": 21.45
+          },
+          "lower": -40.0,
+          "upper": -38.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 97.08067364873975,
+            "peak_excess_time_s": 21.45,
+            "samples": 120001,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 60.0,
+            "longest_left_hold_s": 60.0,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "FX_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 1862,
+          "source_signal": "Kappa native absolute transformed proxy",
+          "query_unit": "-",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 6.394884621840897e-16,
+            "max": 0.07976679849682503,
+            "abs_peak": 0.07976679849682503,
+            "abs_peak_time_s": 3.8725
+          },
+          "lower": 0.0,
+          "upper": 1.02,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "FX_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 1862,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 4696.1705731012735,
+            "max": 8005.480878962715,
+            "abs_peak": 8005.480878962715,
+            "abs_peak_time_s": 21.44
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "FY_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 2154,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.180554350845838e-15,
+            "max": 9.211999492077268,
+            "abs_peak": 9.211999492077268,
+            "abs_peak_time_s": 21.792
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "FY_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 2154,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 4696.1705731012735,
+            "max": 8005.480878962715,
+            "abs_peak": 8005.480878962715,
+            "abs_peak_time_s": 21.44
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "MZ_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 3587,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.180554350845838e-15,
+            "max": 9.211999492077268,
+            "abs_peak": 9.211999492077268,
+            "abs_peak_time_s": 21.792
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "MZ_TIRE_CARPET(1,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 3587,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 4696.1705731012735,
+            "max": 8005.480878962715,
+            "abs_peak": 8005.480878962715,
+            "abs_peak_time_s": 21.44
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "L_RELAX_X_TABLE(1,2)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 2804,
+          "source_signal": "KappL_R1",
+          "query_unit": "-",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -0.07971002161502838,
+            "max": 0.044040247797966,
+            "abs_peak": 0.07971002161502838,
+            "abs_peak_time_s": 3.87
+          },
+          "lower": -0.1,
+          "upper": 0.1,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "L_RELAX_X_FZ_TABLE(1,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2853,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.5870213216376592,
+            "max": 1.0006851098703393,
+            "abs_peak": 1.0006851098703393,
+            "abs_peak_time_s": 21.44
+          },
+          "lower": 0.0,
+          "upper": 1.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0006851098703393177,
+            "peak_excess_time_s": 21.44,
+            "samples": 33,
+            "first_s": 21.430500000000002,
+            "cumulative_left_hold_s": 0.016499999999997073,
+            "longest_left_hold_s": 0.016499999999997073,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "L_RELAX_Y_TABLE(1,2)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 3045,
+          "source_signal": "AlphL_R1",
+          "query_unit": "deg",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -9.128844261169434,
+            "max": 0.16319970786571503,
+            "abs_peak": 9.128844261169434,
+            "abs_peak_time_s": 21.8
+          },
+          "lower": -10.0,
+          "upper": 10.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "FR",
+          "table": "L_RELAX_Y_FZ_TABLE(1,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 3094,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.5870213216376592,
+            "max": 1.0006851098703393,
+            "abs_peak": 1.0006851098703393,
+            "abs_peak_time_s": 21.44
+          },
+          "lower": 0.0,
+          "upper": 2.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "SUSP_X_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6205,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -49.055786417768076,
+            "max": 33.18724629875821,
+            "abs_peak": 49.055786417768076,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "SUSP_LAT_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6072,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -49.055786417768076,
+            "max": 33.18724629875821,
+            "abs_peak": 49.055786417768076,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "CAMBER_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 785,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -49.055786417768076,
+            "max": 33.18724629875821,
+            "abs_peak": 49.055786417768076,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "TOE_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6340,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -49.055786417768076,
+            "max": 33.18724629875821,
+            "abs_peak": 49.055786417768076,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FS_COMP_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 1577,
+          "source_signal": "CmpS native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -7.78352559703209,
+            "max": 57.76417147803936,
+            "abs_peak": 57.76417147803936,
+            "abs_peak_time_s": 1.4275
+          },
+          "lower": -50.0,
+          "upper": 50.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 7.7641714780393585,
+            "peak_excess_time_s": 1.4275,
+            "samples": 1600,
+            "first_s": 1.028,
+            "cumulative_left_hold_s": 0.8,
+            "longest_left_hold_s": 0.8,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FS_EXT_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 1678,
+          "source_signal": "CmpS native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -7.78352559703209,
+            "max": 57.76417147803936,
+            "abs_peak": 57.76417147803936,
+            "abs_peak_time_s": 1.4275
+          },
+          "lower": -50.0,
+          "upper": 50.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 7.7641714780393585,
+            "peak_excess_time_s": 1.4275,
+            "samples": 1600,
+            "first_s": 1.028,
+            "cumulative_left_hold_s": 0.8,
+            "longest_left_hold_s": 0.8,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "F_JNC_STOP_TABLE(2,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2453,
+          "source_signal": "CmpJStL2 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -39.09746177496116,
+            "max": 26.450235300110297,
+            "abs_peak": 39.09746177496116,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": 58.0,
+          "upper": 60.0,
+          "low": {
+            "max_excess": 97.09746177496116,
+            "peak_excess_time_s": 21.657,
+            "samples": 120001,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 60.0,
+            "longest_left_hold_s": 60.0,
+            "segment_count": 1
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "F_REB_STOP_TABLE(2,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2514,
+          "source_signal": "CmpRStL2 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -39.09746177496116,
+            "max": 26.450235300110297,
+            "abs_peak": 39.09746177496116,
+            "abs_peak_time_s": 21.657
+          },
+          "lower": -40.0,
+          "upper": -38.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 64.4502353001103,
+            "peak_excess_time_s": 1.4275,
+            "samples": 116718,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 58.35850000000001,
+            "longest_left_hold_s": 36.963,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FX_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 1926,
+          "source_signal": "Kappa native absolute transformed proxy",
+          "query_unit": "-",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 4.263256414560599e-16,
+            "max": 0.6906876624220921,
+            "abs_peak": 0.6906876624220921,
+            "abs_peak_time_s": 4.9
+          },
+          "lower": 0.0,
+          "upper": 1.02,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FX_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 1926,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 973.0684020944104,
+            "max": 4348.669926700549,
+            "abs_peak": 4348.669926700549,
+            "abs_peak_time_s": 1.1405
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FY_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 2218,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805543508458387e-15,
+            "max": 35.506644903178504,
+            "abs_peak": 35.506644903178504,
+            "abs_peak_time_s": 16.733
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 9.506644903178504,
+            "peak_excess_time_s": 16.733,
+            "samples": 27717,
+            "first_s": 4.9635,
+            "cumulative_left_hold_s": 13.8585,
+            "longest_left_hold_s": 13.8585,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "FY_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 2218,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 973.0684020944104,
+            "max": 4348.669926700549,
+            "abs_peak": 4348.669926700549,
+            "abs_peak_time_s": 1.1405
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "MZ_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 3651,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805543508458387e-15,
+            "max": 35.506644903178504,
+            "abs_peak": 35.506644903178504,
+            "abs_peak_time_s": 16.733
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 9.506644903178504,
+            "peak_excess_time_s": 16.733,
+            "samples": 27717,
+            "first_s": 4.9635,
+            "cumulative_left_hold_s": 13.8585,
+            "longest_left_hold_s": 13.8585,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "MZ_TIRE_CARPET(2,1)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 3651,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 973.0684020944104,
+            "max": 4348.669926700549,
+            "abs_peak": 4348.669926700549,
+            "abs_peak_time_s": 1.1405
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "L_RELAX_X_TABLE(2,1)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 2861,
+          "source_signal": "KappL_L2",
+          "query_unit": "-",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -0.003738769795745611,
+            "max": 0.690690279006958,
+            "abs_peak": 0.690690279006958,
+            "abs_peak_time_s": 4.9
+          },
+          "lower": -0.1,
+          "upper": 0.1,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.590690279006958,
+            "peak_excess_time_s": 4.9,
+            "samples": 1701,
+            "first_s": 3.0,
+            "cumulative_left_hold_s": 17.01,
+            "longest_left_hold_s": 16.740000000000002,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "L_RELAX_X_FZ_TABLE(2,1)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2910,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.12163355026180131,
+            "max": 0.5435837408375686,
+            "abs_peak": 0.5435837408375686,
+            "abs_peak_time_s": 1.1405
+          },
+          "lower": 0.0,
+          "upper": 1.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "L_RELAX_Y_TABLE(2,1)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 3103,
+          "source_signal": "AlphL_L2",
+          "query_unit": "deg",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -35.50664520263672,
+            "max": 0.3372575342655182,
+            "abs_peak": 35.50664520263672,
+            "abs_peak_time_s": 16.7
+          },
+          "lower": -10.0,
+          "upper": 10.0,
+          "low": {
+            "max_excess": 25.50664520263672,
+            "peak_excess_time_s": 16.7,
+            "samples": 1754,
+            "first_s": 4.03,
+            "cumulative_left_hold_s": 17.54,
+            "longest_left_hold_s": 17.54,
+            "segment_count": 1
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RL",
+          "table": "L_RELAX_Y_FZ_TABLE(2,1)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 3152,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.12163355026180131,
+            "max": 0.5435837408375686,
+            "abs_peak": 0.5435837408375686,
+            "abs_peak_time_s": 1.1405
+          },
+          "lower": 0.0,
+          "upper": 2.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "SUSP_X_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6235,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -1.4241169061489018e-07,
+            "max": 74.10265695185304,
+            "abs_peak": 74.10265695185304,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 4.102656951853035,
+            "peak_excess_time_s": 5.6005,
+            "samples": 28762,
+            "first_s": 5.3955,
+            "cumulative_left_hold_s": 14.380999999999998,
+            "longest_left_hold_s": 14.380999999999998,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "SUSP_LAT_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6102,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -1.4241169061489018e-07,
+            "max": 74.10265695185304,
+            "abs_peak": 74.10265695185304,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 4.102656951853035,
+            "peak_excess_time_s": 5.6005,
+            "samples": 28762,
+            "first_s": 5.3955,
+            "cumulative_left_hold_s": 14.380999999999998,
+            "longest_left_hold_s": 14.380999999999998,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "CAMBER_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 812,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -1.4241169061489018e-07,
+            "max": 74.10265695185304,
+            "abs_peak": 74.10265695185304,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 4.102656951853035,
+            "peak_excess_time_s": 5.6005,
+            "samples": 28762,
+            "first_s": 5.3955,
+            "cumulative_left_hold_s": 14.380999999999998,
+            "longest_left_hold_s": 14.380999999999998,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "TOE_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 6367,
+          "source_signal": "Jnc native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": -1.4241169061489018e-07,
+            "max": 74.10265695185304,
+            "abs_peak": 74.10265695185304,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -70.0,
+          "upper": 70.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 4.102656951853035,
+            "peak_excess_time_s": 5.6005,
+            "samples": 28762,
+            "first_s": 5.3955,
+            "cumulative_left_hold_s": 14.380999999999998,
+            "longest_left_hold_s": 14.380999999999998,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FS_COMP_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 1610,
+          "source_signal": "CmpS native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": 31.31393606442695,
+            "max": 90.37375376855594,
+            "abs_peak": 90.37375376855594,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -50.0,
+          "upper": 50.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 40.37375376855594,
+            "peak_excess_time_s": 5.6005,
+            "samples": 41034,
+            "first_s": 1.0275,
+            "cumulative_left_hold_s": 20.517,
+            "longest_left_hold_s": 19.7145,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FS_EXT_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 1711,
+          "source_signal": "CmpS native",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit input offset/scale; native query reconstruction",
+          "query": {
+            "min": 31.31393606442695,
+            "max": 90.37375376855594,
+            "abs_peak": 90.37375376855594,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -50.0,
+          "upper": 50.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 40.37375376855594,
+            "peak_excess_time_s": 5.6005,
+            "samples": 41034,
+            "first_s": 1.0275,
+            "cumulative_left_hold_s": 20.517,
+            "longest_left_hold_s": 19.7145,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "F_JNC_STOP_TABLE(2,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2466,
+          "source_signal": "CmpJStR2 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -1.1350211742006748e-07,
+            "max": 59.05981759062687,
+            "abs_peak": 59.05981759062687,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": 58.0,
+          "upper": 60.0,
+          "low": {
+            "max_excess": 58.00000011350212,
+            "peak_excess_time_s": 0.001,
+            "samples": 91912,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 45.9555,
+            "longest_left_hold_s": 40.5,
+            "segment_count": 2
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "F_REB_STOP_TABLE(2,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2527,
+          "source_signal": "CmpRStR2 reconstructed from native Jnc",
+          "query_unit": "mm",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement",
+          "query": {
+            "min": -1.1350211742006748e-07,
+            "max": 59.05981759062687,
+            "abs_peak": 59.05981759062687,
+            "abs_peak_time_s": 5.6005
+          },
+          "lower": -40.0,
+          "upper": -38.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 97.05981759062686,
+            "peak_excess_time_s": 5.6005,
+            "samples": 120001,
+            "first_s": 0.0,
+            "cumulative_left_hold_s": 60.0,
+            "longest_left_hold_s": 60.0,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FX_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 1990,
+          "source_signal": "Kappa native absolute transformed proxy",
+          "query_unit": "-",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 4.263256414560599e-16,
+            "max": 0.6926245006233344,
+            "abs_peak": 0.6926245006233344,
+            "abs_peak_time_s": 4.885
+          },
+          "lower": 0.0,
+          "upper": 1.02,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FX_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 1990,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 3668.911840545497,
+            "max": 6336.114181836654,
+            "abs_peak": 6336.114181836654,
+            "abs_peak_time_s": 21.6655
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FY_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 2282,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805543508458387e-15,
+            "max": 33.54525695237923,
+            "abs_peak": 33.54525695237923,
+            "abs_peak_time_s": 16.886
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 7.545256952379233,
+            "peak_excess_time_s": 16.886,
+            "samples": 27067,
+            "first_s": 5.208,
+            "cumulative_left_hold_s": 13.533500000000002,
+            "longest_left_hold_s": 13.533500000000002,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "FY_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 2282,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 3668.911840545497,
+            "max": 6336.114181836654,
+            "abs_peak": 6336.114181836654,
+            "abs_peak_time_s": 21.6655
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "MZ_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "row",
+          "echo_line": 3715,
+          "source_signal": "Alpha native absolute transformed proxy",
+          "query_unit": "deg",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged",
+          "query": {
+            "min": 3.1805543508458387e-15,
+            "max": 33.54525695237923,
+            "abs_peak": 33.54525695237923,
+            "abs_peak_time_s": 16.886
+          },
+          "lower": 0.0,
+          "upper": 26.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 7.545256952379233,
+            "peak_excess_time_s": 16.886,
+            "samples": 27067,
+            "first_s": 5.208,
+            "cumulative_left_hold_s": 13.533500000000002,
+            "longest_left_hold_s": 13.533500000000002,
+            "segment_count": 1
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "MZ_TIRE_CARPET(2,2)",
+          "table_type": "2D_FROM_ZERO",
+          "table_axis": "column",
+          "echo_line": 3715,
+          "source_signal": "Fz native transformed proxy",
+          "query_unit": "N",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "PROXY_ONLY: native tire normal force compared with carpet column domain",
+          "query": {
+            "min": 3668.911840545497,
+            "max": 6336.114181836654,
+            "abs_peak": 6336.114181836654,
+            "abs_peak_time_s": 21.6655
+          },
+          "lower": 0.0,
+          "upper": 15690.64,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "L_RELAX_X_TABLE(2,2)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 2918,
+          "source_signal": "KappL_R2",
+          "query_unit": "-",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -0.00321152969263494,
+            "max": 0.692579984664917,
+            "abs_peak": 0.692579984664917,
+            "abs_peak_time_s": 4.89
+          },
+          "lower": -0.1,
+          "upper": 0.1,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.592579984664917,
+            "peak_excess_time_s": 4.89,
+            "samples": 1690,
+            "first_s": 3.0,
+            "cumulative_left_hold_s": 16.900000000000002,
+            "longest_left_hold_s": 16.76,
+            "segment_count": 2
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "L_RELAX_X_FZ_TABLE(2,2)",
+          "table_type": "LINEAR",
+          "table_axis": "row",
+          "echo_line": 2967,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.4586139800681871,
+            "max": 0.7920142727295818,
+            "abs_peak": 0.7920142727295818,
+            "abs_peak_time_s": 21.6655
+          },
+          "lower": 0.0,
+          "upper": 1.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "L_RELAX_Y_TABLE(2,2)",
+          "table_type": "SPLINE_FLAT",
+          "table_axis": "row",
+          "echo_line": 3161,
+          "source_signal": "AlphL_R2",
+          "query_unit": "deg",
+          "sample_period_s": 0.009999999999999787,
+          "mapping_confidence": "Echo explicit lagged slip/scale; direct VSB query reconstruction",
+          "query": {
+            "min": -33.545257568359375,
+            "max": 0.0,
+            "abs_peak": 33.545257568359375,
+            "abs_peak_time_s": 16.85
+          },
+          "lower": -10.0,
+          "upper": 10.0,
+          "low": {
+            "max_excess": 23.545257568359375,
+            "peak_excess_time_s": 16.85,
+            "samples": 1742,
+            "first_s": 4.07,
+            "cumulative_left_hold_s": 17.42,
+            "longest_left_hold_s": 17.42,
+            "segment_count": 1
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        },
+        {
+          "wheel": "RR",
+          "table": "L_RELAX_Y_FZ_TABLE(2,2)",
+          "table_type": "SPLINE",
+          "table_axis": "row",
+          "echo_line": 3210,
+          "source_signal": "Fz native / 8000.0",
+          "query_unit": "scaled Fz row coordinate (Echo may retain N label)",
+          "sample_period_s": 0.0005000000000006111,
+          "mapping_confidence": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction",
+          "query": {
+            "min": 0.4586139800681871,
+            "max": 0.7920142727295818,
+            "abs_peak": 0.7920142727295818,
+            "abs_peak_time_s": 21.6655
+          },
+          "lower": 0.0,
+          "upper": 2.0,
+          "low": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "high": {
+            "max_excess": 0.0,
+            "peak_excess_time_s": null,
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          }
+        }
+      ],
+      "stop_force_evidence": [
+        {
+          "wheel": "FL",
+          "stop": "F_JNC_STOP",
+          "query_alias": "CmpJStL1",
+          "force_alias": "FJSt_L1",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.012152862711307222,
+          "force_mapping_vs_direct_VSB_max_abs_N": 0.0,
+          "same_VSB_compression_formula_max_abs_mm": 3.5476684558943816e-06,
+          "same_VSB_force_formula_max_abs_N": 0.0,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "reconstructed_native_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "direct_VSB_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "FL",
+          "stop": "F_REB_STOP",
+          "query_alias": "CmpRStL1",
+          "force_alias": "FRSt_L1",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.012152862711307222,
+          "force_mapping_vs_direct_VSB_max_abs_N": 81.24757686910925,
+          "same_VSB_compression_formula_max_abs_mm": 3.5476684558943816e-06,
+          "same_VSB_force_formula_max_abs_N": 0.01904296875,
+          "reconstructed_native_force_N": {
+            "min": -1283.8277448868503,
+            "max": 0.0,
+            "abs_peak": 1283.8277448868503,
+            "abs_peak_time_s": 5.1825
+          },
+          "reconstructed_native_engagement": {
+            "samples": 34848,
+            "first_s": 5.1785000000000005,
+            "cumulative_left_hold_s": 17.424,
+            "longest_left_hold_s": 17.424,
+            "segment_count": 1
+          },
+          "direct_VSB_force_N": {
+            "min": -1126.4146728515625,
+            "max": 0.0,
+            "abs_peak": 1126.4146728515625,
+            "abs_peak_time_s": 18.38
+          },
+          "direct_VSB_engagement": {
+            "samples": 1743,
+            "first_s": 5.18,
+            "cumulative_left_hold_s": 17.43,
+            "longest_left_hold_s": 17.43,
+            "segment_count": 1
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "FR",
+          "stop": "F_JNC_STOP",
+          "query_alias": "CmpJStR1",
+          "force_alias": "FJSt_R1",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.019219077419261765,
+          "force_mapping_vs_direct_VSB_max_abs_N": 15.841596035728116,
+          "same_VSB_compression_formula_max_abs_mm": 3.681182860759691e-06,
+          "same_VSB_force_formula_max_abs_N": 0.0190582275390625,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 806.7364873974725,
+            "abs_peak": 806.7364873974725,
+            "abs_peak_time_s": 21.45
+          },
+          "reconstructed_native_engagement": {
+            "samples": 6580,
+            "first_s": 19.363500000000002,
+            "cumulative_left_hold_s": 3.2899999999999956,
+            "longest_left_hold_s": 3.2524999999999977,
+            "segment_count": 2
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 806.3335571289062,
+            "abs_peak": 806.3335571289062,
+            "abs_peak_time_s": 21.45
+          },
+          "direct_VSB_engagement": {
+            "samples": 329,
+            "first_s": 19.37,
+            "cumulative_left_hold_s": 3.289999999999999,
+            "longest_left_hold_s": 3.25,
+            "segment_count": 2
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "FR",
+          "stop": "F_REB_STOP",
+          "query_alias": "CmpRStR1",
+          "force_alias": "FRSt_R1",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.019219077419261765,
+          "force_mapping_vs_direct_VSB_max_abs_N": 0.0,
+          "same_VSB_compression_formula_max_abs_mm": 3.681182860759691e-06,
+          "same_VSB_force_formula_max_abs_N": 0.0,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "reconstructed_native_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "direct_VSB_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "RL",
+          "stop": "F_JNC_STOP",
+          "query_alias": "CmpJStL2",
+          "force_alias": "FJSt_L2",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.013077062368328285,
+          "force_mapping_vs_direct_VSB_max_abs_N": 0.0,
+          "same_VSB_compression_formula_max_abs_mm": 3.3111572221855567e-06,
+          "same_VSB_force_formula_max_abs_N": 0.0,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "reconstructed_native_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "direct_VSB_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "RL",
+          "stop": "F_REB_STOP",
+          "query_alias": "CmpRStL2",
+          "force_alias": "FRSt_L2",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.013077062368328285,
+          "force_mapping_vs_direct_VSB_max_abs_N": 14.893931807189801,
+          "same_VSB_compression_formula_max_abs_mm": 3.3111572221855567e-06,
+          "same_VSB_force_formula_max_abs_N": 0.01873779296875,
+          "reconstructed_native_force_N": {
+            "min": -974.6177496116106,
+            "max": 0.0,
+            "abs_peak": 974.6177496116106,
+            "abs_peak_time_s": 21.657
+          },
+          "reconstructed_native_engagement": {
+            "samples": 2910,
+            "first_s": 21.4345,
+            "cumulative_left_hold_s": 1.4549999999999983,
+            "longest_left_hold_s": 1.3719999999999999,
+            "segment_count": 2
+          },
+          "direct_VSB_force_N": {
+            "min": -972.8928833007812,
+            "max": 0.0,
+            "abs_peak": 972.8928833007812,
+            "abs_peak_time_s": 21.66
+          },
+          "direct_VSB_engagement": {
+            "samples": 145,
+            "first_s": 21.44,
+            "cumulative_left_hold_s": 1.4499999999999957,
+            "longest_left_hold_s": 1.3699999999999974,
+            "segment_count": 2
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "RR",
+          "stop": "F_JNC_STOP",
+          "query_alias": "CmpJStR2",
+          "force_alias": "FJSt_R2",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.01618761100246502,
+          "force_mapping_vs_direct_VSB_max_abs_N": 5.420620043482472,
+          "same_VSB_compression_formula_max_abs_mm": 4.829406734074837e-06,
+          "same_VSB_force_formula_max_abs_N": 0.019073486328125,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 598.1759062687075,
+            "abs_peak": 598.1759062687075,
+            "abs_peak_time_s": 5.6005
+          },
+          "reconstructed_native_engagement": {
+            "samples": 27259,
+            "first_s": 5.516,
+            "cumulative_left_hold_s": 13.629499999999998,
+            "longest_left_hold_s": 13.514000000000001,
+            "segment_count": 6
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 598.0516967773438,
+            "abs_peak": 598.0516967773438,
+            "abs_peak_time_s": 5.6000000000000005
+          },
+          "direct_VSB_engagement": {
+            "samples": 1360,
+            "first_s": 5.5200000000000005,
+            "cumulative_left_hold_s": 13.600000000000001,
+            "longest_left_hold_s": 13.510000000000002,
+            "segment_count": 2
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        },
+        {
+          "wheel": "RR",
+          "stop": "F_REB_STOP",
+          "query_alias": "CmpRStR2",
+          "force_alias": "FRSt_R2",
+          "native_reconstruction_step_s": 0.0005,
+          "direct_VSB_step_s": 0.01,
+          "compression_mapping_vs_direct_VSB_max_abs_mm": 0.01618761100246502,
+          "force_mapping_vs_direct_VSB_max_abs_N": 0.0,
+          "same_VSB_compression_formula_max_abs_mm": 4.829406734074837e-06,
+          "same_VSB_force_formula_max_abs_N": 0.0,
+          "reconstructed_native_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "reconstructed_native_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "direct_VSB_force_N": {
+            "min": 0.0,
+            "max": 0.0,
+            "abs_peak": 0.0,
+            "abs_peak_time_s": 0.0
+          },
+          "direct_VSB_engagement": {
+            "samples": 0,
+            "first_s": null,
+            "cumulative_left_hold_s": 0.0,
+            "longest_left_hold_s": 0.0,
+            "segment_count": 0
+          },
+          "interpretation": "Native force is a reconstruction using current Echo linear stop formula, not an additional native measured channel. Report direct 0.01s VSB force as measured stop evidence. Same-time native/VSB exchange values differ beyond float32 roundoff; their residual is retained without interpolation or phase shifting. Validate the formula separately within VSB."
+        }
+      ],
+      "tables_without_finite_domain": [
+        {
+          "wheel": "FL",
+          "table": "FS_COMP_TABLE(1,1)",
+          "status": "coefficient_model_no_finite_table_domain"
+        },
+        {
+          "wheel": "FL",
+          "table": "FS_EXT_TABLE(1,1)",
+          "status": "coefficient_model_no_finite_table_domain"
+        },
+        {
+          "wheel": "FR",
+          "table": "FS_COMP_TABLE(1,2)",
+          "status": "coefficient_model_no_finite_table_domain"
+        },
+        {
+          "wheel": "FR",
+          "table": "FS_EXT_TABLE(1,2)",
+          "status": "coefficient_model_no_finite_table_domain"
+        },
+        {
+          "wheel": "RL",
+          "table": "SUSP_DIVE_TABLE(2,1)",
+          "status": "coefficient_model_no_finite_table_domain"
+        },
+        {
+          "wheel": "RR",
+          "table": "SUSP_DIVE_TABLE(2,2)",
+          "status": "coefficient_model_no_finite_table_domain"
+        }
+      ],
+      "logged_warnings": [
+        {
+          "function": "F_REB_STOP_TABLE(1,1)",
+          "side": "HIGH",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_JNC_STOP_TABLE(1,1)",
+          "side": "LOW",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_REB_STOP_TABLE(1,2)",
+          "side": "HIGH",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_JNC_STOP_TABLE(1,2)",
+          "side": "LOW",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_REB_STOP_TABLE(2,1)",
+          "side": "HIGH",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_JNC_STOP_TABLE(2,1)",
+          "side": "LOW",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_REB_STOP_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "F_JNC_STOP_TABLE(2,2)",
+          "side": "LOW",
+          "logged_query": 0.0,
+          "logged_unit": "mm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo linear compression mapping verified against direct VSB; table extrapolation is distinct from stop engagement"
+        },
+        {
+          "function": "MENGINE_CARPET",
+          "side": "LOW",
+          "logged_query": 0.0,
+          "logged_unit": "rpm",
+          "logged_time_s": 0.0,
+          "mapped_domain_records": 0,
+          "full_query_status": "unknown",
+          "interpretation": "not reconstructed; warning supplies only this logged event"
+        },
+        {
+          "function": "FS_EXT_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 50.006,
+          "logged_unit": "mm",
+          "logged_time_s": 1.027,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "FS_COMP_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 50.006,
+          "logged_unit": "mm",
+          "logged_time_s": 1.027,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "FS_EXT_TABLE(2,1)",
+          "side": "HIGH",
+          "logged_query": 50.0063,
+          "logged_unit": "mm",
+          "logged_time_s": 1.02775,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "FS_COMP_TABLE(2,1)",
+          "side": "HIGH",
+          "logged_query": 50.0063,
+          "logged_unit": "mm",
+          "logged_time_s": 1.02775,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "FY_TIRE_CARPET(2,1)",
+          "side": "HIGH",
+          "logged_query": 26.0002,
+          "logged_unit": "deg",
+          "logged_time_s": 4.75925,
+          "mapped_domain_records": 2,
+          "full_query_status": "proxy_only_actual_internal_argument_unknown",
+          "interpretation": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged; PROXY_ONLY: native tire normal force compared with carpet column domain"
+        },
+        {
+          "function": "MZ_TIRE_CARPET(2,1)",
+          "side": "HIGH",
+          "logged_query": 26.0002,
+          "logged_unit": "deg",
+          "logged_time_s": 4.75925,
+          "mapped_domain_records": 2,
+          "full_query_status": "proxy_only_actual_internal_argument_unknown",
+          "interpretation": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged; PROXY_ONLY: native tire normal force compared with carpet column domain"
+        },
+        {
+          "function": "FY_TIRE_CARPET(2,2)",
+          "side": "HIGH",
+          "logged_query": 26.0003,
+          "logged_unit": "deg",
+          "logged_time_s": 4.771,
+          "mapped_domain_records": 2,
+          "full_query_status": "proxy_only_actual_internal_argument_unknown",
+          "interpretation": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged; PROXY_ONLY: native tire normal force compared with carpet column domain"
+        },
+        {
+          "function": "MZ_TIRE_CARPET(2,2)",
+          "side": "HIGH",
+          "logged_query": 26.0003,
+          "logged_unit": "deg",
+          "logged_time_s": 4.771,
+          "mapped_domain_records": 2,
+          "full_query_status": "proxy_only_actual_internal_argument_unknown",
+          "interpretation": "PROXY_ONLY: exact combined-slip internal carpet row argument not logged; PROXY_ONLY: native tire normal force compared with carpet column domain"
+        },
+        {
+          "function": "SUSP_X_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 70.0124,
+          "logged_unit": "mm",
+          "logged_time_s": 5.395,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "SUSP_LAT_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 70.0124,
+          "logged_unit": "mm",
+          "logged_time_s": 5.395,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "CAMBER_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 70.0124,
+          "logged_unit": "mm",
+          "logged_time_s": 5.395,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "TOE_TABLE(2,2)",
+          "side": "HIGH",
+          "logged_query": 70.0124,
+          "logged_unit": "mm",
+          "logged_time_s": 5.395,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit input offset/scale; native query reconstruction"
+        },
+        {
+          "function": "L_RELAX_X_FZ_TABLE(1,2)",
+          "side": "HIGH",
+          "logged_query": 1.00001,
+          "logged_unit": "N",
+          "logged_time_s": 21.4303,
+          "mapped_domain_records": 1,
+          "full_query_status": "echo_transformed_logged_query_reconstruction_at_recorded_sample_times",
+          "interpretation": "Echo explicit Fz divided by FZ_SCALE; native scalar query reconstruction"
+        }
+      ],
+      "unmapped_warning_functions": [
+        "MENGINE_CARPET"
+      ],
+      "full_actual_query_still_unknown_warning_functions": [
+        "FY_TIRE_CARPET(2,1)",
+        "FY_TIRE_CARPET(2,2)",
+        "MENGINE_CARPET",
+        "MZ_TIRE_CARPET(2,1)",
+        "MZ_TIRE_CARPET(2,2)"
+      ]
+    }
+  ]
+}

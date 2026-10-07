@@ -1,0 +1,182 @@
+Run made by CarSim 2020.0 at 12:44 on October 07, 2026.
+Vehicle Configuration: I_I
+Started with simfile: C:\Users\Public\Documents\CarSim2020.0_Data\Extensions\Simulink\00carsim_workspace\009\stabilizer_bar\step35f_state_only_file_runs\kf384_kr384\simfile.sim
+
+Include PARSFILE "C:\Users\Public\Documents\CarSim2020.0_Data\Extensions\Simulink\00carsim_workspace\009\stabilizer_bar\step35f_state_only_file_runs\kf384_kr384\Run_all.par"
+Used Dataset: I/O Channels: Import; { example } cardemo009_piaoyi
+Used Dataset: I/O Channels: Export; { example } cardemo009_piaoyi
+Used Dataset: Models: Simulink; { Example } cardemo009_piaoyi
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Vehicle X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 Azm, 9 El, 18 m, No Yaw
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { CS C-Class } C-Class, Hatchback
+Used Dataset: Steering: Power Assist Torque; { Column Assist Torque } C-Class Sedan Column Assist
+Used Dataset: Steering System: Compliance; { Linear } 0.001 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; { C-Class } C-Class Hatchback
+Used Dataset: Steering; { CS C-Class } C-Class, Hbk: Col Asst, R&P #1
+Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Strut } Front Strut - Camber
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Strut - Front
+Used Dataset: Suspension: Toe Angle; { Strut } Strut - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); { Strut } Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; { Strut } Front Strut -  Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { Strut } Front Strut - Camber
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Strut - Front
+Used Dataset: Suspension: Toe Angle; { Strut } Strut - Front
+Used Dataset: Suspension: Independent System Kinematics; { C-Class } C-Class, Hatchback - Front
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { C-Class } C-Class, Hatchback - Front
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Lateral Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 225/60 R18
+Used Dataset: Tire; { Touring Tires } 225/60 R18
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Lateral Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 225/60 R18
+Used Dataset: Tire; { Touring Tires } 225/60 R18
+Used Dataset: Suspension: Longitudinal Movement; { 5-Link Rear } Rear 5-Link - Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { 5-Link Rear } Rear 5-Link - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rear } Rear 5-Link - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { 5-Link Rear } Rear 5-Link - Toe Change
+Used Dataset: Suspension: Longitudinal Movement; { 5-Link Rear } Rear 5-Link - Longitudinal Movement
+Used Dataset: Suspension: Camber Angle; { 5-Link Rear } Rear 5-Link - Camber Change
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rear } Rear 5-Link - Lateral Movement
+Used Dataset: Suspension: Toe Angle; { 5-Link Rear } Rear 5-Link - Toe Change
+Used Dataset: Suspension: Independent System Kinematics; { C-Class } C-Class, Hatchback - Rear
+Used Dataset: Suspension: Spring; 30 N/mm
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Spring; 30 N/mm
+Used Dataset: Suspension: Shock Absorber; { Passenger Car } Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50 mm to 99 mm } +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { C-Class } C-Class, Hatchback - Rear
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Lateral Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 225/60 R18
+Used Dataset: Tire; { Touring Tires } 225/60 R18
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 195/45 R16: Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Lateral Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 225/60 R18
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 225/60 R18
+Used Dataset: Tire; { Touring Tires } 225/60 R18
+Used Dataset: Vehicle: Sprung Mass; { C-Class } C-Class, Hatchback _cardemo009_piaoyi
+Used Dataset: Powertrain: Transmission (External); External Shift Schedule
+Used Dataset: Powertrain: 4-Wheel Drive; { External Components } All External Powertrain Components
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 1.5MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 1.5MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { C-Class } (Hbk): P Frc, No ABS
+Used Dataset: Generic Data Lists; Rear View Mirror (C -Class Example)
+Used Dataset: Animator: Shape File Link; { Cars: C-Class } Hatchback
+Used Dataset: Animator: Shape File Link; { Cars: C-Class } Hatchback: Driver (Caucasian Male)
+Used Dataset: Animator: Shape Assembly; { Passenger Cars } C-Class Hatchback
+Used Dataset: Animator: Shape File Link; { Cars: C-Class } Hatchback: Brake Lights
+Used Dataset: Animator: Shape File Link; { Cars: C-Class } C-Class Hatchback Reverse Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { C-Class } C-Class, Hatchback
+Used Dataset: Vehicle: Assembly; { C-Class } cardemo009_piaoyi
+Used Dataset: Control: Shifting (Closed Loop); { Closed-Loop Shifting } AT (6 Gears)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tracking } Lateral Tracking vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Steering } Steering: Handwheel Angle
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Instant
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Hitch } Hitch Roll Angle
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Rate of Sprung Masses vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Forces and Moments } Vertical Forces
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed (Vxz_Fwd) vs. Time
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques - Front
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques - Rear
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Powertrain } Engine Torque
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Engine RPM
+Used Dataset: Plot: Setup; { Tire utilization } Slip angle for peak lateral force
+Used Dataset: Procedures; { Handling Testing } cardemo009_piaoyi
+ 16 m Radius <Circles>
+Used Dataset: Path: Segment Builder; { Circles } 16 m Radius
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1 km Square
+Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Circle Test Boundaries
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+Used Dataset: Animator: Shape File Link; { Environment: Sky Boxes } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Environment: Land Bowls } Light Grass
+Used Dataset: Animator: Group; { Environment Spheres } Partly Cloudy Sky with Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Circular Roads } 100-m Radius Circle, Mu = 0.75
+ cardemo009 <example>
+Used Dataset: CarSim Run Control; { example } cardemo009
+
+Time to read input = 0.04
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+
+Run started: VS output file = C:\Users\Public\Documents\CarSim2020.0_Data\Extensions\Simulink\00carsim_workspace\009\stabilizer_bar\step35f_state_only_file_runs\kf384_kr384\LastRun.vsb
+Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0
+Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027
+Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027
+Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775
+Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0002 deg at T = 4.75925
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0002 deg at T = 4.75925
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0003 deg at T = 4.771
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0003 deg at T = 4.771
+Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395
+Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395
+Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395
+Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395
+Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.00001 N at T = 21.4303
+
+Run stopped at t = 60. Stop time reached.
+
+Computational time ratio: RTIME = 0.105383 (real time)/(simulation time)
+

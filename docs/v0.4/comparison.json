@@ -1,0 +1,1243 @@
+{
+  "rows": [
+    {
+      "case": "384/384",
+      "classification": "PASS",
+      "entry_elapsed_s": 3.7625,
+      "entry_confirm_relative_s": 4.062,
+      "beta_initial_positive_peak_deg": 0.15985451154134397,
+      "beta_min_0_8_deg": -29.997870734314123,
+      "beta_rate_peak_abs_deg_s": 22.630398866488388,
+      "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+      "beta_slowing_longest_s": 0.0,
+      "J_beta_deg2s_0_8": 190.06340110316592,
+      "J_V_0_8": 1.8027041848067726,
+      "J_AVz_0_8": 0.012365270045846116,
+      "V_min_0_8": 10.728008785472278,
+      "AVz_max_0_8": 0.7349688501273137,
+      "Fz_min_0_8": 2412.3241173725482,
+      "Fz_min_full": 973.0684020944104,
+      "steer_amplitude_clipping_s": 1.53,
+      "steer_request_budget_gap_peak_deg": 6.3880344535460205,
+      "actual_steer_rate_bound_s": 0.5765,
+      "rear_slip_rate_bound_s": 1.18,
+      "torque_peak_0_8_Nm": 1396.9340535043027,
+      "torque_rms_0_8_Nm": 669.756787392446,
+      "wheel_budget_projection_s": 0.0,
+      "torque_protection_s": 0.0,
+      "hold_V_rmse": 0.008220159072398842,
+      "hold_beta_rmse_deg": 0.06828113370564855,
+      "hold_AVz_rmse": 0.0015338907326501487,
+      "recovery_elapsed_s": 6.8729999999999976,
+      "failure_reasons": "",
+      "beta_first_5_s": 1.458,
+      "beta_first_10_s": 1.683,
+      "beta_first_15_s": 1.9355,
+      "beta_first_20_s": 2.3615,
+      "beta_first_25_s": 3.0445,
+      "beta_first_28_s": 3.593,
+      "beta_5_to28_s": 2.135,
+      "old_segmented_entry_elapsed_s": 3.6470000000000002,
+      "entry_change_from_segmented_ms": 115.49999999999994,
+      "old_segmented_V_min": 11.278002489420444,
+      "old_segmented_steer_amplitude_clipping_s": 0.34
+    },
+    {
+      "case": "192/384",
+      "classification": "PASS",
+      "entry_elapsed_s": 3.542,
+      "entry_confirm_relative_s": 3.8415,
+      "beta_initial_positive_peak_deg": 0.1570828382308773,
+      "beta_min_0_8_deg": -30.180007209504918,
+      "beta_rate_peak_abs_deg_s": 23.283915871265748,
+      "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+      "beta_slowing_longest_s": 0.0,
+      "J_beta_deg2s_0_8": 160.19083340176073,
+      "J_V_0_8": 1.3973081271378318,
+      "J_AVz_0_8": 0.015610312024356516,
+      "V_min_0_8": 10.831412240624996,
+      "AVz_max_0_8": 0.7441673208569607,
+      "Fz_min_0_8": 2301.0140807542894,
+      "Fz_min_full": 974.8099939895907,
+      "steer_amplitude_clipping_s": 1.29,
+      "steer_request_budget_gap_peak_deg": 4.631611118687782,
+      "actual_steer_rate_bound_s": 0.5775,
+      "rear_slip_rate_bound_s": 1.1300000000000001,
+      "torque_peak_0_8_Nm": 1371.7554334520635,
+      "torque_rms_0_8_Nm": 663.1190569186804,
+      "wheel_budget_projection_s": 0.0,
+      "torque_protection_s": 0.0,
+      "hold_V_rmse": 0.014440103780738548,
+      "hold_beta_rmse_deg": 0.16966038033491643,
+      "hold_AVz_rmse": 0.001376918371649567,
+      "recovery_elapsed_s": 6.849,
+      "failure_reasons": "",
+      "beta_first_5_s": 1.4535,
+      "beta_first_10_s": 1.6725,
+      "beta_first_15_s": 1.9105,
+      "beta_first_20_s": 2.254,
+      "beta_first_25_s": 2.8015,
+      "beta_first_28_s": 3.314,
+      "beta_5_to28_s": 1.8605,
+      "old_segmented_entry_elapsed_s": 3.6174999999999997,
+      "entry_change_from_segmented_ms": -75.4999999999999,
+      "old_segmented_V_min": 11.296353134292266,
+      "old_segmented_steer_amplitude_clipping_s": 0.18
+    },
+    {
+      "case": "576/384",
+      "classification": "PASS",
+      "entry_elapsed_s": 4.0575,
+      "entry_confirm_relative_s": 4.357,
+      "beta_initial_positive_peak_deg": 0.1625306257311766,
+      "beta_min_0_8_deg": -29.830548745584146,
+      "beta_rate_peak_abs_deg_s": 22.09917279101088,
+      "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+      "beta_slowing_longest_s": 0.0,
+      "J_beta_deg2s_0_8": 229.35389285936282,
+      "J_V_0_8": 2.344421465932366,
+      "J_AVz_0_8": 0.01353599618180689,
+      "V_min_0_8": 10.623114492998825,
+      "AVz_max_0_8": 0.7260295212138033,
+      "Fz_min_0_8": 2387.7880114071904,
+      "Fz_min_full": 992.1683178180007,
+      "steer_amplitude_clipping_s": 1.82,
+      "steer_request_budget_gap_peak_deg": 8.075474151475529,
+      "actual_steer_rate_bound_s": 0.5700000000000001,
+      "rear_slip_rate_bound_s": 1.22,
+      "torque_peak_0_8_Nm": 1419.1074100200872,
+      "torque_rms_0_8_Nm": 678.4305118994448,
+      "wheel_budget_projection_s": 0.0,
+      "torque_protection_s": 0.0,
+      "hold_V_rmse": 0.01892959062066584,
+      "hold_beta_rmse_deg": 0.20260229115003875,
+      "hold_AVz_rmse": 0.0017050709194945735,
+      "recovery_elapsed_s": 6.890499999999999,
+      "failure_reasons": "",
+      "beta_first_5_s": 1.462,
+      "beta_first_10_s": 1.692,
+      "beta_first_15_s": 1.96,
+      "beta_first_20_s": 2.547,
+      "beta_first_25_s": 3.3465000000000003,
+      "beta_first_28_s": 3.938,
+      "beta_5_to28_s": 2.476,
+      "old_segmented_entry_elapsed_s": 3.6915000000000004,
+      "entry_change_from_segmented_ms": 365.99999999999966,
+      "old_segmented_V_min": 11.25501247026388,
+      "old_segmented_steer_amplitude_clipping_s": 0.44
+    },
+    {
+      "case": "384/192",
+      "classification": "PASS",
+      "entry_elapsed_s": 4.765,
+      "entry_confirm_relative_s": 5.0645,
+      "beta_initial_positive_peak_deg": 0.16453740465244487,
+      "beta_min_0_8_deg": -29.77653862153454,
+      "beta_rate_peak_abs_deg_s": 21.651249786491622,
+      "beta_slowing_5_to28_under2deg_s_total_s": 0.45,
+      "beta_slowing_longest_s": 0.45,
+      "J_beta_deg2s_0_8": 315.07257879298885,
+      "J_V_0_8": 3.6218444931011637,
+      "J_AVz_0_8": 0.02700546762435749,
+      "V_min_0_8": 10.49453266548502,
+      "AVz_max_0_8": 0.7243095038873951,
+      "Fz_min_0_8": 2400.8719568592824,
+      "Fz_min_full": 1435.5306851756834,
+      "steer_amplitude_clipping_s": 2.48,
+      "steer_request_budget_gap_peak_deg": 9.97085980923816,
+      "actual_steer_rate_bound_s": 0.5655,
+      "rear_slip_rate_bound_s": 1.25,
+      "torque_peak_0_8_Nm": 1447.206509687991,
+      "torque_rms_0_8_Nm": 699.5138388630204,
+      "wheel_budget_projection_s": 0.0,
+      "torque_protection_s": 0.0,
+      "hold_V_rmse": 0.034328208875322244,
+      "hold_beta_rmse_deg": 0.2466656521250145,
+      "hold_AVz_rmse": 0.0017517990502062964,
+      "recovery_elapsed_s": 6.830500000000001,
+      "failure_reasons": "",
+      "beta_first_5_s": 1.4645000000000001,
+      "beta_first_10_s": 1.6995,
+      "beta_first_15_s": 1.987,
+      "beta_first_20_s": 3.162,
+      "beta_first_25_s": 4.0045,
+      "beta_first_28_s": 4.6195,
+      "beta_5_to28_s": 3.1550000000000002,
+      "old_segmented_entry_elapsed_s": 3.79,
+      "entry_change_from_segmented_ms": 974.9999999999997,
+      "old_segmented_V_min": 11.148816088560963,
+      "old_segmented_steer_amplitude_clipping_s": 0.64
+    },
+    {
+      "case": "384/576",
+      "classification": "PASS",
+      "entry_elapsed_s": 3.4695,
+      "entry_confirm_relative_s": 3.769,
+      "beta_initial_positive_peak_deg": 0.15560994558615557,
+      "beta_min_0_8_deg": -30.16762515193412,
+      "beta_rate_peak_abs_deg_s": 23.450464579828356,
+      "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+      "beta_slowing_longest_s": 0.0,
+      "J_beta_deg2s_0_8": 152.78960433967967,
+      "J_V_0_8": 1.2643406391029917,
+      "J_AVz_0_8": 0.016805361317896443,
+      "V_min_0_8": 10.864878563878557,
+      "AVz_max_0_8": 0.7472090242659509,
+      "Fz_min_0_8": 2317.847516306384,
+      "Fz_min_full": 615.9251193604489,
+      "steer_amplitude_clipping_s": 1.22,
+      "steer_request_budget_gap_peak_deg": 4.177168130882394,
+      "actual_steer_rate_bound_s": 0.5750000000000001,
+      "rear_slip_rate_bound_s": 1.12,
+      "torque_peak_0_8_Nm": 1357.8146148621063,
+      "torque_rms_0_8_Nm": 659.7068201607567,
+      "wheel_budget_projection_s": 0.0,
+      "torque_protection_s": 0.0,
+      "hold_V_rmse": 0.022786215872658663,
+      "hold_beta_rmse_deg": 0.15808185368689737,
+      "hold_AVz_rmse": 0.0013940529373520794,
+      "recovery_elapsed_s": 6.903500000000001,
+      "failure_reasons": "",
+      "beta_first_5_s": 1.453,
+      "beta_first_10_s": 1.6705,
+      "beta_first_15_s": 1.9045,
+      "beta_first_20_s": 2.2315,
+      "beta_first_25_s": 2.715,
+      "beta_first_28_s": 3.247,
+      "beta_5_to28_s": 1.7939999999999998,
+      "old_segmented_entry_elapsed_s": 3.5679999999999996,
+      "entry_change_from_segmented_ms": -98.49999999999959,
+      "old_segmented_V_min": 11.348889161027458,
+      "old_segmented_steer_amplitude_clipping_s": 0.07
+    }
+  ],
+  "records": [
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384",
+      "raw_sha256": "8a6139affee2d4e656e0ee58b5c83c7769e18d090434003520a30b526e9df29c",
+      "metrics": {
+        "schema": "step35c-state-only-metrics-v1",
+        "passed": true,
+        "classification": "PASS",
+        "failure_reasons": [],
+        "first_failure_time_s": null,
+        "phase3_first_violation_time_s": null,
+        "actual_end_s": 60.0,
+        "target_V_beta_deg_bodyAVz_rad_s": [
+          12.0,
+          -30.0,
+          0.5989797412715093
+        ],
+        "native_dt_s": 0.0005,
+        "entry": {
+          "phase_start_s": 2.62,
+          "first600": {
+            "start_s": 6.3825,
+            "confirmed_s": 6.682,
+            "first_last_span_s": 0.2995000000000001,
+            "start_index": 7525
+          },
+          "first600_completed_before_phase3": true,
+          "native_capture": {
+            "schema_channel": "feedback_diag_existing",
+            "new_top_level_channel": false,
+            "count_peak": 1616.0,
+            "latched_any": true,
+            "confirm_any": true,
+            "first_confirm_s": 6.682,
+            "index_peak": 14380.0
+          },
+          "native_capture_gate_passed": true,
+          "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+        },
+        "phase3_hold": {
+          "passed": true,
+          "samples": 20000,
+          "start_s": 7.19,
+          "end_exclusive_s": 17.19,
+          "state_rmse": [
+            0.008220159072398842,
+            0.06828113370564855,
+            0.0015338907326501487
+          ],
+          "beta_mean_deg": -29.975472616162758,
+          "beta_abs_peak_deg": 29.999253414863738,
+          "beta_peak_deviation_deg": 0.39103095526156295,
+          "state_peak_abs_error": [
+            0.04333376981701598,
+            0.39103095526156295,
+            0.008153207317214028
+          ],
+          "out_of_band_samples": 0,
+          "out_of_band_cumulative_s": 0.0,
+          "out_of_band_longest_s": 0.0,
+          "phase4_starts_exactly_after_fixed_window": true,
+          "all_control_samples_are_phase3": true,
+          "torque_protection_fraction": 0.0,
+          "torque_protection_longest_s": 0.0,
+          "torque_threshold_samples": 0,
+          "protection_flag_samples": 0,
+          "protection_flag_matches_actual_torque_threshold": true,
+          "min_wheel_load_N": 2529.829018864206,
+          "all_wheel_loads_positive": true,
+          "native_yaw_rad_start_end": [
+            4.352707153765341,
+            10.357679386039909
+          ]
+        },
+        "phase4": {
+          "actual_start_s": 17.19,
+          "first_straight2000": {
+            "start_s": 24.063,
+            "confirmed_s": 25.0625,
+            "first_last_span_s": 0.9995000000000012,
+            "start_index": 13746,
+            "elapsed_from_phase4_s": 6.8729999999999976
+          },
+          "search_started_at_actual_phase4": true
+        },
+        "analysis_source_sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+        "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+        "hard_execution_validation": {
+          "archive_verified": true,
+          "external_asb_zero": true,
+          "interface_verified": true,
+          "source_freeze_verified": true,
+          "vehicle_completed": true,
+          "plant_error_clear": true,
+          "all_wheel_loads_positive": true,
+          "all_wheel_torques_within_budget": true
+        },
+        "hard_execution_validation_passed": true,
+        "execution_diagnostics": {
+          "max_abs_wheel_torque_Nm": 1396.9340535043027,
+          "min_wheel_load_N": 973.0684020944104,
+          "nonpositive_wheel_load_samples": 0,
+          "feedback_diag_shape": [
+            120001,
+            18
+          ],
+          "cycle_diag_reference_rate_abs_peak_7": [
+            3.437270840141693,
+            0.4620225917043419,
+            1.475421846970637,
+            0.2810170326312155,
+            2.018198095512463,
+            0.17908520572449058,
+            0.016700234434375988
+          ]
+        },
+        "natural_motion_diagnostics": {
+          "xy_start_end_m": [
+            [
+              20.58837578914264,
+              -0.914096760738491
+            ],
+            [
+              170.09285620900874,
+              424.8704376810936
+            ]
+          ],
+          "course_rad_unwrapped": [
+            2.094395090019761,
+            13.729955151329456
+          ],
+          "native_yaw_rad_unwrapped_start_end": [
+            2.0943951023931953,
+            13.729867252639941
+          ],
+          "body_AVz_time_integral_rad_start_end": [
+            0.0,
+            11.614754228352107
+          ],
+          "psi_from_course_minus_beta_rad_start_end": [
+            2.094395090019761,
+            13.72986725488963
+          ],
+          "fitted_radius_phase3_m_diagnostic_only": 20.001147237825236,
+          "path_metric_gate": false
+        },
+        "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+        "run_id": "V12_beta30_state_only_R3_kf384_kr384",
+        "profile_id": "V12_beta30_state_only_R3",
+        "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+        "source_identity_sha256": "77ec56016a58f57a87c7ae76f453db9ce6c21571c694c1a434e3df38f0cea80e",
+        "raw_sha256": "8a6139affee2d4e656e0ee58b5c83c7769e18d090434003520a30b526e9df29c",
+        "archive_index_sha256": "721baac2e2dc61986129a84154def0d4551a4fd242314aa16e0eedc2bd791073",
+        "offline_only": true
+      },
+      "row": {
+        "case": "384/384",
+        "classification": "PASS",
+        "entry_elapsed_s": 3.7625,
+        "entry_confirm_relative_s": 4.062,
+        "beta_initial_positive_peak_deg": 0.15985451154134397,
+        "beta_min_0_8_deg": -29.997870734314123,
+        "beta_rate_peak_abs_deg_s": 22.630398866488388,
+        "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+        "beta_slowing_longest_s": 0.0,
+        "J_beta_deg2s_0_8": 190.06340110316592,
+        "J_V_0_8": 1.8027041848067726,
+        "J_AVz_0_8": 0.012365270045846116,
+        "V_min_0_8": 10.728008785472278,
+        "AVz_max_0_8": 0.7349688501273137,
+        "Fz_min_0_8": 2412.3241173725482,
+        "Fz_min_full": 973.0684020944104,
+        "steer_amplitude_clipping_s": 1.53,
+        "steer_request_budget_gap_peak_deg": 6.3880344535460205,
+        "actual_steer_rate_bound_s": 0.5765,
+        "rear_slip_rate_bound_s": 1.18,
+        "torque_peak_0_8_Nm": 1396.9340535043027,
+        "torque_rms_0_8_Nm": 669.756787392446,
+        "wheel_budget_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "hold_V_rmse": 0.008220159072398842,
+        "hold_beta_rmse_deg": 0.06828113370564855,
+        "hold_AVz_rmse": 0.0015338907326501487,
+        "recovery_elapsed_s": 6.8729999999999976,
+        "failure_reasons": "",
+        "beta_first_5_s": 1.458,
+        "beta_first_10_s": 1.683,
+        "beta_first_15_s": 1.9355,
+        "beta_first_20_s": 2.3615,
+        "beta_first_25_s": 3.0445,
+        "beta_first_28_s": 3.593,
+        "beta_5_to28_s": 2.135,
+        "old_segmented_entry_elapsed_s": 3.6470000000000002,
+        "entry_change_from_segmented_ms": 115.49999999999994,
+        "old_segmented_V_min": 11.278002489420444,
+        "old_segmented_steer_amplitude_clipping_s": 0.34
+      }
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf192_kr384",
+      "raw_sha256": "c5d8f482a31e20a7b3af0057288333c348ea42e50969ec89a652d140b20c3a87",
+      "metrics": {
+        "schema": "step35c-state-only-metrics-v1",
+        "passed": true,
+        "classification": "PASS",
+        "failure_reasons": [],
+        "first_failure_time_s": null,
+        "phase3_first_violation_time_s": null,
+        "actual_end_s": 60.0,
+        "target_V_beta_deg_bodyAVz_rad_s": [
+          12.0,
+          -30.0,
+          0.5989797412715093
+        ],
+        "native_dt_s": 0.0005,
+        "entry": {
+          "phase_start_s": 2.62,
+          "first600": {
+            "start_s": 6.162,
+            "confirmed_s": 6.4615,
+            "first_last_span_s": 0.2995000000000001,
+            "start_index": 7084
+          },
+          "first600_completed_before_phase3": true,
+          "native_capture": {
+            "schema_channel": "feedback_diag_existing",
+            "new_top_level_channel": false,
+            "count_peak": 1617.0,
+            "latched_any": true,
+            "confirm_any": true,
+            "first_confirm_s": 6.4615,
+            "index_peak": 13940.0
+          },
+          "native_capture_gate_passed": true,
+          "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+        },
+        "phase3_hold": {
+          "passed": true,
+          "samples": 20000,
+          "start_s": 6.97,
+          "end_exclusive_s": 16.97,
+          "state_rmse": [
+            0.014440103780738548,
+            0.16966038033491643,
+            0.001376918371649567
+          ],
+          "beta_mean_deg": -30.158371598410387,
+          "beta_abs_peak_deg": 30.180822258100886,
+          "beta_peak_deviation_deg": 0.19508677798791751,
+          "state_peak_abs_error": [
+            0.025095064346077223,
+            0.19508677798791751,
+            0.007383210664852258
+          ],
+          "out_of_band_samples": 0,
+          "out_of_band_cumulative_s": 0.0,
+          "out_of_band_longest_s": 0.0,
+          "phase4_starts_exactly_after_fixed_window": true,
+          "all_control_samples_are_phase3": true,
+          "torque_protection_fraction": 0.0,
+          "torque_protection_longest_s": 0.0,
+          "torque_threshold_samples": 0,
+          "protection_flag_samples": 0,
+          "protection_flag_matches_actual_torque_threshold": true,
+          "min_wheel_load_N": 2464.722212998387,
+          "all_wheel_loads_positive": true,
+          "native_yaw_rad_start_end": [
+            4.263286166470356,
+            10.264204279617202
+          ]
+        },
+        "phase4": {
+          "actual_start_s": 16.97,
+          "first_straight2000": {
+            "start_s": 23.819,
+            "confirmed_s": 24.8185,
+            "first_last_span_s": 0.9995000000000012,
+            "start_index": 13698,
+            "elapsed_from_phase4_s": 6.849
+          },
+          "search_started_at_actual_phase4": true
+        },
+        "analysis_source_sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+        "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+        "hard_execution_validation": {
+          "archive_verified": true,
+          "external_asb_zero": true,
+          "interface_verified": true,
+          "source_freeze_verified": true,
+          "vehicle_completed": true,
+          "plant_error_clear": true,
+          "all_wheel_loads_positive": true,
+          "all_wheel_torques_within_budget": true
+        },
+        "hard_execution_validation_passed": true,
+        "execution_diagnostics": {
+          "max_abs_wheel_torque_Nm": 1371.7554334520635,
+          "min_wheel_load_N": 974.8099939895907,
+          "nonpositive_wheel_load_samples": 0,
+          "feedback_diag_shape": [
+            120001,
+            18
+          ],
+          "cycle_diag_reference_rate_abs_peak_7": [
+            3.437270840141693,
+            0.4620225917043419,
+            1.475421846970637,
+            0.2810170326312155,
+            2.018198095512463,
+            0.17908520572449058,
+            0.016700234434375988
+          ]
+        },
+        "natural_motion_diagnostics": {
+          "xy_start_end_m": [
+            [
+              20.58837578914264,
+              -0.914096760738491
+            ],
+            [
+              210.59388315928098,
+              405.74726601745766
+            ]
+          ],
+          "course_rad_unwrapped": [
+            2.094395090019761,
+            13.628373078141363
+          ],
+          "native_yaw_rad_unwrapped_start_end": [
+            2.0943951023931953,
+            13.628282019633252
+          ],
+          "body_AVz_time_integral_rad_start_end": [
+            0.0,
+            11.511181860805749
+          ],
+          "psi_from_course_minus_beta_rad_start_end": [
+            2.094395090019761,
+            13.62828203574361
+          ],
+          "fitted_radius_phase3_m_diagnostic_only": 20.03862605331813,
+          "path_metric_gate": false
+        },
+        "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+        "run_id": "V12_beta30_state_only_R3_kf192_kr384",
+        "profile_id": "V12_beta30_state_only_R3",
+        "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+        "source_identity_sha256": "edc286370b9e389c4d8fa374c27ad29a12ab0c50c2273a5c3ef2a3499c0d326d",
+        "raw_sha256": "c5d8f482a31e20a7b3af0057288333c348ea42e50969ec89a652d140b20c3a87",
+        "archive_index_sha256": "a322b286dee2578058ffbc781cfbb3e416646c68ebb0320972f0a2b0812682d3",
+        "offline_only": true
+      },
+      "row": {
+        "case": "192/384",
+        "classification": "PASS",
+        "entry_elapsed_s": 3.542,
+        "entry_confirm_relative_s": 3.8415,
+        "beta_initial_positive_peak_deg": 0.1570828382308773,
+        "beta_min_0_8_deg": -30.180007209504918,
+        "beta_rate_peak_abs_deg_s": 23.283915871265748,
+        "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+        "beta_slowing_longest_s": 0.0,
+        "J_beta_deg2s_0_8": 160.19083340176073,
+        "J_V_0_8": 1.3973081271378318,
+        "J_AVz_0_8": 0.015610312024356516,
+        "V_min_0_8": 10.831412240624996,
+        "AVz_max_0_8": 0.7441673208569607,
+        "Fz_min_0_8": 2301.0140807542894,
+        "Fz_min_full": 974.8099939895907,
+        "steer_amplitude_clipping_s": 1.29,
+        "steer_request_budget_gap_peak_deg": 4.631611118687782,
+        "actual_steer_rate_bound_s": 0.5775,
+        "rear_slip_rate_bound_s": 1.1300000000000001,
+        "torque_peak_0_8_Nm": 1371.7554334520635,
+        "torque_rms_0_8_Nm": 663.1190569186804,
+        "wheel_budget_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "hold_V_rmse": 0.014440103780738548,
+        "hold_beta_rmse_deg": 0.16966038033491643,
+        "hold_AVz_rmse": 0.001376918371649567,
+        "recovery_elapsed_s": 6.849,
+        "failure_reasons": "",
+        "beta_first_5_s": 1.4535,
+        "beta_first_10_s": 1.6725,
+        "beta_first_15_s": 1.9105,
+        "beta_first_20_s": 2.254,
+        "beta_first_25_s": 2.8015,
+        "beta_first_28_s": 3.314,
+        "beta_5_to28_s": 1.8605,
+        "old_segmented_entry_elapsed_s": 3.6174999999999997,
+        "entry_change_from_segmented_ms": -75.4999999999999,
+        "old_segmented_V_min": 11.296353134292266,
+        "old_segmented_steer_amplitude_clipping_s": 0.18
+      }
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf576_kr384",
+      "raw_sha256": "ef1dcf8b17482ccb70b70ebf92a15f0696cd6a0e798e21a973bd27fbff14a2cc",
+      "metrics": {
+        "schema": "step35c-state-only-metrics-v1",
+        "passed": true,
+        "classification": "PASS",
+        "failure_reasons": [],
+        "first_failure_time_s": null,
+        "phase3_first_violation_time_s": null,
+        "actual_end_s": 60.0,
+        "target_V_beta_deg_bodyAVz_rad_s": [
+          12.0,
+          -30.0,
+          0.5989797412715093
+        ],
+        "native_dt_s": 0.0005,
+        "entry": {
+          "phase_start_s": 2.62,
+          "first600": {
+            "start_s": 6.6775,
+            "confirmed_s": 6.977,
+            "first_last_span_s": 0.2995000000000001,
+            "start_index": 8115
+          },
+          "first600_completed_before_phase3": true,
+          "native_capture": {
+            "schema_channel": "feedback_diag_existing",
+            "new_top_level_channel": false,
+            "count_peak": 1606.0,
+            "latched_any": true,
+            "confirm_any": true,
+            "first_confirm_s": 6.977,
+            "index_peak": 14960.0
+          },
+          "native_capture_gate_passed": true,
+          "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+        },
+        "phase3_hold": {
+          "passed": true,
+          "samples": 20000,
+          "start_s": 7.48,
+          "end_exclusive_s": 17.48,
+          "state_rmse": [
+            0.01892959062066584,
+            0.20260229115003875,
+            0.0017050709194945735
+          ],
+          "beta_mean_deg": -29.808315969468712,
+          "beta_abs_peak_deg": 29.832935462517632,
+          "beta_peak_deviation_deg": 0.5672164946858551,
+          "state_peak_abs_error": [
+            0.06010670713255983,
+            0.5672164946858551,
+            0.008738938877738911
+          ],
+          "out_of_band_samples": 0,
+          "out_of_band_cumulative_s": 0.0,
+          "out_of_band_longest_s": 0.0,
+          "phase4_starts_exactly_after_fixed_window": true,
+          "all_control_samples_are_phase3": true,
+          "torque_protection_fraction": 0.0,
+          "torque_protection_longest_s": 0.0,
+          "torque_threshold_samples": 0,
+          "protection_flag_samples": 0,
+          "protection_flag_matches_actual_torque_threshold": true,
+          "min_wheel_load_N": 2398.3348606410595,
+          "all_wheel_loads_positive": true,
+          "native_yaw_rad_start_end": [
+            4.470752688473326,
+            10.47781019345736
+          ]
+        },
+        "phase4": {
+          "actual_start_s": 17.48,
+          "first_straight2000": {
+            "start_s": 24.3705,
+            "confirmed_s": 25.37,
+            "first_last_span_s": 0.9995000000000012,
+            "start_index": 13781,
+            "elapsed_from_phase4_s": 6.890499999999999
+          },
+          "search_started_at_actual_phase4": true
+        },
+        "analysis_source_sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+        "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+        "hard_execution_validation": {
+          "archive_verified": true,
+          "external_asb_zero": true,
+          "interface_verified": true,
+          "source_freeze_verified": true,
+          "vehicle_completed": true,
+          "plant_error_clear": true,
+          "all_wheel_loads_positive": true,
+          "all_wheel_torques_within_budget": true
+        },
+        "hard_execution_validation_passed": true,
+        "execution_diagnostics": {
+          "max_abs_wheel_torque_Nm": 1419.1074100200872,
+          "min_wheel_load_N": 992.1683178180007,
+          "nonpositive_wheel_load_samples": 0,
+          "feedback_diag_shape": [
+            120001,
+            18
+          ],
+          "cycle_diag_reference_rate_abs_peak_7": [
+            3.437270840141693,
+            0.4620225917043419,
+            1.475421846970637,
+            0.2810170326312155,
+            2.018198095512463,
+            0.17908520572449058,
+            0.016700234434375988
+          ]
+        },
+        "natural_motion_diagnostics": {
+          "xy_start_end_m": [
+            [
+              20.58837578914264,
+              -0.914096760738491
+            ],
+            [
+              116.82716610284803,
+              442.90379906532576
+            ]
+          ],
+          "course_rad_unwrapped": [
+            2.094395090019761,
+            13.857775318567844
+          ],
+          "native_yaw_rad_unwrapped_start_end": [
+            2.0943951023931953,
+            13.857690223609943
+          ],
+          "body_AVz_time_integral_rad_start_end": [
+            0.0,
+            11.744334181706316
+          ],
+          "psi_from_course_minus_beta_rad_start_end": [
+            2.094395090019761,
+            13.857690213452011
+          ],
+          "fitted_radius_phase3_m_diagnostic_only": 19.970794696372163,
+          "path_metric_gate": false
+        },
+        "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+        "run_id": "V12_beta30_state_only_R3_kf576_kr384",
+        "profile_id": "V12_beta30_state_only_R3",
+        "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+        "source_identity_sha256": "9c3b0cb05fa847b0db5d845e7d445771d2f32ba061234e76b5554631f7059471",
+        "raw_sha256": "ef1dcf8b17482ccb70b70ebf92a15f0696cd6a0e798e21a973bd27fbff14a2cc",
+        "archive_index_sha256": "00a59a637da1588eb10ab93c6917770ceaa350dc15d0b6f898c4169311d0c7e5",
+        "offline_only": true
+      },
+      "row": {
+        "case": "576/384",
+        "classification": "PASS",
+        "entry_elapsed_s": 4.0575,
+        "entry_confirm_relative_s": 4.357,
+        "beta_initial_positive_peak_deg": 0.1625306257311766,
+        "beta_min_0_8_deg": -29.830548745584146,
+        "beta_rate_peak_abs_deg_s": 22.09917279101088,
+        "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+        "beta_slowing_longest_s": 0.0,
+        "J_beta_deg2s_0_8": 229.35389285936282,
+        "J_V_0_8": 2.344421465932366,
+        "J_AVz_0_8": 0.01353599618180689,
+        "V_min_0_8": 10.623114492998825,
+        "AVz_max_0_8": 0.7260295212138033,
+        "Fz_min_0_8": 2387.7880114071904,
+        "Fz_min_full": 992.1683178180007,
+        "steer_amplitude_clipping_s": 1.82,
+        "steer_request_budget_gap_peak_deg": 8.075474151475529,
+        "actual_steer_rate_bound_s": 0.5700000000000001,
+        "rear_slip_rate_bound_s": 1.22,
+        "torque_peak_0_8_Nm": 1419.1074100200872,
+        "torque_rms_0_8_Nm": 678.4305118994448,
+        "wheel_budget_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "hold_V_rmse": 0.01892959062066584,
+        "hold_beta_rmse_deg": 0.20260229115003875,
+        "hold_AVz_rmse": 0.0017050709194945735,
+        "recovery_elapsed_s": 6.890499999999999,
+        "failure_reasons": "",
+        "beta_first_5_s": 1.462,
+        "beta_first_10_s": 1.692,
+        "beta_first_15_s": 1.96,
+        "beta_first_20_s": 2.547,
+        "beta_first_25_s": 3.3465000000000003,
+        "beta_first_28_s": 3.938,
+        "beta_5_to28_s": 2.476,
+        "old_segmented_entry_elapsed_s": 3.6915000000000004,
+        "entry_change_from_segmented_ms": 365.99999999999966,
+        "old_segmented_V_min": 11.25501247026388,
+        "old_segmented_steer_amplitude_clipping_s": 0.44
+      }
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr192",
+      "raw_sha256": "dc59842afb6af3e2626fad9af5ffa2ec90dbdf96ef7cb3333282384603cf5963",
+      "metrics": {
+        "schema": "step35c-state-only-metrics-v1",
+        "passed": true,
+        "classification": "PASS",
+        "failure_reasons": [],
+        "first_failure_time_s": null,
+        "phase3_first_violation_time_s": null,
+        "actual_end_s": 60.0,
+        "target_V_beta_deg_bodyAVz_rad_s": [
+          12.0,
+          -30.0,
+          0.5989797412715093
+        ],
+        "native_dt_s": 0.0005,
+        "entry": {
+          "phase_start_s": 2.62,
+          "first600": {
+            "start_s": 7.385,
+            "confirmed_s": 7.6845,
+            "first_last_span_s": 0.2995000000000001,
+            "start_index": 9530
+          },
+          "first600_completed_before_phase3": true,
+          "native_capture": {
+            "schema_channel": "feedback_diag_existing",
+            "new_top_level_channel": false,
+            "count_peak": 1611.0,
+            "latched_any": true,
+            "confirm_any": true,
+            "first_confirm_s": 7.6845,
+            "index_peak": 16380.0
+          },
+          "native_capture_gate_passed": true,
+          "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+        },
+        "phase3_hold": {
+          "passed": true,
+          "samples": 20000,
+          "start_s": 8.19,
+          "end_exclusive_s": 18.189999999999998,
+          "state_rmse": [
+            0.034328208875322244,
+            0.2466656521250145,
+            0.0017517990502062964
+          ],
+          "beta_mean_deg": -29.760800596080056,
+          "beta_abs_peak_deg": 29.7832656569206,
+          "beta_peak_deviation_deg": 0.587343998111912,
+          "state_peak_abs_error": [
+            0.07139222634143927,
+            0.587343998111912,
+            0.008617087462749473
+          ],
+          "out_of_band_samples": 0,
+          "out_of_band_cumulative_s": 0.0,
+          "out_of_band_longest_s": 0.0,
+          "phase4_starts_exactly_after_fixed_window": true,
+          "all_control_samples_are_phase3": true,
+          "torque_protection_fraction": 0.0,
+          "torque_protection_longest_s": 0.0,
+          "torque_threshold_samples": 0,
+          "protection_flag_samples": 0,
+          "protection_flag_matches_actual_torque_threshold": true,
+          "min_wheel_load_N": 2400.8719568592824,
+          "all_wheel_loads_positive": true,
+          "native_yaw_rad_start_end": [
+            4.786563936029628,
+            10.79886544038151
+          ]
+        },
+        "phase4": {
+          "actual_start_s": 18.19,
+          "first_straight2000": {
+            "start_s": 25.020500000000002,
+            "confirmed_s": 26.02,
+            "first_last_span_s": 0.9994999999999976,
+            "start_index": 13661,
+            "elapsed_from_phase4_s": 6.830500000000001
+          },
+          "search_started_at_actual_phase4": true
+        },
+        "analysis_source_sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+        "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+        "hard_execution_validation": {
+          "archive_verified": true,
+          "external_asb_zero": true,
+          "interface_verified": true,
+          "source_freeze_verified": true,
+          "vehicle_completed": true,
+          "plant_error_clear": true,
+          "all_wheel_loads_positive": true,
+          "all_wheel_torques_within_budget": true
+        },
+        "hard_execution_validation_passed": true,
+        "execution_diagnostics": {
+          "max_abs_wheel_torque_Nm": 1447.206509687991,
+          "min_wheel_load_N": 1435.5306851756834,
+          "nonpositive_wheel_load_samples": 0,
+          "feedback_diag_shape": [
+            120001,
+            18
+          ],
+          "cycle_diag_reference_rate_abs_peak_7": [
+            3.437270840141693,
+            0.4620225917043419,
+            1.475421846970637,
+            0.2810170326312155,
+            2.018198095512463,
+            0.17908520572449058,
+            0.016700234434375988
+          ]
+        },
+        "natural_motion_diagnostics": {
+          "xy_start_end_m": [
+            [
+              20.58837578914264,
+              -0.914096760738491
+            ],
+            [
+              -8.72966212829389,
+              457.7980248830589
+            ]
+          ],
+          "course_rad_unwrapped": [
+            2.094395090019761,
+            14.145475593800017
+          ],
+          "native_yaw_rad_unwrapped_start_end": [
+            2.0943951023931953,
+            14.14538339436001
+          ],
+          "body_AVz_time_integral_rad_start_end": [
+            0.0,
+            12.027066986723984
+          ],
+          "psi_from_course_minus_beta_rad_start_end": [
+            2.094395090019761,
+            14.145383424029543
+          ],
+          "fitted_radius_phase3_m_diagnostic_only": 19.9240002232911,
+          "path_metric_gate": false
+        },
+        "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+        "run_id": "V12_beta30_state_only_R3_kf384_kr192",
+        "profile_id": "V12_beta30_state_only_R3",
+        "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+        "source_identity_sha256": "e1fe3c511dd6b7e3a901e560417ac0ca9e76eac8c3df0c8ca2cf613062da7081",
+        "raw_sha256": "dc59842afb6af3e2626fad9af5ffa2ec90dbdf96ef7cb3333282384603cf5963",
+        "archive_index_sha256": "f50568a6551e58c8923c9ecf65b09ea28695b32572fe7f6f0c25e1ff9aea51e8",
+        "offline_only": true
+      },
+      "row": {
+        "case": "384/192",
+        "classification": "PASS",
+        "entry_elapsed_s": 4.765,
+        "entry_confirm_relative_s": 5.0645,
+        "beta_initial_positive_peak_deg": 0.16453740465244487,
+        "beta_min_0_8_deg": -29.77653862153454,
+        "beta_rate_peak_abs_deg_s": 21.651249786491622,
+        "beta_slowing_5_to28_under2deg_s_total_s": 0.45,
+        "beta_slowing_longest_s": 0.45,
+        "J_beta_deg2s_0_8": 315.07257879298885,
+        "J_V_0_8": 3.6218444931011637,
+        "J_AVz_0_8": 0.02700546762435749,
+        "V_min_0_8": 10.49453266548502,
+        "AVz_max_0_8": 0.7243095038873951,
+        "Fz_min_0_8": 2400.8719568592824,
+        "Fz_min_full": 1435.5306851756834,
+        "steer_amplitude_clipping_s": 2.48,
+        "steer_request_budget_gap_peak_deg": 9.97085980923816,
+        "actual_steer_rate_bound_s": 0.5655,
+        "rear_slip_rate_bound_s": 1.25,
+        "torque_peak_0_8_Nm": 1447.206509687991,
+        "torque_rms_0_8_Nm": 699.5138388630204,
+        "wheel_budget_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "hold_V_rmse": 0.034328208875322244,
+        "hold_beta_rmse_deg": 0.2466656521250145,
+        "hold_AVz_rmse": 0.0017517990502062964,
+        "recovery_elapsed_s": 6.830500000000001,
+        "failure_reasons": "",
+        "beta_first_5_s": 1.4645000000000001,
+        "beta_first_10_s": 1.6995,
+        "beta_first_15_s": 1.987,
+        "beta_first_20_s": 3.162,
+        "beta_first_25_s": 4.0045,
+        "beta_first_28_s": 4.6195,
+        "beta_5_to28_s": 3.1550000000000002,
+        "old_segmented_entry_elapsed_s": 3.79,
+        "entry_change_from_segmented_ms": 974.9999999999997,
+        "old_segmented_V_min": 11.148816088560963,
+        "old_segmented_steer_amplitude_clipping_s": 0.64
+      }
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35g_continuous_stiffness_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr576",
+      "raw_sha256": "32ae2b6dc9b25b828525de4670cfd1b9dc7ebbcd61d9c78d2baa8c000fab2278",
+      "metrics": {
+        "schema": "step35c-state-only-metrics-v1",
+        "passed": true,
+        "classification": "PASS",
+        "failure_reasons": [],
+        "first_failure_time_s": null,
+        "phase3_first_violation_time_s": null,
+        "actual_end_s": 60.0,
+        "target_V_beta_deg_bodyAVz_rad_s": [
+          12.0,
+          -30.0,
+          0.5989797412715093
+        ],
+        "native_dt_s": 0.0005,
+        "entry": {
+          "phase_start_s": 2.62,
+          "first600": {
+            "start_s": 6.0895,
+            "confirmed_s": 6.389,
+            "first_last_span_s": 0.2995000000000001,
+            "start_index": 6939
+          },
+          "first600_completed_before_phase3": true,
+          "native_capture": {
+            "schema_channel": "feedback_diag_existing",
+            "new_top_level_channel": false,
+            "count_peak": 1602.0,
+            "latched_any": true,
+            "confirm_any": true,
+            "first_confirm_s": 6.389,
+            "index_peak": 13780.0
+          },
+          "native_capture_gate_passed": true,
+          "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+        },
+        "phase3_hold": {
+          "passed": true,
+          "samples": 20000,
+          "start_s": 6.890000000000001,
+          "end_exclusive_s": 16.89,
+          "state_rmse": [
+            0.022786215872658663,
+            0.15808185368689737,
+            0.0013940529373520794
+          ],
+          "beta_mean_deg": -30.1452952044296,
+          "beta_abs_peak_deg": 30.168403618452288,
+          "beta_peak_deviation_deg": 0.2153379035411369,
+          "state_peak_abs_error": [
+            0.024340637628927908,
+            0.2153379035411369,
+            0.0075695499935558574
+          ],
+          "out_of_band_samples": 0,
+          "out_of_band_cumulative_s": 0.0,
+          "out_of_band_longest_s": 0.0,
+          "phase4_starts_exactly_after_fixed_window": true,
+          "all_control_samples_are_phase3": true,
+          "torque_protection_fraction": 0.0,
+          "torque_protection_longest_s": 0.0,
+          "torque_threshold_samples": 0,
+          "protection_flag_samples": 0,
+          "protection_flag_matches_actual_torque_threshold": true,
+          "min_wheel_load_N": 2540.327973838989,
+          "all_wheel_loads_positive": true,
+          "native_yaw_rad_start_end": [
+            4.2206244878966945,
+            10.218714601654167
+          ]
+        },
+        "phase4": {
+          "actual_start_s": 16.89,
+          "first_straight2000": {
+            "start_s": 23.7935,
+            "confirmed_s": 24.793,
+            "first_last_span_s": 0.9994999999999976,
+            "start_index": 13807,
+            "elapsed_from_phase4_s": 6.903500000000001
+          },
+          "search_started_at_actual_phase4": true
+        },
+        "analysis_source_sha256": "f6842b6d2fc14ab00ad30661d0488506b1700f0965561770e72449976373f40c",
+        "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+        "hard_execution_validation": {
+          "archive_verified": true,
+          "external_asb_zero": true,
+          "interface_verified": true,
+          "source_freeze_verified": true,
+          "vehicle_completed": true,
+          "plant_error_clear": true,
+          "all_wheel_loads_positive": true,
+          "all_wheel_torques_within_budget": true
+        },
+        "hard_execution_validation_passed": true,
+        "execution_diagnostics": {
+          "max_abs_wheel_torque_Nm": 1357.8146148621063,
+          "min_wheel_load_N": 615.9251193604489,
+          "nonpositive_wheel_load_samples": 0,
+          "feedback_diag_shape": [
+            120001,
+            18
+          ],
+          "cycle_diag_reference_rate_abs_peak_7": [
+            3.437270840141693,
+            0.4620225917043419,
+            1.475421846970637,
+            0.2810170326312155,
+            2.018198095512463,
+            0.17908520572449058,
+            0.016700234434375988
+          ]
+        },
+        "natural_motion_diagnostics": {
+          "xy_start_end_m": [
+            [
+              20.58837578914264,
+              -0.914096760738491
+            ],
+            [
+              220.53277580545463,
+              400.1181490145298
+            ]
+          ],
+          "course_rad_unwrapped": [
+            2.094395090019761,
+            13.605507412602677
+          ],
+          "native_yaw_rad_unwrapped_start_end": [
+            2.0943951023931953,
+            13.605423176163958
+          ],
+          "body_AVz_time_integral_rad_start_end": [
+            0.0,
+            11.492562302171335
+          ],
+          "psi_from_course_minus_beta_rad_start_end": [
+            2.094395090019761,
+            13.605423156545028
+          ],
+          "fitted_radius_phase3_m_diagnostic_only": 20.06357172909361,
+          "path_metric_gate": false
+        },
+        "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+        "run_id": "V12_beta30_state_only_R3_kf384_kr576",
+        "profile_id": "V12_beta30_state_only_R3",
+        "profile_sha256": "ec554d79be323ef7d791db0678d5c5b8cf9845d75b2e8d054fcde068c2ec5e07",
+        "source_identity_sha256": "09dac206110d747ab60566390ca18f8e2868fc64000e6f088b28b34ae7a4f3f0",
+        "raw_sha256": "32ae2b6dc9b25b828525de4670cfd1b9dc7ebbcd61d9c78d2baa8c000fab2278",
+        "archive_index_sha256": "18b5eb4395a989c05a6a958fe42b6e58904f1d1d1cadf423782a096022632136",
+        "offline_only": true
+      },
+      "row": {
+        "case": "384/576",
+        "classification": "PASS",
+        "entry_elapsed_s": 3.4695,
+        "entry_confirm_relative_s": 3.769,
+        "beta_initial_positive_peak_deg": 0.15560994558615557,
+        "beta_min_0_8_deg": -30.16762515193412,
+        "beta_rate_peak_abs_deg_s": 23.450464579828356,
+        "beta_slowing_5_to28_under2deg_s_total_s": 0.0,
+        "beta_slowing_longest_s": 0.0,
+        "J_beta_deg2s_0_8": 152.78960433967967,
+        "J_V_0_8": 1.2643406391029917,
+        "J_AVz_0_8": 0.016805361317896443,
+        "V_min_0_8": 10.864878563878557,
+        "AVz_max_0_8": 0.7472090242659509,
+        "Fz_min_0_8": 2317.847516306384,
+        "Fz_min_full": 615.9251193604489,
+        "steer_amplitude_clipping_s": 1.22,
+        "steer_request_budget_gap_peak_deg": 4.177168130882394,
+        "actual_steer_rate_bound_s": 0.5750000000000001,
+        "rear_slip_rate_bound_s": 1.12,
+        "torque_peak_0_8_Nm": 1357.8146148621063,
+        "torque_rms_0_8_Nm": 659.7068201607567,
+        "wheel_budget_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "hold_V_rmse": 0.022786215872658663,
+        "hold_beta_rmse_deg": 0.15808185368689737,
+        "hold_AVz_rmse": 0.0013940529373520794,
+        "recovery_elapsed_s": 6.903500000000001,
+        "failure_reasons": "",
+        "beta_first_5_s": 1.453,
+        "beta_first_10_s": 1.6705,
+        "beta_first_15_s": 1.9045,
+        "beta_first_20_s": 2.2315,
+        "beta_first_25_s": 2.715,
+        "beta_first_28_s": 3.247,
+        "beta_5_to28_s": 1.7939999999999998,
+        "old_segmented_entry_elapsed_s": 3.5679999999999996,
+        "entry_change_from_segmented_ms": -98.49999999999959,
+        "old_segmented_V_min": 11.348889161027458,
+        "old_segmented_steer_amplitude_clipping_s": 0.07
+      }
+    }
+  ],
+  "checks": [
+    {
+      "configuration": "kf384_kr384",
+      "common_reference_max_abs": 0.0,
+      "independent_metrics_agree": true
+    },
+    {
+      "configuration": "kf192_kr384",
+      "common_reference_max_abs": 1.7763568394002505e-15,
+      "independent_metrics_agree": true
+    },
+    {
+      "configuration": "kf576_kr384",
+      "common_reference_max_abs": 1.7763568394002505e-15,
+      "independent_metrics_agree": true
+    },
+    {
+      "configuration": "kf384_kr192",
+      "common_reference_max_abs": 1.7763568394002505e-15,
+      "independent_metrics_agree": true
+    },
+    {
+      "configuration": "kf384_kr576",
+      "common_reference_max_abs": 1.7763568394002505e-15,
+      "independent_metrics_agree": true
+    }
+  ],
+  "five_configuration_spread": {
+    "V_beta_AVz_same_time_range_peak": [
+      0.9378800040860575,
+      7.802062613100535,
+      0.2851885775093318
+    ],
+    "V_beta_AVz_same_time_range_rms": [
+      0.390179449890328,
+      3.1642355527148402,
+      0.09795328772011602
+    ],
+    "entry_elapsed_range_s": 1.2954999999999997
+  },
+  "native_window": "entry-relative [0,8), 16000 samples; reference own, target fixed",
+  "baseline_referenced_not_copied": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35f_continuous_entry_20261007\\results\\runs\\V12_beta30_state_only_R3_kf384_kr384\\raw_numeric.mat"
+}

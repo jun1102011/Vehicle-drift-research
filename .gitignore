@@ -8,3 +8,8 @@ __pycache__/
 *.tmp
 .DS_Store
 Thumbs.db
+
+# V0.4原始记录只在本地长期保留
+experiments/v0.4/**/raw*.mat
+experiments/v0.4/**/*.vsb*
+experiments/v0.4/**/cache/

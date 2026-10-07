@@ -1,0 +1,30 @@
+{
+  "schema": "step35f-state-only-file-case-v1",
+  "configuration_mode": "file_derived_from_step35b_approved_60s",
+  "case": "kf384_kr384",
+  "kf_deg": 384,
+  "kr_deg": 384,
+  "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35f_state_only_file_runs\\kf384_kr384\\Run_all.par",
+  "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+  "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35f_state_only_file_runs\\kf384_kr384\\simfile.sim",
+  "simfile_sha256": "059802d6df72f61d15ed32c112ce115979da8358b329552fa2012f994fed4fa8",
+  "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+  "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+  "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+  "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+  "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+  "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+  "authorized_diffs": [
+    "Run_all.par: no bytes changed",
+    "sim INPUT",
+    "sim OUTPUT_FILE_PREFIX"
+  ],
+  "effective_tstop_s": 60,
+  "opt_stop": 0,
+  "external_asb_zero_required": true,
+  "step_s": 0.0005,
+  "ports_import": 12,
+  "ports_export": 76,
+  "gui_database_mutated": false,
+  "prepared_by": "internal/prepare_state_configs.py"
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Four new stiffness runs; Step35f384/384 referenced only",
+  "new_order": [
+    "192/384",
+    "576/384",
+    "384/192",
+    "384/576"
+  ],
+  "duration_s": 60,
+  "entry_reference_s": 2.5,
+  "controller_reference_executor_exact_step35f": true,
+  "old_baseline_raw_sha256": "8a6139affee2d4e656e0ee58b5c83c7769e18d090434003520a30b526e9df29c",
+  "no_gain_trim_or_threshold_changes": true,
+  "performance_failure_retained": true,
+  "stop_after_four": true
+}
