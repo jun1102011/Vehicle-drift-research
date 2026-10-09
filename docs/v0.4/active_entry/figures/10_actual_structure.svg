@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#334155"/></marker></defs><rect width="1400" height="760" fill="white"/>
+<rect x="30" y="25" width="1340" height="78" rx="8" fill="#f3f4f6" stroke="#334155"/>
+<text x="700.0" y="55" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">Step36a：主动稳定杆单轴起漂介入 / Active ASB Entry</text>
+<text x="700.0" y="81" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">橙色为本轮新增；内部Aux固定384/384，主车辆闭环全程保留</text>
+<rect x="35" y="165" width="245" height="140" rx="8" fill="#e8f0f8" stroke="#334155"/>
+<text x="157.5" y="195" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">阶段 / 状态参考</text>
+<text x="157.5" y="221" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">连续起漂 → 固定维持</text>
+<text x="157.5" y="247" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">→ 同步七节点退出</text>
+<text x="157.5" y="273" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">x_ref / 前馈 / K / 偏置</text>
+<rect x="345" y="165" width="270" height="140" rx="8" fill="#e8f0f8" stroke="#334155"/>
+<text x="480.0" y="195" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">五状态局部反馈 K:3×5</text>
+<text x="480.0" y="221" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">[V, β, AVz, κf, κr]</text>
+<text x="480.0" y="247" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">δ / κf / κr 请求</text>
+<text x="480.0" y="273" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">0.01 s</text>
+<rect x="680" y="165" width="300" height="140" rx="8" fill="#e8f0f8" stroke="#334155"/>
+<text x="830.0" y="195" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">公共执行层（冻结）</text>
+<text x="830.0" y="221" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">Fx补偿、轮惯量、限速</text>
+<text x="830.0" y="247" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">轮速及±3000 N·m预算</text>
+<text x="830.0" y="273" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">前轮角/角速率＋四轮轮矩</text>
+<rect x="1050" y="165" width="310" height="140" rx="8" fill="#e8f0f8" stroke="#334155"/>
+<text x="1205.0" y="195" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">CarSim当前物理模型</text>
+<text x="1205.0" y="221" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">内部Aux：384/384</text>
+<text x="1205.0" y="247" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">组合滑移/悬架/松弛</text>
+<text x="1205.0" y="273" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">12输入 / 76输出，0.0005 s</text>
+<polyline points="280,230 345,230" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="615,230 680,230" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="980,230 1050,230" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<rect x="80" y="405" width="340" height="140" rx="8" fill="#ffedd5" stroke="#334155"/>
+<text x="250.0" y="435" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">本轮：锁存实际phase1起点</text>
+<text x="250.0" y="461" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">τ=1.5—2.0 s，首尾0.1 s</text>
+<text x="250.0" y="487" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">单轴±250 N·m；其余为零</text>
+<text x="250.0" y="513" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">原生ASB诊断</text>
+<rect x="545" y="405" width="410" height="140" rx="8" fill="#ffedd5" stroke="#334155"/>
+<text x="750.0" y="435" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">既有悬架附加力映射</text>
+<text x="750.0" y="461" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">实时力臂：左右等反向轮端力</text>
+<text x="750.0" y="487" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">除运动比 → FL/FR/RL/RR</text>
+<text x="750.0" y="513" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">导入L1/L2/R1/R2</text>
+<polyline points="150,305 150,405" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="420,475 545,475" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="955,475 1205,475 1205,305" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="1250,305 1250,625 480,625 480,305" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#a)"/>
+<rect x="50" y="655" width="1300" height="70" rx="8" fill="#f3f4f6" stroke="#334155"/>
+<text x="700.0" y="685" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">状态反馈来自实际车辆；Roll/AVx保留物理与原接管；无路径、无轮胎反演执行</text>
+<text x="700.0" y="711" text-anchor="middle" font-family="Microsoft YaHei,sans-serif" font-size="17">研究理想力源，不声称实物执行器能力；同刻轮胎/轮荷、实际输入及表外推保留</text>
+</svg>

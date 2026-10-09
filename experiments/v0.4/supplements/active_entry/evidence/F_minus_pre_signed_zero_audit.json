@@ -1,0 +1,28 @@
+[
+  {
+    "channel": "asb_diag",
+    "different_bits": 62603,
+    "numeric_equal": true,
+    "only_signed_zero": true,
+    "columns": [
+      7,
+      15,
+      16,
+      19,
+      20,
+      29,
+      33,
+      35
+    ]
+  },
+  {
+    "channel": "asb_import12",
+    "different_bits": 16480,
+    "numeric_equal": true,
+    "only_signed_zero": true,
+    "columns": [
+      9,
+      11
+    ]
+  }
+]

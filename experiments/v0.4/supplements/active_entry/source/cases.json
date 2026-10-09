@@ -1,0 +1,52 @@
+[
+  {
+    "id": "A",
+    "moment_Nm": [
+      0,
+      0
+    ],
+    "start_tau_s": 1.5,
+    "end_tau_s": 2.0,
+    "edge_s": 0.1
+  },
+  {
+    "id": "F_plus",
+    "moment_Nm": [
+      250,
+      0
+    ],
+    "start_tau_s": 1.5,
+    "end_tau_s": 2.0,
+    "edge_s": 0.1
+  },
+  {
+    "id": "F_minus",
+    "moment_Nm": [
+      -250,
+      0
+    ],
+    "start_tau_s": 1.5,
+    "end_tau_s": 2.0,
+    "edge_s": 0.1
+  },
+  {
+    "id": "R_plus",
+    "moment_Nm": [
+      0,
+      250
+    ],
+    "start_tau_s": 1.5,
+    "end_tau_s": 2.0,
+    "edge_s": 0.1
+  },
+  {
+    "id": "R_minus",
+    "moment_Nm": [
+      0,
+      -250
+    ],
+    "start_tau_s": 1.5,
+    "end_tau_s": 2.0,
+    "edge_s": 0.1
+  }
+]

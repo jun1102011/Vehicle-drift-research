@@ -1,0 +1,197 @@
+{
+  "source_batch_manifest_sha256": "e0f5a217e29e01b95a7179a43e957fd667f8f4b7221f53b12019544fcaaf1b9c",
+  "source_report_sha256": "a2cfa4b96dbb847ae141312e7e39053ed0872ebe5c942539b5202348f82c5fe2",
+  "copied_and_extracted_files": [
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\analysis\\summary.csv",
+      "destination": "docs/v0.4/active_entry/summary.csv",
+      "sha256": "4f5a09ffc99db4db6b0273364a133ddc43820ea05b5996fcb79d7fcf93b067f8"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\analysis\\details.json",
+      "destination": "docs/v0.4/active_entry/details.json",
+      "sha256": "5b2e0888cee22c282d22759f7e510d4736ef956e4111fa684856ed8ec47539a6"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\analysis\\same_delay_response.csv",
+      "destination": "docs/v0.4/active_entry/same_delay_response.csv",
+      "sha256": "16a7f2f96ccda91c1a2f3928b8df5d0fd48a3da7bfde1622f4d41cb40a18dbb3"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\analysis\\suspension_domains.json",
+      "destination": "docs/v0.4/active_entry/suspension_domains.json",
+      "sha256": "f0f53e67136190b473ccad499a491c8616cdc855bb5365c8182784c4cf7a53b2"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\analysis\\data_contract.json",
+      "destination": "docs/v0.4/active_entry/data_contract.json",
+      "sha256": "80fa092864e46311ad490ac0e48ff947099438e5c45a0e7c17650aa3874e1cb2"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\01_entry_states.png",
+      "destination": "docs/v0.4/active_entry/figures/01_entry_states.png",
+      "sha256": "9a4bcfea3d34dc63108c705a26d0c972a68e77003e185a0dc265bc17262d7b10"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\02_active_input_load.png",
+      "destination": "docs/v0.4/active_entry/figures/02_active_input_load.png",
+      "sha256": "041bae17121aac0434d5a190bd49a0146e77dc29f00cbd4b0d835dbc4830955e"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\03_tires_loads.png",
+      "destination": "docs/v0.4/active_entry/figures/03_tires_loads.png",
+      "sha256": "7144a2e3dd9ec4270d7eb8e2d0cbd3196dde3c9cae9a646d012d7dcddb9dac9d"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\04_command_chain.png",
+      "destination": "docs/v0.4/active_entry/figures/04_command_chain.png",
+      "sha256": "11527a328226dffaad7be7035db9ec184b63ba483453696484f253856651759b"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\05_actual_inputs.png",
+      "destination": "docs/v0.4/active_entry/figures/05_actual_inputs.png",
+      "sha256": "e3e833a9b31931c628c38f15dff89a159673a3ee6f863a2a40dc4b097b0594b7"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\06_body_force_yaw.png",
+      "destination": "docs/v0.4/active_entry/figures/06_body_force_yaw.png",
+      "sha256": "42c1cc2a8afb639d3a649e5d5219ed954ffe967a651ff0eab92bbc4950a3d2ff"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\07_suspension_trajectory.png",
+      "destination": "docs/v0.4/active_entry/figures/07_suspension_trajectory.png",
+      "sha256": "7cf92f1f6e7b0982ec997d85cbd1d74a976200e83e4c141f6261670e5f7f2c38"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\08_tradeoffs.png",
+      "destination": "docs/v0.4/active_entry/figures/08_tradeoffs.png",
+      "sha256": "c369b363f52152321e4cdd918cd479864e235baed9ae8d4657c1967c2f0a34c5"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\09_full_task.png",
+      "destination": "docs/v0.4/active_entry/figures/09_full_task.png",
+      "sha256": "f385ecd6a8ff1add0862efacbc6300e6745d21a5c760eb74381c3976096188e3"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\10_actual_structure.png",
+      "destination": "docs/v0.4/active_entry/figures/10_actual_structure.png",
+      "sha256": "11657e432c333e0f590d822480673cc2cb007032db206ee70191cca2d483ef8b"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\figures\\10_actual_structure.svg",
+      "destination": "docs/v0.4/active_entry/figures/10_actual_structure.svg",
+      "sha256": "5c216eaf8171fe3d22dcc7b02224ad612c8f38d7803db25779241915707c7b3e"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\source\\protocol.json",
+      "destination": "experiments/v0.4/supplements/active_entry/source/protocol.json",
+      "sha256": "c9ae3854796acb524a83c3487282fdf00c5676a0f3aa9f3b0d5632c13bda0b78"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\source\\cases.json",
+      "destination": "experiments/v0.4/supplements/active_entry/source/cases.json",
+      "sha256": "3cf3a81628a4c24b52918f6df68d4e1b293635f2d3fcb5f06636702f9931ce6e"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\internal\\state_cycle_core.m",
+      "destination": "experiments/v0.4/supplements/active_entry/source/state_cycle_core.m",
+      "sha256": "235d188c5e0ee0c0b145829bb5f3bfd458efffe0cd94bc716373d2725e3fb9d8"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\internal\\asb_entry_pulse.m",
+      "destination": "experiments/v0.4/supplements/active_entry/source/asb_entry_pulse.m",
+      "sha256": "5ab7c8096444739fef68694011f3aaa154749a4592817ddb5c7196e5b7f510db"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\internal\\analyze_batch.py",
+      "destination": "experiments/v0.4/supplements/active_entry/source/analyze_batch.py",
+      "sha256": "95b9a810ca1b3f25d316c4533e63e65ae274382dcac3f739a776da0fc2619430"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\internal\\verify_summary.py",
+      "destination": "experiments/v0.4/supplements/active_entry/source/verify_summary.py",
+      "sha256": "febd677802aec8e9c2507d34616256bf358616119cc32bb5e3609f14ad18f403"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\internal\\review_case_v2.py",
+      "destination": "experiments/v0.4/supplements/active_entry/source/review_case_v2.py",
+      "sha256": "458cd7e9aab7a2b461383e4fb1987ca3e8b4aab261443ec5b2fe2fa91db62169"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\model\\a001_step36a_initialize.m",
+      "destination": "experiments/v0.4/supplements/active_entry/source/a001_step36a_initialize.m",
+      "sha256": "41b9ddd827ffc446df23077968d387cd3bbccae64418f2b67ed103a6df35791f"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\source\\profiles\\V12_beta30_state_only_R3_S.json",
+      "destination": "experiments/v0.4/supplements/active_entry/source/V12_beta30_state_only_R3_S.json",
+      "sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\compile_validation.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/compile_validation.json",
+      "sha256": "6d4ca17de309a43a29a32c032793ad6accb71ece2ec5b25b889ea912a172309e"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\pulse_formula_validation.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/pulse_formula_validation.json",
+      "sha256": "d3b5c9ad387c344b3daffb7c20279bdab00815bdf225735c51879c7d4d45c033"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\independent_summary_verification.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/independent_summary_verification.json",
+      "sha256": "af4ba29f321ecdb7be57e47d94313f918ae1b1e38c849b53d8a8165288a5cab2"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\F_minus_pre_signed_zero_audit.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/F_minus_pre_signed_zero_audit.json",
+      "sha256": "1660174b7093df3b4b35445ba49a6dcbbeb3bd83349217013b41924fbf7456a6"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\review_A.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/review_A.json",
+      "sha256": "f0ae020b6483c296700f76f5c31bfd5e5d5048da85916982bc86ee4bc169b0a8"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\review_F_plus.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/review_F_plus.json",
+      "sha256": "d07781ce81c3d7edcb483fb88a4276d9f3accb584bc44ee2a797c335ef10e461"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\review_F_minus.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/review_F_minus.json",
+      "sha256": "0ec1eb08fa28f8a26678546eea3b2a23dbef0b6b4a28bafe9417206a7f50310a"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\review_R_plus.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/review_R_plus.json",
+      "sha256": "e79498cebc8d75e7bc381c3cdf7e3c354f1ab61432cbfe3eeddaa40215e750d4"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\audit\\review_R_minus.json",
+      "destination": "experiments/v0.4/supplements/active_entry/evidence/review_R_minus.json",
+      "sha256": "976f6b7cacc3c9541496874f35ec5717621abfe0acb6eceb88155e0ff27d532a"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\model\\stabilizer_bar_step36a.slx",
+      "source_sha256": "b31d55b0946d85eac6166af5992f3c82e1b417448b51c23219308c40a1b6eb7c",
+      "zip_member": "simulink/stateflow/chart_237.xml",
+      "destination": "experiments/v0.4/supplements/active_entry/source/asb_pulse_moment.m",
+      "sha256": "e3b2adc9cfbb0ceb1f9eabfa510b2a33d86a869bac9cc5e438d85785c53d480f"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\model\\stabilizer_bar_step36a.slx",
+      "source_sha256": "b31d55b0946d85eac6166af5992f3c82e1b417448b51c23219308c40a1b6eb7c",
+      "zip_member": "simulink/stateflow/chart_252.xml",
+      "destination": "experiments/v0.4/supplements/active_entry/source/asb_pulse_force.m",
+      "sha256": "6dbaa8fa5cff9232b910b44fde2f2bca420c2601cb5cd243faf8456b8a8faf5d"
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step27_frozen_actions_20261002\\internal\\asb_force.m",
+      "destination": "experiments/v0.4/supplements/active_entry/source/legacy_stiffness_mapping.m",
+      "sha256": "8d01ef5ec25bcd25424dca075965ac51e989d6f6f5956acc986c00b201b2f514"
+    }
+  ],
+  "report_transformation": "relative figure links plus explicit publication scope note",
+  "models_replaced": false
+}

@@ -1,0 +1,91 @@
+{
+  "mapping_equation": "M_active=-deltaK_deg*phi_rel_deg",
+  "source_formula": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step27_frozen_actions_20261002\\internal\\asb_force.m",
+  "source_formula_sha256": "8d01ef5ec25bcd25424dca075965ac51e989d6f6f5956acc986c00b201b2f514",
+  "active_model_sha256": "b31d55b0946d85eac6166af5992f3c82e1b417448b51c23219308c40a1b6eb7c",
+  "baseline_raw_sha256": "3390c77ed9cbe56b455bd721ddb2b5452062085c341df9889f9d8ed3881371fa",
+  "phi_min_max_pulse_deg": [
+    [
+      1.8493834670648026,
+      1.836165918648607
+    ],
+    [
+      1.9162777051555273,
+      1.9486065416449132
+    ]
+  ],
+  "baseline_tau_1_7_phi_deg": [
+    1.8787245605639002,
+    1.8768533981911266
+  ],
+  "all_four_timing_directions_consistent": true,
+  "instantaneous_moment_matching_is_not_stiffness_derivative": true,
+  "reference_configuration": "384/384",
+  "comparison_rows": [
+    {
+      "active_case": "F_plus",
+      "front_Nm": 250,
+      "rear_Nm": 0,
+      "internal_Kf_deg": 384,
+      "internal_Kr_deg": 384,
+      "same_direction_historical_case_not_equivalent": "192/384",
+      "active_entry_s": 3.7155000000000005,
+      "active_delta_ms": -46.99999999999971,
+      "historical_entry_s": 3.542,
+      "historical_delta_ms": -220.50000000000037,
+      "same_frozen_pose_tau_s": 1.7,
+      "baseline_phi_deg": 1.8787245605639002,
+      "moment_matched_K_at_this_pose_only": 250.9309992280282,
+      "is_actual_stiffness_changed": false
+    },
+    {
+      "active_case": "F_minus",
+      "front_Nm": -250,
+      "rear_Nm": 0,
+      "internal_Kf_deg": 384,
+      "internal_Kr_deg": 384,
+      "same_direction_historical_case_not_equivalent": "576/384",
+      "active_entry_s": 3.814,
+      "active_delta_ms": 51.49999999999988,
+      "historical_entry_s": 4.0575,
+      "historical_delta_ms": 294.99999999999994,
+      "same_frozen_pose_tau_s": 1.7,
+      "baseline_phi_deg": 1.8787245605639002,
+      "moment_matched_K_at_this_pose_only": 517.0690007719718,
+      "is_actual_stiffness_changed": false
+    },
+    {
+      "active_case": "R_plus",
+      "front_Nm": 0,
+      "rear_Nm": 250,
+      "internal_Kf_deg": 384,
+      "internal_Kr_deg": 384,
+      "same_direction_historical_case_not_equivalent": "384/192",
+      "active_entry_s": 3.8555,
+      "active_delta_ms": 92.99999999999997,
+      "historical_entry_s": 4.765,
+      "historical_delta_ms": 1002.4999999999995,
+      "same_frozen_pose_tau_s": 1.7,
+      "baseline_phi_deg": 1.8768533981911266,
+      "moment_matched_K_at_this_pose_only": 250.7983337212459,
+      "is_actual_stiffness_changed": false
+    },
+    {
+      "active_case": "R_minus",
+      "front_Nm": 0,
+      "rear_Nm": -250,
+      "internal_Kf_deg": 384,
+      "internal_Kr_deg": 384,
+      "same_direction_historical_case_not_equivalent": "384/576",
+      "active_entry_s": 3.6825,
+      "active_delta_ms": -80.00000000000007,
+      "historical_entry_s": 3.4695,
+      "historical_delta_ms": -293.00000000000017,
+      "same_frozen_pose_tau_s": 1.7,
+      "baseline_phi_deg": 1.8768533981911266,
+      "moment_matched_K_at_this_pose_only": 517.2016662787541,
+      "is_actual_stiffness_changed": false
+    }
+  ],
+  "new_simulations_for_publication": 0
+}

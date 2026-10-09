@@ -1,0 +1,11 @@
+{
+  "native_dt_s": 0.0005,
+  "control_dt_s": 0.01,
+  "VSB_dt_s": 0.01,
+  "pulse_samples": 1000,
+  "entry_samples": 16000,
+  "power_is_proxy_not_electrical": true,
+  "planar_yaw_moment_not_3D_net": true,
+  "cache_rebuild": "internal/analyze_batch.py",
+  "vehicle_simulations_in_analysis": 0
+}

@@ -1,0 +1,299 @@
+{
+  "passed": true,
+  "case": "A",
+  "full_baseline_regression": true,
+  "regression_channels": [
+    {
+      "channel": "AVz_out1",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "Ay_out1",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "Roll_out1",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "asb_diag",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "asb_import12",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "asb_roll_feedback",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "asb_suspension",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "beta_out1",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "exit_schedule_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "feedback_diag",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_001",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_002",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_003",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_004",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_005",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_006",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_007",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_008",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_009",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_010",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_011",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_012",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_013",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_014",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_015",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_016",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_017",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_018",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_019",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_020",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_021",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_022",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_023",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_024",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_025",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "logsout_026",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_actual_load_allocation",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_actuator_command",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_cycle_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_entry_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_entry_force_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_force_correction",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_force_request",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_governor_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_inverse_residual",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_inverse_status",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_path_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_plant_raw",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_plant_sampled",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_reference_log",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_stadium_diag",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_stage_stop",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_state_packet",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_steer_diag",
+      "samples": 120001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "repair_wheel_diag",
+      "samples": 6001,
+      "bitwise_equal": true
+    },
+    {
+      "channel": "tout",
+      "samples": 120001,
+      "bitwise_equal": true
+    }
+  ],
+  "historical_source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35m_synchronous_exit_20261009\\results\\runs\\V12_beta30_state_only_R3_S_kf384_kr384",
+  "performance_passed": true,
+  "classification": "PASS",
+  "entry_start_s": 2.62,
+  "raw_sha256": "3390c77ed9cbe56b455bd721ddb2b5452062085c341df9889f9d8ed3881371fa",
+  "pulse_mapping_max_error_N": 0.0,
+  "received_same_sample_max_error_N": 0.0,
+  "received_one_sample_lag_max_error_N": 0.0,
+  "received_timing": "same sample",
+  "axis_net_force_max_N": 0.0,
+  "external_ASB_waveform_verified": true,
+  "native_events_independently_verified": true
+}

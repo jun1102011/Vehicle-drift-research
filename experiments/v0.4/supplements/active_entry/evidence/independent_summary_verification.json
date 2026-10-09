@@ -1,0 +1,332 @@
+{
+  "passed": true,
+  "check_count": 65,
+  "checks": [
+    {
+      "case": "A",
+      "metric": "shared_reference",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "Jshared8_V",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "Jshared_pulse_V",
+      "max_abs_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "A",
+      "metric": "Jshared8_beta",
+      "max_abs_difference": 5.400124791776761e-13
+    },
+    {
+      "case": "A",
+      "metric": "Jshared_pulse_beta",
+      "max_abs_difference": 6.394884621840902e-14
+    },
+    {
+      "case": "A",
+      "metric": "Jshared8_AVz",
+      "max_abs_difference": 6.591949208711867e-17
+    },
+    {
+      "case": "A",
+      "metric": "Jshared_pulse_AVz",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "entry_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "entry_confirm_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "V_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "Fz_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "torque_RMS_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "A",
+      "metric": "torque_peak_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "shared_reference",
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared8_V",
+      "max_abs_difference": 6.661338147750939e-16
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared_pulse_V",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared8_beta",
+      "max_abs_difference": 9.663381206337363e-13
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared_pulse_beta",
+      "max_abs_difference": 3.552713678800501e-14
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared8_AVz",
+      "max_abs_difference": 1.0408340855860843e-17
+    },
+    {
+      "case": "F_plus",
+      "metric": "Jshared_pulse_AVz",
+      "max_abs_difference": 2.168404344971009e-19
+    },
+    {
+      "case": "F_plus",
+      "metric": "entry_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "entry_confirm_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "V_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "Fz_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "torque_RMS_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_plus",
+      "metric": "torque_peak_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "shared_reference",
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared8_V",
+      "max_abs_difference": 6.661338147750939e-16
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared_pulse_V",
+      "max_abs_difference": 3.885780586188048e-16
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared8_beta",
+      "max_abs_difference": 2.0179413695586845e-12
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared_pulse_beta",
+      "max_abs_difference": 2.1316282072803006e-14
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared8_AVz",
+      "max_abs_difference": 1.5612511283791264e-17
+    },
+    {
+      "case": "F_minus",
+      "metric": "Jshared_pulse_AVz",
+      "max_abs_difference": 5.421010862427522e-19
+    },
+    {
+      "case": "F_minus",
+      "metric": "entry_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "entry_confirm_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "V_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "Fz_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "torque_RMS_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "F_minus",
+      "metric": "torque_peak_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "shared_reference",
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared8_V",
+      "max_abs_difference": 5.10702591327572e-15
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared_pulse_V",
+      "max_abs_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared8_beta",
+      "max_abs_difference": 4.547473508864641e-13
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared_pulse_beta",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared8_AVz",
+      "max_abs_difference": 1.5612511283791264e-17
+    },
+    {
+      "case": "R_plus",
+      "metric": "Jshared_pulse_AVz",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "entry_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "entry_confirm_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "V_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "Fz_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_plus",
+      "metric": "torque_RMS_0_8",
+      "max_abs_difference": 1.1368683772161603e-13
+    },
+    {
+      "case": "R_plus",
+      "metric": "torque_peak_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_minus",
+      "metric": "shared_reference",
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared8_V",
+      "max_abs_difference": 1.687538997430238e-14
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared_pulse_V",
+      "max_abs_difference": 5.551115123125783e-17
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared8_beta",
+      "max_abs_difference": 6.536993168992922e-13
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared_pulse_beta",
+      "max_abs_difference": 2.1316282072803006e-14
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared8_AVz",
+      "max_abs_difference": 3.2959746043559335e-17
+    },
+    {
+      "case": "R_minus",
+      "metric": "Jshared_pulse_AVz",
+      "max_abs_difference": 4.336808689942018e-19
+    },
+    {
+      "case": "R_minus",
+      "metric": "entry_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_minus",
+      "metric": "entry_confirm_s",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_minus",
+      "metric": "V_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_minus",
+      "metric": "Fz_min_0_8",
+      "max_abs_difference": 0.0
+    },
+    {
+      "case": "R_minus",
+      "metric": "torque_RMS_0_8",
+      "max_abs_difference": 1.1368683772161603e-13
+    },
+    {
+      "case": "R_minus",
+      "metric": "torque_peak_0_8",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "new_vehicle_runs": 0
+}

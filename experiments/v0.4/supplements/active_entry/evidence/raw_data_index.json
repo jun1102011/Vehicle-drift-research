@@ -1,0 +1,467 @@
+[
+  {
+    "case": "A",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\raw_numeric.mat",
+    "raw_sha256": "3390c77ed9cbe56b455bd721ddb2b5452062085c341df9889f9d8ed3881371fa",
+    "raw_bytes": 59316675,
+    "channel_count": 57,
+    "native_step_s": 0.0005,
+    "control_step_s": 0.01,
+    "vehicle_config": {
+      "schema": "step36a-state-only-file-case-v1",
+      "configuration_mode": "file_derived_from_step35b_approved_60s",
+      "case": "A",
+      "kf_deg": 384,
+      "kr_deg": 384,
+      "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\Run_all.par",
+      "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\simfile.sim",
+      "simfile_sha256": "6624e830c907714e24e053fb78a72dcc5d1061688625ecefc8706b4766058205",
+      "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+      "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+      "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "authorized_diffs": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "effective_tstop_s": 60,
+      "opt_stop": 0,
+      "external_asb_zero_required": true,
+      "step_s": 0.0005,
+      "ports_import": 12,
+      "ports_export": 76,
+      "gui_database_mutated": false,
+      "prepared_by": "internal/prepare_state_configs.py"
+    },
+    "CarSim_evidence": {
+      "configuration_reference": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "configuration_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "outputs": {
+        "echo": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\LastRun_echo.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\LastRun_echo.par.evidence",
+          "sha256": "21b8f6196b5cc2b05a6d990dc8d53c2c5bf567356f83e1c24e06acffec457b10",
+          "source_modified_datenum": 740264.7170833333
+        },
+        "final": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\LastRun_end.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\LastRun_end.par.evidence",
+          "sha256": "eba31d94642c626032dbb9243224c01edb7e1ce3b3fdc181f1b9d6fc21ec40f2",
+          "source_modified_datenum": 740264.7171527778
+        },
+        "log": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\LastRun_log.txt",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\LastRun_log.txt.evidence",
+          "sha256": "7b7f589aeef704679dc5f1c614033f0240153e98d571a5e7b3305513cd067651",
+          "source_modified_datenum": 740264.7171527778
+        },
+        "vs": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\LastRun.vs",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\LastRun.vs.evidence",
+          "sha256": "4fa8812a133a3060e986f37ec6f6b65143304e8baac055f9a3ae2570aeaeef6a",
+          "source_modified_datenum": 740264.7170833333
+        },
+        "vsb": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\A\\LastRun.vsb",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A\\LastRun.vsb.evidence",
+          "sha256": "0c38c71573b56fcb238a62ae48852a9d49d69a1197267430276e3d1d2d4ee481",
+          "source_modified_datenum": 740264.7171527778
+        }
+      },
+      "actual_expanded_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5"
+    },
+    "case_parameters": {
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "case_id": "A",
+      "duration_s": 60,
+      "internal_K_Nm_per_deg": [
+        384,
+        384
+      ],
+      "external_ASB_Nm": [
+        0,
+        0
+      ],
+      "rear_slip_upper_disabled": true,
+      "rear_slip_upper_value": "+Inf",
+      "state_only_no_path": true,
+      "first_frozen_maintain_s": 10
+    }
+  },
+  {
+    "case": "F_plus",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\raw_numeric.mat",
+    "raw_sha256": "d829ecab8ca7b85476bd527cc1625814d3aec168575e32e0b175efb3729b42b1",
+    "raw_bytes": 59278246,
+    "channel_count": 57,
+    "native_step_s": 0.0005,
+    "control_step_s": 0.01,
+    "vehicle_config": {
+      "schema": "step36a-state-only-file-case-v1",
+      "configuration_mode": "file_derived_from_step35b_approved_60s",
+      "case": "F_plus",
+      "kf_deg": 384,
+      "kr_deg": 384,
+      "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\Run_all.par",
+      "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\simfile.sim",
+      "simfile_sha256": "25542421ce18152b3b8f90b5365ee0dd8c65bb340f7badf891acb7493f4b660b",
+      "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+      "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+      "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "authorized_diffs": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "effective_tstop_s": 60,
+      "opt_stop": 0,
+      "external_asb_zero_required": false,
+      "step_s": 0.0005,
+      "ports_import": 12,
+      "ports_export": 76,
+      "gui_database_mutated": false,
+      "prepared_by": "internal/prepare_state_configs.py"
+    },
+    "CarSim_evidence": {
+      "configuration_reference": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "configuration_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "outputs": {
+        "echo": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\LastRun_echo.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\LastRun_echo.par.evidence",
+          "sha256": "c981087990f48ad6616c4d01c41dcbc06de0e03b123978d231fcc9ac46404b64",
+          "source_modified_datenum": 740264.7192013889
+        },
+        "final": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\LastRun_end.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\LastRun_end.par.evidence",
+          "sha256": "f0570cb517c2b6ece3cc9fb0255f012a15661f696e69e19131ca262f357f009c",
+          "source_modified_datenum": 740264.7193055556
+        },
+        "log": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\LastRun_log.txt",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\LastRun_log.txt.evidence",
+          "sha256": "9aa5dee54101531ab1fd6d1eb0b6f7ffb174c072b38296b48a786bb22329210f",
+          "source_modified_datenum": 740264.7193055556
+        },
+        "vs": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\LastRun.vs",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\LastRun.vs.evidence",
+          "sha256": "3e8a3790aa1648392337f45672e6948274e1b783dbb150a0383589134892bcb9",
+          "source_modified_datenum": 740264.7192013889
+        },
+        "vsb": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_plus\\LastRun.vsb",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus\\LastRun.vsb.evidence",
+          "sha256": "cb2956bd2b7434b0199068ef845fafc7a7b3f088254e6c65eb5a4ac2de242510",
+          "source_modified_datenum": 740264.7193055556
+        }
+      },
+      "actual_expanded_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5"
+    },
+    "case_parameters": {
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "case_id": "F_plus",
+      "duration_s": 60,
+      "internal_K_Nm_per_deg": [
+        384,
+        384
+      ],
+      "external_ASB_Nm": [
+        250,
+        0
+      ],
+      "rear_slip_upper_disabled": true,
+      "rear_slip_upper_value": "+Inf",
+      "state_only_no_path": true,
+      "first_frozen_maintain_s": 10
+    }
+  },
+  {
+    "case": "F_minus",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\raw_numeric.mat",
+    "raw_sha256": "e7387963776f12102cbdf991c85395175e1e47ad3a70b64b35bca655148362a8",
+    "raw_bytes": 59473317,
+    "channel_count": 57,
+    "native_step_s": 0.0005,
+    "control_step_s": 0.01,
+    "vehicle_config": {
+      "schema": "step36a-state-only-file-case-v1",
+      "configuration_mode": "file_derived_from_step35b_approved_60s",
+      "case": "F_minus",
+      "kf_deg": 384,
+      "kr_deg": 384,
+      "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\Run_all.par",
+      "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\simfile.sim",
+      "simfile_sha256": "9e94c518a7b6a3c2a011266d56f7fb48855abbc9114dde44c5a4c89c7ae98adf",
+      "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+      "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+      "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "authorized_diffs": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "effective_tstop_s": 60,
+      "opt_stop": 0,
+      "external_asb_zero_required": false,
+      "step_s": 0.0005,
+      "ports_import": 12,
+      "ports_export": 76,
+      "gui_database_mutated": false,
+      "prepared_by": "internal/prepare_state_configs.py"
+    },
+    "CarSim_evidence": {
+      "configuration_reference": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "configuration_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "outputs": {
+        "echo": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\LastRun_echo.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\LastRun_echo.par.evidence",
+          "sha256": "4f39847841002d67a7667fa6bceca34b40e1c4fbb76ced670e8376a4cc12df12",
+          "source_modified_datenum": 740264.7208912037
+        },
+        "final": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\LastRun_end.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\LastRun_end.par.evidence",
+          "sha256": "de920356986b35f9eef1324a2a28441591d98938984ad09d55c0fd5e4bcf7568",
+          "source_modified_datenum": 740264.7209837963
+        },
+        "log": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\LastRun_log.txt",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\LastRun_log.txt.evidence",
+          "sha256": "336aa37b9bed8d5e28740db6ac6874d78c92398137b2a2e6927c6aaf48531be2",
+          "source_modified_datenum": 740264.7209953704
+        },
+        "vs": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\LastRun.vs",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\LastRun.vs.evidence",
+          "sha256": "caf38b43f50997f21593ec559f5b044cac96913b898d854b722c84d8b40651e1",
+          "source_modified_datenum": 740264.7208912037
+        },
+        "vsb": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\F_minus\\LastRun.vsb",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus\\LastRun.vsb.evidence",
+          "sha256": "b604f357886d17fcbf3a93bdc82b82d4e807def4f0e7a8196f13b71bde27ca7d",
+          "source_modified_datenum": 740264.7209837963
+        }
+      },
+      "actual_expanded_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5"
+    },
+    "case_parameters": {
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "case_id": "F_minus",
+      "duration_s": 60,
+      "internal_K_Nm_per_deg": [
+        384,
+        384
+      ],
+      "external_ASB_Nm": [
+        -250,
+        0
+      ],
+      "rear_slip_upper_disabled": true,
+      "rear_slip_upper_value": "+Inf",
+      "state_only_no_path": true,
+      "first_frozen_maintain_s": 10
+    }
+  },
+  {
+    "case": "R_plus",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\raw_numeric.mat",
+    "raw_sha256": "619096fca475401583945a7d81125f2eb3cce259a7e99f19b62db7054c28fbf7",
+    "raw_bytes": 59497787,
+    "channel_count": 57,
+    "native_step_s": 0.0005,
+    "control_step_s": 0.01,
+    "vehicle_config": {
+      "schema": "step36a-state-only-file-case-v1",
+      "configuration_mode": "file_derived_from_step35b_approved_60s",
+      "case": "R_plus",
+      "kf_deg": 384,
+      "kr_deg": 384,
+      "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\Run_all.par",
+      "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\simfile.sim",
+      "simfile_sha256": "e261746a39f658d125ae59e39d47ea99fd3897d1f12176b1f063d382ec74a95c",
+      "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+      "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+      "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "authorized_diffs": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "effective_tstop_s": 60,
+      "opt_stop": 0,
+      "external_asb_zero_required": false,
+      "step_s": 0.0005,
+      "ports_import": 12,
+      "ports_export": 76,
+      "gui_database_mutated": false,
+      "prepared_by": "internal/prepare_state_configs.py"
+    },
+    "CarSim_evidence": {
+      "configuration_reference": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "configuration_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "outputs": {
+        "echo": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\LastRun_echo.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\LastRun_echo.par.evidence",
+          "sha256": "ec084e57e5cfce73ca8441fecc6cb8429e2dc8f61547b7685572c8b4f57750b6",
+          "source_modified_datenum": 740264.7245949074
+        },
+        "final": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\LastRun_end.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\LastRun_end.par.evidence",
+          "sha256": "1496e8306578cc85bdcd341c797d0c891ff7e90d02bba78661b9536d8ea293e7",
+          "source_modified_datenum": 740264.7246643519
+        },
+        "log": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\LastRun_log.txt",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\LastRun_log.txt.evidence",
+          "sha256": "fb61660c4c7584d687868ce12374dec1d1145e597444c6bb2830ef2757dff2b4",
+          "source_modified_datenum": 740264.7246643519
+        },
+        "vs": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\LastRun.vs",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\LastRun.vs.evidence",
+          "sha256": "7b0953e70db0271c4145457a62bc83b15331493db0dfc5ec8d1d57ce62e9899f",
+          "source_modified_datenum": 740264.7245949074
+        },
+        "vsb": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_plus\\LastRun.vsb",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus\\LastRun.vsb.evidence",
+          "sha256": "93450f30409b77e9d0796be348c6f7d5cfb8fa8399d0c5127ead531e33c76122",
+          "source_modified_datenum": 740264.7246643519
+        }
+      },
+      "actual_expanded_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5"
+    },
+    "case_parameters": {
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "case_id": "R_plus",
+      "duration_s": 60,
+      "internal_K_Nm_per_deg": [
+        384,
+        384
+      ],
+      "external_ASB_Nm": [
+        0,
+        250
+      ],
+      "rear_slip_upper_disabled": true,
+      "rear_slip_upper_value": "+Inf",
+      "state_only_no_path": true,
+      "first_frozen_maintain_s": 10
+    }
+  },
+  {
+    "case": "R_minus",
+    "raw_local_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\raw_numeric.mat",
+    "raw_sha256": "0cba55389a4d426866a447a4e3023687af31dc7475b76b60c412ae8553360c07",
+    "raw_bytes": 59108764,
+    "channel_count": 57,
+    "native_step_s": 0.0005,
+    "control_step_s": 0.01,
+    "vehicle_config": {
+      "schema": "step36a-state-only-file-case-v1",
+      "configuration_mode": "file_derived_from_step35b_approved_60s",
+      "case": "R_minus",
+      "kf_deg": 384,
+      "kr_deg": 384,
+      "source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\Run_all.par",
+      "source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\simfile.sim",
+      "simfile_sha256": "9d963d9fccf820b9f5da757aefe503591688f0048dd2f6ca03eccd3952fca9ad",
+      "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "origin_cfg_sha256": "d8e412eefec77f488e0383b77258882cbf6dbd460b02f47b04e1fedd9b4a0e60",
+      "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "origin_source_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\simfile.sim",
+      "origin_simfile_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "authorized_diffs": [
+        "Run_all.par: no bytes changed",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "effective_tstop_s": 60,
+      "opt_stop": 0,
+      "external_asb_zero_required": false,
+      "step_s": 0.0005,
+      "ports_import": 12,
+      "ports_export": 76,
+      "gui_database_mutated": false,
+      "prepared_by": "internal/prepare_state_configs.py"
+    },
+    "CarSim_evidence": {
+      "configuration_reference": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr384\\Run_all.par",
+      "configuration_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "outputs": {
+        "echo": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\LastRun_echo.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\LastRun_echo.par.evidence",
+          "sha256": "43974091a34c8e0378541ccee26011a667009dea273ea803b86b2994d33d23f4",
+          "source_modified_datenum": 740264.7258217592
+        },
+        "final": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\LastRun_end.par",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\LastRun_end.par.evidence",
+          "sha256": "7fa6a0425254cc482319d070486ef759dd95079955f604e2f1bbbd1ba6524551",
+          "source_modified_datenum": 740264.7258912037
+        },
+        "log": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\LastRun_log.txt",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\LastRun_log.txt.evidence",
+          "sha256": "de1bed83e8e4122501e10578271ba411c51c35af6bc79a9afa336f4d69ebaafb",
+          "source_modified_datenum": 740264.7258912037
+        },
+        "vs": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\LastRun.vs",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\LastRun.vs.evidence",
+          "sha256": "82cbde1fe79558b71ddb69463c9bf3ce41fea44b3963f173fc118830b41ed4e0",
+          "source_modified_datenum": 740264.7258217592
+        },
+        "vsb": {
+          "source": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step36a_state_only_file_runs\\R_minus\\LastRun.vsb",
+          "saved": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus\\LastRun.vsb.evidence",
+          "sha256": "6f48ef7c2864ede57903ca2e08f1600d91ddee94a3adbc24668b78190328656c",
+          "source_modified_datenum": 740264.7258912037
+        }
+      },
+      "actual_expanded_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5"
+    },
+    "case_parameters": {
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "case_id": "R_minus",
+      "duration_s": 60,
+      "internal_K_Nm_per_deg": [
+        384,
+        384
+      ],
+      "external_ASB_Nm": [
+        0,
+        -250
+      ],
+      "rear_slip_upper_disabled": true,
+      "rear_slip_upper_value": "+Inf",
+      "state_only_no_path": true,
+      "first_frozen_maintain_s": 10
+    }
+  }
+]

@@ -1,0 +1,1782 @@
+[
+  {
+    "case": "A",
+    "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_A",
+    "raw_sha256": "3390c77ed9cbe56b455bd721ddb2b5452062085c341df9889f9d8ed3881371fa",
+    "entry_start_s": 2.62,
+    "entry_elapsed_s": 3.7625,
+    "entry_confirm_elapsed_s": 4.062,
+    "entry_singles": [
+      {
+        "start_s": 0.0,
+        "confirmed_s": 0.2995000000000001,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 0
+      },
+      {
+        "start_s": 3.593,
+        "confirmed_s": 3.8925,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7186
+      },
+      {
+        "start_s": 1.7774999999999999,
+        "confirmed_s": 2.077,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 3555
+      }
+    ],
+    "last_unmet": [
+      "AVz"
+    ],
+    "metrics": {
+      "schema": "step35c-state-only-metrics-v1",
+      "passed": true,
+      "classification": "PASS",
+      "failure_reasons": [],
+      "first_failure_time_s": null,
+      "phase3_first_violation_time_s": null,
+      "actual_end_s": 60.0,
+      "target_V_beta_deg_bodyAVz_rad_s": [
+        12.0,
+        -30.0,
+        0.5989797412715093
+      ],
+      "native_dt_s": 0.0005,
+      "entry": {
+        "phase_start_s": 2.62,
+        "first600": {
+          "start_s": 6.3825,
+          "confirmed_s": 6.682,
+          "first_last_span_s": 0.2995000000000001,
+          "start_index": 7525
+        },
+        "first600_completed_before_phase3": true,
+        "native_capture": {
+          "schema_channel": "feedback_diag_existing",
+          "new_top_level_channel": false,
+          "count_peak": 1616.0,
+          "latched_any": true,
+          "confirm_any": true,
+          "first_confirm_s": 6.682,
+          "index_peak": 14380.0
+        },
+        "native_capture_gate_passed": true,
+        "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+      },
+      "phase3_hold": {
+        "passed": true,
+        "samples": 20000,
+        "start_s": 7.19,
+        "end_exclusive_s": 17.19,
+        "state_rmse": [
+          0.008220159072398842,
+          0.06828113370564855,
+          0.0015338907326501487
+        ],
+        "beta_mean_deg": -29.975472616162758,
+        "beta_abs_peak_deg": 29.999253414863738,
+        "beta_peak_deviation_deg": 0.39103095526156295,
+        "state_peak_abs_error": [
+          0.04333376981701598,
+          0.39103095526156295,
+          0.008153207317214028
+        ],
+        "out_of_band_samples": 0,
+        "out_of_band_cumulative_s": 0.0,
+        "out_of_band_longest_s": 0.0,
+        "phase4_starts_exactly_after_fixed_window": true,
+        "all_control_samples_are_phase3": true,
+        "torque_protection_fraction": 0.0,
+        "torque_protection_longest_s": 0.0,
+        "torque_threshold_samples": 0,
+        "protection_flag_samples": 0,
+        "protection_flag_matches_actual_torque_threshold": true,
+        "min_wheel_load_N": 2529.829018864206,
+        "all_wheel_loads_positive": true,
+        "native_yaw_rad_start_end": [
+          4.352707153765341,
+          10.357679386039909
+        ]
+      },
+      "phase4": {
+        "actual_start_s": 17.19,
+        "first_straight2000": {
+          "start_s": 23.701,
+          "confirmed_s": 24.7005,
+          "first_last_span_s": 0.9995000000000012,
+          "start_index": 13022,
+          "elapsed_from_phase4_s": 6.510999999999999
+        },
+        "search_started_at_actual_phase4": true
+      },
+      "analysis_source_sha256": "0b99bbe563ae6a5dc9e8c8a86e95e76e2b3ad2677dde0d8ead469eab9c95d431",
+      "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+      "hard_execution_validation": {
+        "archive_verified": true,
+        "active_asb_verified": true,
+        "interface_verified": true,
+        "source_freeze_verified": true,
+        "vehicle_completed": true,
+        "plant_error_clear": true,
+        "all_wheel_loads_positive": true,
+        "all_wheel_torques_within_budget": true
+      },
+      "hard_execution_validation_passed": true,
+      "execution_diagnostics": {
+        "max_abs_wheel_torque_Nm": 1396.9340535043027,
+        "min_wheel_load_N": 861.5530476142407,
+        "nonpositive_wheel_load_samples": 0,
+        "feedback_diag_shape": [
+          120001,
+          18
+        ],
+        "cycle_diag_reference_rate_abs_peak_7": [
+          3.437270840141693,
+          0.4620225917043419,
+          1.475421846970637,
+          0.2810170326312155,
+          2.018198095512463,
+          0.17908520572449058,
+          0.016700234434375988
+        ]
+      },
+      "natural_motion_diagnostics": {
+        "xy_start_end_m": [
+          [
+            20.58837578914264,
+            -0.914096760738491
+          ],
+          [
+            368.1901242140894,
+            254.3386692138168
+          ]
+        ],
+        "course_rad_unwrapped": [
+          2.094395090019761,
+          13.136794390852154
+        ],
+        "native_yaw_rad_unwrapped_start_end": [
+          2.0943951023931953,
+          13.136706533014726
+        ],
+        "body_AVz_time_integral_rad_start_end": [
+          0.0,
+          11.023838826103281
+        ],
+        "psi_from_course_minus_beta_rad_start_end": [
+          2.094395090019761,
+          13.1367065359174
+        ],
+        "fitted_radius_phase3_m_diagnostic_only": 20.001147237825236,
+        "path_metric_gate": false
+      },
+      "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+      "run_id": "V12_beta30_state_only_R3_S_A",
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "profile_sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "source_identity_sha256": "abb57c60fe21a203d17dd86912fa6b0b977a419c5432df62ddeb594959e58c3e",
+      "raw_sha256": "3390c77ed9cbe56b455bd721ddb2b5452062085c341df9889f9d8ed3881371fa",
+      "archive_index_sha256": "4eb7db2b4817cd03179b1bc93549cc5fae8ff455d69e722d061de106b13d10a4",
+      "offline_only": true
+    },
+    "own8": {
+      "J": [
+        1.8027041848067726,
+        190.06340110316535,
+        0.012365270045846173
+      ],
+      "RMSE": [
+        0.4746978229367042,
+        4.874210206576617,
+        0.0393148668537841
+      ],
+      "peak": [
+        1.271991214773255,
+        11.414806945419883,
+        0.1359891088558045
+      ]
+    },
+    "shared8": {
+      "J": [
+        1.8027041848067726,
+        190.06340110316535,
+        0.012365270045846173
+      ],
+      "RMSE": [
+        0.4746978229367042,
+        4.874210206576617,
+        0.0393148668537841
+      ],
+      "peak": [
+        1.271991214773255,
+        11.414806945419883,
+        0.1359891088558045
+      ]
+    },
+    "ownpulse": {
+      "J": [
+        0.35921746060389476,
+        62.160506951006,
+        0.0009600781995328558
+      ],
+      "RMSE": [
+        0.8476054041874611,
+        11.149933358635467,
+        0.043819589216076774
+      ],
+      "peak": [
+        1.1435733961907388,
+        11.414806945419883,
+        0.07049352028566236
+      ]
+    },
+    "sharedpulse": {
+      "J": [
+        0.35921746060389476,
+        62.160506951006,
+        0.0009600781995328558
+      ],
+      "RMSE": [
+        0.8476054041874611,
+        11.149933358635467,
+        0.043819589216076774
+      ],
+      "peak": [
+        1.1435733961907388,
+        11.414806945419883,
+        0.07049352028566236
+      ]
+    },
+    "reference_max_difference8": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "inputs": {
+      "amp_clip_s": [
+        1.53,
+        0.0,
+        0.0
+      ],
+      "slew_clip_s": [
+        0.0,
+        0.05,
+        1.18
+      ],
+      "request_budget_gap_peak": [
+        0.11149223394521482,
+        0.0037704421095865817,
+        0.19229342106542577
+      ],
+      "actual_rate_boundary": {
+        "total_s": 0.5765,
+        "longest_s": 0.006500000000000001
+      },
+      "actual_rate_peak_deg_s": 54.794500000001435,
+      "wheel_projection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_protection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_RMS_wheels": [
+        461.0388571275087,
+        580.9164299729723,
+        535.34589435186,
+        978.6116001967414
+      ],
+      "torque_peak_wheels": [
+        1160.6422259872318,
+        1396.9340535043027,
+        1112.8184388485095,
+        1253.7798219247081
+      ],
+      "torque_margin_Nm": [
+        1839.3577740127682,
+        1603.0659464956973,
+        1887.1815611514905,
+        1746.2201780752919
+      ]
+    },
+    "mechanical_diagnostics": {
+      "moment_peak_Nm": [
+        0.0,
+        0.0
+      ],
+      "received_peak_Nm": [
+        0.0,
+        0.0
+      ],
+      "rate_peak_Nm_s": [
+        0.0,
+        0.0
+      ],
+      "abs_moment_integral_Nm_s": [
+        0.0,
+        0.0
+      ],
+      "roll_power_peak_W": [
+        0.0,
+        0.0
+      ],
+      "roll_abs_work_J": [
+        0.0,
+        0.0
+      ],
+      "spring_power_peak_W": [
+        0.0,
+        0.0
+      ],
+      "spring_abs_work_J": [
+        0.0,
+        0.0
+      ]
+    },
+    "delta_pulse_peak_states": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "delta_pulse_peak_Fz": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "delta_pulse_Mz_RMS": 0.0,
+    "planar_delta_RMS_components": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "full8": true,
+    "fullpulse": true
+  },
+  {
+    "case": "F_plus",
+    "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_plus",
+    "raw_sha256": "d829ecab8ca7b85476bd527cc1625814d3aec168575e32e0b175efb3729b42b1",
+    "entry_start_s": 2.62,
+    "entry_elapsed_s": 3.7155000000000005,
+    "entry_confirm_elapsed_s": 4.015,
+    "entry_singles": [
+      {
+        "start_s": 0.0,
+        "confirmed_s": 0.2995000000000001,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 0
+      },
+      {
+        "start_s": 3.5410000000000004,
+        "confirmed_s": 3.8405000000000005,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7082
+      },
+      {
+        "start_s": 1.8010000000000002,
+        "confirmed_s": 2.1005000000000003,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 3602
+      }
+    ],
+    "last_unmet": [
+      "AVz"
+    ],
+    "metrics": {
+      "schema": "step35c-state-only-metrics-v1",
+      "passed": true,
+      "classification": "PASS",
+      "failure_reasons": [],
+      "first_failure_time_s": null,
+      "phase3_first_violation_time_s": null,
+      "actual_end_s": 60.0,
+      "target_V_beta_deg_bodyAVz_rad_s": [
+        12.0,
+        -30.0,
+        0.5989797412715093
+      ],
+      "native_dt_s": 0.0005,
+      "entry": {
+        "phase_start_s": 2.62,
+        "first600": {
+          "start_s": 6.335500000000001,
+          "confirmed_s": 6.635,
+          "first_last_span_s": 0.2994999999999992,
+          "start_index": 7431
+        },
+        "first600_completed_before_phase3": true,
+        "native_capture": {
+          "schema_channel": "feedback_diag_existing",
+          "new_top_level_channel": false,
+          "count_peak": 1610.0,
+          "latched_any": true,
+          "confirm_any": true,
+          "first_confirm_s": 6.635,
+          "index_peak": 14280.0
+        },
+        "native_capture_gate_passed": true,
+        "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+      },
+      "phase3_hold": {
+        "passed": true,
+        "samples": 20000,
+        "start_s": 7.140000000000001,
+        "end_exclusive_s": 17.14,
+        "state_rmse": [
+          0.008199766458600972,
+          0.0680994864199583,
+          0.0015289571759605038
+        ],
+        "beta_mean_deg": -29.975539395012927,
+        "beta_abs_peak_deg": 29.99926000977068,
+        "beta_peak_deviation_deg": 0.38995136451123713,
+        "state_peak_abs_error": [
+          0.04310613849122369,
+          0.38995136451123713,
+          0.008197289533478203
+        ],
+        "out_of_band_samples": 0,
+        "out_of_band_cumulative_s": 0.0,
+        "out_of_band_longest_s": 0.0,
+        "phase4_starts_exactly_after_fixed_window": true,
+        "all_control_samples_are_phase3": true,
+        "torque_protection_fraction": 0.0,
+        "torque_protection_longest_s": 0.0,
+        "torque_threshold_samples": 0,
+        "protection_flag_samples": 0,
+        "protection_flag_matches_actual_torque_threshold": true,
+        "min_wheel_load_N": 2530.557080682131,
+        "all_wheel_loads_positive": true,
+        "native_yaw_rad_start_end": [
+          4.330772236985018,
+          10.335730916129705
+        ]
+      },
+      "phase4": {
+        "actual_start_s": 17.14,
+        "first_straight2000": {
+          "start_s": 23.651,
+          "confirmed_s": 24.6505,
+          "first_last_span_s": 0.9995000000000012,
+          "start_index": 13022,
+          "elapsed_from_phase4_s": 6.510999999999999
+        },
+        "search_started_at_actual_phase4": true
+      },
+      "analysis_source_sha256": "0b99bbe563ae6a5dc9e8c8a86e95e76e2b3ad2677dde0d8ead469eab9c95d431",
+      "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+      "hard_execution_validation": {
+        "archive_verified": true,
+        "active_asb_verified": true,
+        "interface_verified": true,
+        "source_freeze_verified": true,
+        "vehicle_completed": true,
+        "plant_error_clear": true,
+        "all_wheel_loads_positive": true,
+        "all_wheel_torques_within_budget": true
+      },
+      "hard_execution_validation_passed": true,
+      "execution_diagnostics": {
+        "max_abs_wheel_torque_Nm": 1396.9340535043027,
+        "min_wheel_load_N": 861.6101153093637,
+        "nonpositive_wheel_load_samples": 0,
+        "feedback_diag_shape": [
+          120001,
+          18
+        ],
+        "cycle_diag_reference_rate_abs_peak_7": [
+          3.437270840141693,
+          0.4620225917043419,
+          1.475421846970637,
+          0.2810170326312155,
+          2.018198095512463,
+          0.17908520572449058,
+          0.016700234434375988
+        ]
+      },
+      "natural_motion_diagnostics": {
+        "xy_start_end_m": [
+          [
+            20.58837578914264,
+            -0.914096760738491
+          ],
+          [
+            373.6575296749912,
+            246.00394715019422
+          ]
+        ],
+        "course_rad_unwrapped": [
+          2.094395090019761,
+          13.114844827992977
+        ],
+        "native_yaw_rad_unwrapped_start_end": [
+          2.0943951023931953,
+          13.114756970140737
+        ],
+        "body_AVz_time_integral_rad_start_end": [
+          0.0,
+          11.001905000797288
+        ],
+        "psi_from_course_minus_beta_rad_start_end": [
+          2.094395090019761,
+          13.114756973054854
+        ],
+        "fitted_radius_phase3_m_diagnostic_only": 20.001144716576118,
+        "path_metric_gate": false
+      },
+      "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+      "run_id": "V12_beta30_state_only_R3_S_F_plus",
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "profile_sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "source_identity_sha256": "12efc765881fd39d8bbaac262130a5ea4e1d7f23531a882f32a20639587c4e23",
+      "raw_sha256": "d829ecab8ca7b85476bd527cc1625814d3aec168575e32e0b175efb3729b42b1",
+      "archive_index_sha256": "88bb6fc1bea8283804bbfdaf7dc2da1c064fd9b28fd76cb9e7b31f8c5cca6bb0",
+      "offline_only": true
+    },
+    "own8": {
+      "J": [
+        1.7144260931029829,
+        183.84293090323476,
+        0.012475028893849395
+      ],
+      "RMSE": [
+        0.46292900280482846,
+        4.793784138121401,
+        0.03948896822824286
+      ],
+      "peak": [
+        1.2519145085490972,
+        11.36230373389044,
+        0.13820830456717048
+      ]
+    },
+    "shared8": {
+      "J": [
+        1.7144260931029829,
+        183.84293090323476,
+        0.012475028893849395
+      ],
+      "RMSE": [
+        0.46292900280482846,
+        4.793784138121401,
+        0.03948896822824286
+      ],
+      "peak": [
+        1.2519145085490972,
+        11.36230373389044,
+        0.13820830456717048
+      ]
+    },
+    "ownpulse": {
+      "J": [
+        0.359068811914526,
+        61.75554581628179,
+        0.0010298249988558823
+      ],
+      "RMSE": [
+        0.8474300111685047,
+        11.113554410383907,
+        0.04538336697196192
+      ],
+      "peak": [
+        1.1395274332383138,
+        11.36230373389044,
+        0.07049303635013004
+      ]
+    },
+    "sharedpulse": {
+      "J": [
+        0.359068811914526,
+        61.75554581628179,
+        0.0010298249988558823
+      ],
+      "RMSE": [
+        0.8474300111685047,
+        11.113554410383907,
+        0.04538336697196192
+      ],
+      "peak": [
+        1.1395274332383138,
+        11.36230373389044,
+        0.07049303635013004
+      ]
+    },
+    "reference_max_difference8": [
+      1.7763568394002505e-15,
+      3.552713678800501e-15,
+      1.1102230246251565e-16
+    ],
+    "inputs": {
+      "amp_clip_s": [
+        1.48,
+        0.0,
+        0.0
+      ],
+      "slew_clip_s": [
+        0.0,
+        0.05,
+        1.17
+      ],
+      "request_budget_gap_peak": [
+        0.10498274006629496,
+        0.0037704421095865817,
+        0.19229342106542577
+      ],
+      "actual_rate_boundary": {
+        "total_s": 0.578,
+        "longest_s": 0.006500000000000001
+      },
+      "actual_rate_peak_deg_s": 54.794500000001435,
+      "wheel_projection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_protection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_RMS_wheels": [
+        459.9450509871785,
+        576.9547091831599,
+        533.3638233060908,
+        977.9841022689709
+      ],
+      "torque_peak_wheels": [
+        1160.6422259872318,
+        1396.9340535043027,
+        1112.8184388485095,
+        1253.7798219247081
+      ],
+      "torque_margin_Nm": [
+        1839.3577740127682,
+        1603.0659464956973,
+        1887.1815611514905,
+        1746.2201780752919
+      ]
+    },
+    "mechanical_diagnostics": {
+      "moment_peak_Nm": [
+        250.0,
+        0.0
+      ],
+      "received_peak_Nm": [
+        250.00004937776586,
+        0.0
+      ],
+      "rate_peak_Nm_s": [
+        3926.9908169872415,
+        0.0
+      ],
+      "abs_moment_integral_Nm_s": [
+        99.99999999999997,
+        0.0
+      ],
+      "roll_power_peak_W": [
+        1.1147254275964391,
+        0.0
+      ],
+      "roll_abs_work_J": [
+        0.23804607142956866,
+        0.0
+      ],
+      "spring_power_peak_W": [
+        1.118534762551627,
+        0.0
+      ],
+      "spring_abs_work_J": [
+        0.237719625473758,
+        0.0
+      ]
+    },
+    "delta_pulse_peak_states": [
+      0.004045962952424986,
+      0.10384928796420922,
+      0.011094568411477601
+    ],
+    "delta_pulse_peak_Fz": [
+      69.08303373586295,
+      71.99192255466187,
+      64.67930456121894,
+      72.31715937737499
+    ],
+    "delta_pulse_Mz_RMS": 82.86839346378812,
+    "planar_delta_RMS_components": [
+      13.660372738609052,
+      91.19357240402312,
+      0.5811703861337693
+    ],
+    "full8": true,
+    "fullpulse": true
+  },
+  {
+    "case": "F_minus",
+    "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_F_minus",
+    "raw_sha256": "e7387963776f12102cbdf991c85395175e1e47ad3a70b64b35bca655148362a8",
+    "entry_start_s": 2.62,
+    "entry_elapsed_s": 3.814,
+    "entry_confirm_elapsed_s": 4.1135,
+    "entry_singles": [
+      {
+        "start_s": 0.0,
+        "confirmed_s": 0.2995000000000001,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 0
+      },
+      {
+        "start_s": 3.6494999999999997,
+        "confirmed_s": 3.949,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7299
+      },
+      {
+        "start_s": 1.7590000000000003,
+        "confirmed_s": 2.0584999999999996,
+        "first_last_span_s": 0.2994999999999992,
+        "start_index": 3518
+      }
+    ],
+    "last_unmet": [
+      "AVz"
+    ],
+    "metrics": {
+      "schema": "step35c-state-only-metrics-v1",
+      "passed": true,
+      "classification": "PASS",
+      "failure_reasons": [],
+      "first_failure_time_s": null,
+      "phase3_first_violation_time_s": null,
+      "actual_end_s": 60.0,
+      "target_V_beta_deg_bodyAVz_rad_s": [
+        12.0,
+        -30.0,
+        0.5989797412715093
+      ],
+      "native_dt_s": 0.0005,
+      "entry": {
+        "phase_start_s": 2.62,
+        "first600": {
+          "start_s": 6.434,
+          "confirmed_s": 6.7335,
+          "first_last_span_s": 0.2995000000000001,
+          "start_index": 7628
+        },
+        "first600_completed_before_phase3": true,
+        "native_capture": {
+          "schema_channel": "feedback_diag_existing",
+          "new_top_level_channel": false,
+          "count_peak": 1613.0,
+          "latched_any": true,
+          "confirm_any": true,
+          "first_confirm_s": 6.7335,
+          "index_peak": 14480.0
+        },
+        "native_capture_gate_passed": true,
+        "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+      },
+      "phase3_hold": {
+        "passed": true,
+        "samples": 20000,
+        "start_s": 7.24,
+        "end_exclusive_s": 17.240000000000002,
+        "state_rmse": [
+          0.008231714642262267,
+          0.0689177965450979,
+          0.001544693374591605
+        ],
+        "beta_mean_deg": -29.975263407498044,
+        "beta_abs_peak_deg": 29.999239932972355,
+        "beta_peak_deviation_deg": 0.39515936165428656,
+        "state_peak_abs_error": [
+          0.04347327660222966,
+          0.39515936165428656,
+          0.00818924919682118
+        ],
+        "out_of_band_samples": 0,
+        "out_of_band_cumulative_s": 0.0,
+        "out_of_band_longest_s": 0.0,
+        "phase4_starts_exactly_after_fixed_window": true,
+        "all_control_samples_are_phase3": true,
+        "torque_protection_fraction": 0.0,
+        "torque_protection_longest_s": 0.0,
+        "torque_threshold_samples": 0,
+        "protection_flag_samples": 0,
+        "protection_flag_matches_actual_torque_threshold": true,
+        "min_wheel_load_N": 2529.5094706055283,
+        "all_wheel_loads_positive": true,
+        "native_yaw_rad_start_end": [
+          4.37353359203122,
+          10.378542678308436
+        ]
+      },
+      "phase4": {
+        "actual_start_s": 17.240000000000002,
+        "first_straight2000": {
+          "start_s": 23.751,
+          "confirmed_s": 24.7505,
+          "first_last_span_s": 0.9994999999999976,
+          "start_index": 13022,
+          "elapsed_from_phase4_s": 6.510999999999999
+        },
+        "search_started_at_actual_phase4": true
+      },
+      "analysis_source_sha256": "0b99bbe563ae6a5dc9e8c8a86e95e76e2b3ad2677dde0d8ead469eab9c95d431",
+      "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+      "hard_execution_validation": {
+        "archive_verified": true,
+        "active_asb_verified": true,
+        "interface_verified": true,
+        "source_freeze_verified": true,
+        "vehicle_completed": true,
+        "plant_error_clear": true,
+        "all_wheel_loads_positive": true,
+        "all_wheel_torques_within_budget": true
+      },
+      "hard_execution_validation_passed": true,
+      "execution_diagnostics": {
+        "max_abs_wheel_torque_Nm": 1396.9340535043027,
+        "min_wheel_load_N": 861.5301620407267,
+        "nonpositive_wheel_load_samples": 0,
+        "feedback_diag_shape": [
+          120001,
+          18
+        ],
+        "cycle_diag_reference_rate_abs_peak_7": [
+          3.437270840141693,
+          0.4620225917043419,
+          1.475421846970637,
+          0.2810170326312155,
+          2.018198095512463,
+          0.17908520572449058,
+          0.016700234434375988
+        ]
+      },
+      "natural_motion_diagnostics": {
+        "xy_start_end_m": [
+          [
+            20.58837578914264,
+            -0.914096760738491
+          ],
+          [
+            362.7918005962004,
+            262.13300550578987
+          ]
+        ],
+        "course_rad_unwrapped": [
+          2.094395090019761,
+          13.157658756095271
+        ],
+        "native_yaw_rad_unwrapped_start_end": [
+          2.0943951023931953,
+          13.157570898251548
+        ],
+        "body_AVz_time_integral_rad_start_end": [
+          0.0,
+          11.044689341276714
+        ],
+        "psi_from_course_minus_beta_rad_start_end": [
+          2.094395090019761,
+          13.157570901163155
+        ],
+        "fitted_radius_phase3_m_diagnostic_only": 20.001148950689746,
+        "path_metric_gate": false
+      },
+      "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+      "run_id": "V12_beta30_state_only_R3_S_F_minus",
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "profile_sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "source_identity_sha256": "fdfb137cd5ede1a12ef910d42161021bef519083475a22431d5e16281da83dd9",
+      "raw_sha256": "e7387963776f12102cbdf991c85395175e1e47ad3a70b64b35bca655148362a8",
+      "archive_index_sha256": "9d86bbfa8ff842318800e2d4aace53264ccd433c9c3ae69a1304ffc9b0e03ede",
+      "offline_only": true
+    },
+    "own8": {
+      "J": [
+        1.9017045126302947,
+        196.97911316944237,
+        0.012457401591937223
+      ],
+      "RMSE": [
+        0.48755826736789815,
+        4.962095237516134,
+        0.03946105927356934
+      ],
+      "peak": [
+        1.2939350132519216,
+        11.47640717745234,
+        0.13360634509019842
+      ]
+    },
+    "shared8": {
+      "J": [
+        1.9017045126302947,
+        196.97911316944237,
+        0.012457401591937223
+      ],
+      "RMSE": [
+        0.48755826736789815,
+        4.962095237516134,
+        0.03946105927356934
+      ],
+      "peak": [
+        1.2939350132519216,
+        11.47640717745234,
+        0.13360634509019842
+      ]
+    },
+    "ownpulse": {
+      "J": [
+        0.3593297131991072,
+        62.57507041724704,
+        0.0009210634421389698
+      ],
+      "RMSE": [
+        0.8477378288116052,
+        11.187052374709527,
+        0.04292000564163453
+      ],
+      "peak": [
+        1.1477090723555587,
+        11.47640717745234,
+        0.07049400103936287
+      ]
+    },
+    "sharedpulse": {
+      "J": [
+        0.3593297131991072,
+        62.57507041724704,
+        0.0009210634421389698
+      ],
+      "RMSE": [
+        0.8477378288116052,
+        11.187052374709527,
+        0.04292000564163453
+      ],
+      "peak": [
+        1.1477090723555587,
+        11.47640717745234,
+        0.07049400103936287
+      ]
+    },
+    "reference_max_difference8": [
+      1.7763568394002505e-15,
+      0.0,
+      1.1102230246251565e-16
+    ],
+    "inputs": {
+      "amp_clip_s": [
+        1.58,
+        0.0,
+        0.0
+      ],
+      "slew_clip_s": [
+        0.0,
+        0.05,
+        1.19
+      ],
+      "request_budget_gap_peak": [
+        0.11832586343617887,
+        0.0037704421095865817,
+        0.19229342106542577
+      ],
+      "actual_rate_boundary": {
+        "total_s": 0.5750000000000001,
+        "longest_s": 0.006500000000000001
+      },
+      "actual_rate_peak_deg_s": 54.794500000001435,
+      "wheel_projection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_protection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_RMS_wheels": [
+        462.3321849655144,
+        585.142386234122,
+        537.483183749751,
+        979.3547492121755
+      ],
+      "torque_peak_wheels": [
+        1160.6422259872318,
+        1396.9340535043027,
+        1112.8184388485095,
+        1253.7798219247081
+      ],
+      "torque_margin_Nm": [
+        1839.3577740127682,
+        1603.0659464956973,
+        1887.1815611514905,
+        1746.2201780752919
+      ]
+    },
+    "mechanical_diagnostics": {
+      "moment_peak_Nm": [
+        250.0,
+        0.0
+      ],
+      "received_peak_Nm": [
+        250.00011076334798,
+        0.0
+      ],
+      "rate_peak_Nm_s": [
+        3926.9908169872415,
+        0.0
+      ],
+      "abs_moment_integral_Nm_s": [
+        99.99999999999997,
+        0.0
+      ],
+      "roll_power_peak_W": [
+        3.0956780546600013,
+        0.0
+      ],
+      "roll_abs_work_J": [
+        0.7968682727921824,
+        0.0
+      ],
+      "spring_power_peak_W": [
+        3.0938325177588686,
+        0.0
+      ],
+      "spring_abs_work_J": [
+        0.7962551162988842,
+        0.0
+      ]
+    },
+    "delta_pulse_peak_states": [
+      0.0041356761648199125,
+      0.10576125212241827,
+      0.011335300101407708
+    ],
+    "delta_pulse_peak_Fz": [
+      70.15797476605348,
+      71.24587770703874,
+      66.0668710046225,
+      73.75572405955063
+    ],
+    "delta_pulse_Mz_RMS": 84.26898642333475,
+    "planar_delta_RMS_components": [
+      12.87013744388817,
+      92.29024686715799,
+      0.6068490225310117
+    ],
+    "full8": true,
+    "fullpulse": true
+  },
+  {
+    "case": "R_plus",
+    "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_plus",
+    "raw_sha256": "619096fca475401583945a7d81125f2eb3cce259a7e99f19b62db7054c28fbf7",
+    "entry_start_s": 2.62,
+    "entry_elapsed_s": 3.8555,
+    "entry_confirm_elapsed_s": 4.155,
+    "entry_singles": [
+      {
+        "start_s": 0.0,
+        "confirmed_s": 0.2995000000000001,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 0
+      },
+      {
+        "start_s": 3.6935000000000002,
+        "confirmed_s": 3.9930000000000003,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7387
+      },
+      {
+        "start_s": 3.8555,
+        "confirmed_s": 4.155,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7711
+      }
+    ],
+    "last_unmet": [
+      "AVz"
+    ],
+    "metrics": {
+      "schema": "step35c-state-only-metrics-v1",
+      "passed": true,
+      "classification": "PASS",
+      "failure_reasons": [],
+      "first_failure_time_s": null,
+      "phase3_first_violation_time_s": null,
+      "actual_end_s": 60.0,
+      "target_V_beta_deg_bodyAVz_rad_s": [
+        12.0,
+        -30.0,
+        0.5989797412715093
+      ],
+      "native_dt_s": 0.0005,
+      "entry": {
+        "phase_start_s": 2.62,
+        "first600": {
+          "start_s": 6.4755,
+          "confirmed_s": 6.775,
+          "first_last_span_s": 0.2995000000000001,
+          "start_index": 7711
+        },
+        "first600_completed_before_phase3": true,
+        "native_capture": {
+          "schema_channel": "feedback_diag_existing",
+          "new_top_level_channel": false,
+          "count_peak": 1610.0,
+          "latched_any": true,
+          "confirm_any": true,
+          "first_confirm_s": 6.775,
+          "index_peak": 14560.0
+        },
+        "native_capture_gate_passed": true,
+        "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+      },
+      "phase3_hold": {
+        "passed": true,
+        "samples": 20000,
+        "start_s": 7.28,
+        "end_exclusive_s": 17.28,
+        "state_rmse": [
+          0.008267616281881749,
+          0.06933536521984845,
+          0.0015542367290175506
+        ],
+        "beta_mean_deg": -29.975144434138574,
+        "beta_abs_peak_deg": 29.999277265433935,
+        "beta_peak_deviation_deg": 0.39777121529113657,
+        "state_peak_abs_error": [
+          0.043761981896301094,
+          0.39777121529113657,
+          0.008269117119524383
+        ],
+        "out_of_band_samples": 0,
+        "out_of_band_cumulative_s": 0.0,
+        "out_of_band_longest_s": 0.0,
+        "phase4_starts_exactly_after_fixed_window": true,
+        "all_control_samples_are_phase3": true,
+        "torque_protection_fraction": 0.0,
+        "torque_protection_longest_s": 0.0,
+        "torque_threshold_samples": 0,
+        "protection_flag_samples": 0,
+        "protection_flag_matches_actual_torque_threshold": true,
+        "min_wheel_load_N": 2529.8741113181836,
+        "all_wheel_loads_positive": true,
+        "native_yaw_rad_start_end": [
+          4.39058298413127,
+          10.395623163746713
+        ]
+      },
+      "phase4": {
+        "actual_start_s": 17.28,
+        "first_straight2000": {
+          "start_s": 23.791,
+          "confirmed_s": 24.7905,
+          "first_last_span_s": 0.9995000000000012,
+          "start_index": 13022,
+          "elapsed_from_phase4_s": 6.510999999999999
+        },
+        "search_started_at_actual_phase4": true
+      },
+      "analysis_source_sha256": "0b99bbe563ae6a5dc9e8c8a86e95e76e2b3ad2677dde0d8ead469eab9c95d431",
+      "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+      "hard_execution_validation": {
+        "archive_verified": true,
+        "active_asb_verified": true,
+        "interface_verified": true,
+        "source_freeze_verified": true,
+        "vehicle_completed": true,
+        "plant_error_clear": true,
+        "all_wheel_loads_positive": true,
+        "all_wheel_torques_within_budget": true
+      },
+      "hard_execution_validation_passed": true,
+      "execution_diagnostics": {
+        "max_abs_wheel_torque_Nm": 1396.9340535043027,
+        "min_wheel_load_N": 861.531305564664,
+        "nonpositive_wheel_load_samples": 0,
+        "feedback_diag_shape": [
+          120001,
+          18
+        ],
+        "cycle_diag_reference_rate_abs_peak_7": [
+          3.437270840141693,
+          0.4620225917043419,
+          1.475421846970637,
+          0.2810170326312155,
+          2.018198095512463,
+          0.17908520572449058,
+          0.016700234434375988
+        ]
+      },
+      "natural_motion_diagnostics": {
+        "xy_start_end_m": [
+          [
+            20.58837578914264,
+            -0.914096760738491
+          ],
+          [
+            358.2785553355265,
+            268.4239893648793
+          ]
+        ],
+        "course_rad_unwrapped": [
+          2.094395090019761,
+          13.174738926281258
+        ],
+        "native_yaw_rad_unwrapped_start_end": [
+          2.0943951023931953,
+          13.174651068424588
+        ],
+        "body_AVz_time_integral_rad_start_end": [
+          0.0,
+          11.061717984685156
+        ],
+        "psi_from_course_minus_beta_rad_start_end": [
+          2.094395090019761,
+          13.174651071348153
+        ],
+        "fitted_radius_phase3_m_diagnostic_only": 20.001154007375703,
+        "path_metric_gate": false
+      },
+      "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+      "run_id": "V12_beta30_state_only_R3_S_R_plus",
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "profile_sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "source_identity_sha256": "58a2874108085fafa3b632efb38c315bd85034f5b3b9e6e9ca158510c8322a6f",
+      "raw_sha256": "619096fca475401583945a7d81125f2eb3cce259a7e99f19b62db7054c28fbf7",
+      "archive_index_sha256": "77ee8762cda31bc42d136895f90c7afc360a6f6b30901062e46793efe2b10ca7",
+      "offline_only": true
+    },
+    "own8": {
+      "J": [
+        1.9861697017094004,
+        202.45303841668814,
+        0.01265309368111505
+      ],
+      "RMSE": [
+        0.4982682136296425,
+        5.030569530588561,
+        0.0397697964558455
+      ],
+      "peak": [
+        1.3115891633211358,
+        11.514880068385008,
+        0.1328531189155041
+      ]
+    },
+    "shared8": {
+      "J": [
+        1.9861697017094004,
+        202.45303841668814,
+        0.01265309368111505
+      ],
+      "RMSE": [
+        0.4982682136296425,
+        5.030569530588561,
+        0.0397697964558455
+      ],
+      "peak": [
+        1.3115891633211358,
+        11.514880068385008,
+        0.1328531189155041
+      ]
+    },
+    "ownpulse": {
+      "J": [
+        0.3606489961551293,
+        62.745526435526635,
+        0.0008950561476650095
+      ],
+      "RMSE": [
+        0.8492926423266944,
+        11.202278914178725,
+        0.04230971868649116
+      ],
+      "peak": [
+        1.1519639075466177,
+        11.514880068385008,
+        0.07049091780293193
+      ]
+    },
+    "sharedpulse": {
+      "J": [
+        0.3606489961551293,
+        62.745526435526635,
+        0.0008950561476650095
+      ],
+      "RMSE": [
+        0.8492926423266944,
+        11.202278914178725,
+        0.04230971868649116
+      ],
+      "peak": [
+        1.1519639075466177,
+        11.514880068385008,
+        0.07049091780293193
+      ]
+    },
+    "reference_max_difference8": [
+      1.7763568394002505e-15,
+      0.0,
+      1.1102230246251565e-16
+    ],
+    "inputs": {
+      "amp_clip_s": [
+        1.6300000000000001,
+        0.0,
+        0.0
+      ],
+      "slew_clip_s": [
+        0.0,
+        0.05,
+        1.2
+      ],
+      "request_budget_gap_peak": [
+        0.12316019409574844,
+        0.0037704421095865817,
+        0.19229342106542577
+      ],
+      "actual_rate_boundary": {
+        "total_s": 0.5745,
+        "longest_s": 0.006500000000000001
+      },
+      "actual_rate_peak_deg_s": 54.794500000001435,
+      "wheel_projection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_protection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_RMS_wheels": [
+        463.21336627256034,
+        588.5534008059544,
+        538.633917219501,
+        980.4112783792644
+      ],
+      "torque_peak_wheels": [
+        1160.6422259872318,
+        1396.9340535043027,
+        1112.8184388485095,
+        1253.7798219247081
+      ],
+      "torque_margin_Nm": [
+        1839.3577740127682,
+        1603.0659464956973,
+        1887.1815611514905,
+        1746.2201780752919
+      ]
+    },
+    "mechanical_diagnostics": {
+      "moment_peak_Nm": [
+        0.0,
+        250.0
+      ],
+      "received_peak_Nm": [
+        0.0,
+        250.00001630008765
+      ],
+      "rate_peak_Nm_s": [
+        0.0,
+        3926.9908169872415
+      ],
+      "abs_moment_integral_Nm_s": [
+        0.0,
+        99.99999999999997
+      ],
+      "roll_power_peak_W": [
+        0.0,
+        0.6979225181237882
+      ],
+      "roll_abs_work_J": [
+        0.0,
+        0.10786207503684427
+      ],
+      "spring_power_peak_W": [
+        0.0,
+        0.6980296716319232
+      ],
+      "spring_abs_work_J": [
+        0.0,
+        0.10788305328384173
+      ]
+    },
+    "delta_pulse_peak_states": [
+      0.008390511355878871,
+      0.17569509654588344,
+      0.019306306380978744
+    ],
+    "delta_pulse_peak_Fz": [
+      91.92919330687255,
+      90.26594325690894,
+      85.6005097867378,
+      90.46572265163286
+    ],
+    "delta_pulse_Mz_RMS": 143.93398794764374,
+    "planar_delta_RMS_components": [
+      17.673093673414478,
+      132.79378423988317,
+      1.5157323443956174
+    ],
+    "full8": true,
+    "fullpulse": true
+  },
+  {
+    "case": "R_minus",
+    "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step36a_active_asb_entry_20261009\\results\\runs\\V12_beta30_state_only_R3_S_R_minus",
+    "raw_sha256": "0cba55389a4d426866a447a4e3023687af31dc7475b76b60c412ae8553360c07",
+    "entry_start_s": 2.62,
+    "entry_elapsed_s": 3.6825,
+    "entry_confirm_elapsed_s": 3.982,
+    "entry_singles": [
+      {
+        "start_s": 0.0,
+        "confirmed_s": 0.2995000000000001,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 0
+      },
+      {
+        "start_s": 3.5060000000000002,
+        "confirmed_s": 3.8055000000000003,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 7012
+      },
+      {
+        "start_s": 1.8289999999999997,
+        "confirmed_s": 2.1285,
+        "first_last_span_s": 0.2995000000000001,
+        "start_index": 3658
+      }
+    ],
+    "last_unmet": [
+      "AVz"
+    ],
+    "metrics": {
+      "schema": "step35c-state-only-metrics-v1",
+      "passed": true,
+      "classification": "PASS",
+      "failure_reasons": [],
+      "first_failure_time_s": null,
+      "phase3_first_violation_time_s": null,
+      "actual_end_s": 60.0,
+      "target_V_beta_deg_bodyAVz_rad_s": [
+        12.0,
+        -30.0,
+        0.5989797412715093
+      ],
+      "native_dt_s": 0.0005,
+      "entry": {
+        "phase_start_s": 2.62,
+        "first600": {
+          "start_s": 6.3025,
+          "confirmed_s": 6.602,
+          "first_last_span_s": 0.2995000000000001,
+          "start_index": 7365
+        },
+        "first600_completed_before_phase3": true,
+        "native_capture": {
+          "schema_channel": "feedback_diag_existing",
+          "new_top_level_channel": false,
+          "count_peak": 1616.0,
+          "latched_any": true,
+          "confirm_any": true,
+          "first_confirm_s": 6.602,
+          "index_peak": 14220.0
+        },
+        "native_capture_gate_passed": true,
+        "interpretation": "latched event demonstrates a prior 600-point in-band segment; it does not assert continuous in-band state until phase3."
+      },
+      "phase3_hold": {
+        "passed": true,
+        "samples": 20000,
+        "start_s": 7.11,
+        "end_exclusive_s": 17.11,
+        "state_rmse": [
+          0.008145391525765043,
+          0.06764314393478596,
+          0.0015190508469182502
+        ],
+        "beta_mean_deg": -29.975667850354057,
+        "beta_abs_peak_deg": 29.999208643015344,
+        "beta_peak_deviation_deg": 0.3874073629736188,
+        "state_peak_abs_error": [
+          0.04279990249206378,
+          0.3874073629736188,
+          0.00819881197334782
+        ],
+        "out_of_band_samples": 0,
+        "out_of_band_cumulative_s": 0.0,
+        "out_of_band_longest_s": 0.0,
+        "phase4_starts_exactly_after_fixed_window": true,
+        "all_control_samples_are_phase3": true,
+        "torque_protection_fraction": 0.0,
+        "torque_protection_longest_s": 0.0,
+        "torque_threshold_samples": 0,
+        "protection_flag_samples": 0,
+        "protection_flag_matches_actual_torque_threshold": true,
+        "min_wheel_load_N": 2530.9275784123847,
+        "all_wheel_loads_positive": true,
+        "native_yaw_rad_start_end": [
+          4.31773564366762,
+          10.322659542246019
+        ]
+      },
+      "phase4": {
+        "actual_start_s": 17.11,
+        "first_straight2000": {
+          "start_s": 23.621000000000002,
+          "confirmed_s": 24.6205,
+          "first_last_span_s": 0.9994999999999976,
+          "start_index": 13022,
+          "elapsed_from_phase4_s": 6.511000000000003
+        },
+        "search_started_at_actual_phase4": true
+      },
+      "analysis_source_sha256": "0b99bbe563ae6a5dc9e8c8a86e95e76e2b3ad2677dde0d8ead469eab9c95d431",
+      "analysis_repair": "native feedback log time axis; full-run wheel load/torque checks; invalid-summary handling",
+      "hard_execution_validation": {
+        "archive_verified": true,
+        "active_asb_verified": true,
+        "interface_verified": true,
+        "source_freeze_verified": true,
+        "vehicle_completed": true,
+        "plant_error_clear": true,
+        "all_wheel_loads_positive": true,
+        "all_wheel_torques_within_budget": true
+      },
+      "hard_execution_validation_passed": true,
+      "execution_diagnostics": {
+        "max_abs_wheel_torque_Nm": 1396.9340535043027,
+        "min_wheel_load_N": 861.6649305722942,
+        "nonpositive_wheel_load_samples": 0,
+        "feedback_diag_shape": [
+          120001,
+          18
+        ],
+        "cycle_diag_reference_rate_abs_peak_7": [
+          3.437270840141693,
+          0.4620225917043419,
+          1.475421846970637,
+          0.2810170326312155,
+          2.018198095512463,
+          0.17908520572449058,
+          0.016700234434375988
+        ]
+      },
+      "natural_motion_diagnostics": {
+        "xy_start_end_m": [
+          [
+            20.58837578914264,
+            -0.914096760738491
+          ],
+          [
+            376.8250849959151,
+            240.9808622388524
+          ]
+        ],
+        "course_rad_unwrapped": [
+          2.094395090019761,
+          13.10177392658491
+        ],
+        "native_yaw_rad_unwrapped_start_end": [
+          2.0943951023931953,
+          13.10168606872596
+        ],
+        "body_AVz_time_integral_rad_start_end": [
+          0.0,
+          10.988880322193717
+        ],
+        "psi_from_course_minus_beta_rad_start_end": [
+          2.094395090019761,
+          13.101686071642254
+        ],
+        "fitted_radius_phase3_m_diagnostic_only": 20.001135134675607,
+        "path_metric_gate": false
+      },
+      "scope": "Native state-cycle response in the current CarSim parameter model; not a path-following or mechanical safety certification.",
+      "run_id": "V12_beta30_state_only_R3_S_R_minus",
+      "profile_id": "V12_beta30_state_only_R3_S",
+      "profile_sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "source_identity_sha256": "6c257844a045f273c6835789284a1a6517b7f40573f691ab063685162ac21dad",
+      "raw_sha256": "0cba55389a4d426866a447a4e3023687af31dc7475b76b60c412ae8553360c07",
+      "archive_index_sha256": "3821153765f808ad1391fcd7a72b0d17c229172d157ad8c707945d45fc667c04",
+      "offline_only": true
+    },
+    "own8": {
+      "J": [
+        1.6495470436859745,
+        179.70618426820252,
+        0.01262040380488491
+      ],
+      "RMSE": [
+        0.45408521277481256,
+        4.739543546959487,
+        0.039718389640198325
+      ],
+      "peak": [
+        1.2373958638117504,
+        11.34638213707157,
+        0.13913332995152738
+      ]
+    },
+    "shared8": {
+      "J": [
+        1.6495470436859745,
+        179.70618426820252,
+        0.01262040380488491
+      ],
+      "RMSE": [
+        0.45408521277481256,
+        4.739543546959487,
+        0.039718389640198325
+      ],
+      "peak": [
+        1.2373958638117504,
+        11.34638213707157,
+        0.13913332995152738
+      ]
+    },
+    "ownpulse": {
+      "J": [
+        0.3577016456183398,
+        61.59382405026725,
+        0.001130579090634594
+      ],
+      "RMSE": [
+        0.84581516375428,
+        11.098993112014012,
+        0.04755163699883726
+      ],
+      "peak": [
+        1.1351725429919064,
+        11.34638213707157,
+        0.0704961216345722
+      ]
+    },
+    "sharedpulse": {
+      "J": [
+        0.3577016456183398,
+        61.59382405026725,
+        0.001130579090634594
+      ],
+      "RMSE": [
+        0.84581516375428,
+        11.098993112014012,
+        0.04755163699883726
+      ],
+      "peak": [
+        1.1351725429919064,
+        11.34638213707157,
+        0.0704961216345722
+      ]
+    },
+    "reference_max_difference8": [
+      1.7763568394002505e-15,
+      0.0,
+      1.1102230246251565e-16
+    ],
+    "inputs": {
+      "amp_clip_s": [
+        1.44,
+        0.0,
+        0.0
+      ],
+      "slew_clip_s": [
+        0.0,
+        0.05,
+        1.16
+      ],
+      "request_budget_gap_peak": [
+        0.10046936757823557,
+        0.0037704421095865817,
+        0.19229342106542577
+      ],
+      "actual_rate_boundary": {
+        "total_s": 0.578,
+        "longest_s": 0.006500000000000001
+      },
+      "actual_rate_peak_deg_s": 54.794500000001435,
+      "wheel_projection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_protection": {
+        "total_s": 0.0,
+        "longest_s": 0.0
+      },
+      "torque_RMS_wheels": [
+        459.3343270256318,
+        574.0225749201162,
+        532.5240920660556,
+        977.114383047814
+      ],
+      "torque_peak_wheels": [
+        1160.6422259872318,
+        1396.9340535043027,
+        1112.8184388485095,
+        1253.7798219247081
+      ],
+      "torque_margin_Nm": [
+        1839.3577740127682,
+        1603.0659464956973,
+        1887.1815611514905,
+        1746.2201780752919
+      ]
+    },
+    "mechanical_diagnostics": {
+      "moment_peak_Nm": [
+        0.0,
+        250.0
+      ],
+      "received_peak_Nm": [
+        0.0,
+        250.0001544173572
+      ],
+      "rate_peak_Nm_s": [
+        0.0,
+        3926.9908169872415
+      ],
+      "abs_moment_integral_Nm_s": [
+        0.0,
+        99.99999999999997
+      ],
+      "roll_power_peak_W": [
+        0.0,
+        4.297382799120845
+      ],
+      "roll_abs_work_J": [
+        0.0,
+        0.9945533006891103
+      ],
+      "spring_power_peak_W": [
+        0.0,
+        4.285295363925686
+      ],
+      "spring_abs_work_J": [
+        0.0,
+        0.9929899485324898
+      ]
+    },
+    "delta_pulse_peak_states": [
+      0.008400853198832436,
+      0.17242860984743658,
+      0.018918369443899463
+    ],
+    "delta_pulse_peak_Fz": [
+      90.73731118226806,
+      90.77025213999332,
+      84.30736151599194,
+      89.99060561634906
+    ],
+    "delta_pulse_Mz_RMS": 141.56186235440325,
+    "planar_delta_RMS_components": [
+      16.749504421573764,
+      131.28624613822055,
+      1.4754618826685724
+    ],
+    "full8": true,
+    "fullpulse": true
+  }
+]
