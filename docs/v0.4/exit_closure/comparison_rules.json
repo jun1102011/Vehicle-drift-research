@@ -1,0 +1,20 @@
+{
+  "dominance_metrics": [
+    "recovery_s",
+    "J_final_V",
+    "J_final_beta",
+    "J_final_AVz",
+    "speed_loss_mps",
+    "overspeed_mps",
+    "torque_RMS_Nm",
+    "torque_peak_Nm",
+    "steering_rate_total_s",
+    "front_slip_clip_total_s",
+    "minFz_N"
+  ],
+  "minFz_direction": "maximize",
+  "other_directions": "minimize",
+  "unweighted_dominance_pairs": [],
+  "no_statistical_or_robustness_claim": true,
+  "no_failure_boundary_test": true
+}

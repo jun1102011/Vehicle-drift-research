@@ -1,0 +1,76 @@
+﻿case,constraint,layer,resolution_s,first_s,at_start,total_s,longest_s,segments,min_margin,margin_unit
+kf384_kr384,steering_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.0476634640953197,rad
+kf384_kr384,steering_target_slew,execution,0.01,,False,0.0,0.0,0,0.15490277546869602,rad/s
+kf384_kr384,front_slip_amplitude_clip,execution,0.01,3.72,False,0.14,0.14,1,0.0,1
+kf384_kr384,front_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.2836392909231644,1/s
+kf384_kr384,rear_slip_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.08417717503050501,1
+kf384_kr384,rear_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.13713230934921444,1/s
+kf384_kr384,actual_steering_rate,execution,0.0005,1.46,False,0.7775,0.008,434,-1.4352963262354024e-12,deg/s
+kf384_kr384,wheel_budget_projection,budget,0.01,,False,0.0,0.0,0,28.559050340752066,rad/s2
+kf384_kr384,empty_joint_wheel_budget,hard,0.01,,False,0.0,0.0,0,0.7999999999999972,rad/s
+kf384_kr384,torque_protection,protection,0.01,,False,0.0,0.0,0,2080.951805518799,N m
+kf384_kr384,contact_velocity_nonpositive,hard,0.01,,False,0.0,0.0,0,9.856714996590807,m/s
+kf384_kr384,torque_budget_violation,hard,0.0005,,False,0.0,0.0,0,2080.951805518799,N m
+kf384_kr384,nonpositive_normal_load,hard,0.0005,,False,0.0,0.0,0,861.5530476142407,N
+kf384_kr384,rear_spring_domain_RL,model_domain,0.0005,,False,0.0,0.0,0,18.920046782044313,mm
+kf384_kr384,rear_spring_domain_RR,model_domain,0.0005,0.0,True,5.382,5.382,1,-40.352954238926586,mm
+kf192_kr384,steering_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.04798674957961534,rad
+kf192_kr384,steering_target_slew,execution,0.01,,False,0.0,0.0,0,0.14159095705460756,rad/s
+kf192_kr384,front_slip_amplitude_clip,execution,0.01,3.73,False,0.12,0.12,1,0.0,1
+kf192_kr384,front_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.2719297766751091,1/s
+kf192_kr384,rear_slip_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.08453843698727699,1
+kf192_kr384,rear_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.1442132475561137,1/s
+kf192_kr384,actual_steering_rate,execution,0.0005,1.44,False,0.7905,0.0085,435,-1.4352963262354024e-12,deg/s
+kf192_kr384,wheel_budget_projection,budget,0.01,,False,0.0,0.0,0,28.741975584940747,rad/s2
+kf192_kr384,empty_joint_wheel_budget,hard,0.01,,False,0.0,0.0,0,0.7999999999999972,rad/s
+kf192_kr384,torque_protection,protection,0.01,,False,0.0,0.0,0,2063.616395030488,N m
+kf192_kr384,contact_velocity_nonpositive,hard,0.01,,False,0.0,0.0,0,9.841331704415783,m/s
+kf192_kr384,torque_budget_violation,hard,0.0005,,False,0.0,0.0,0,2063.616395030488,N m
+kf192_kr384,nonpositive_normal_load,hard,0.0005,,False,0.0,0.0,0,829.8935571072229,N
+kf192_kr384,rear_spring_domain_RL,model_domain,0.0005,,False,0.0,0.0,0,18.95981229624284,mm
+kf192_kr384,rear_spring_domain_RR,model_domain,0.0005,0.0,True,5.454,5.454,1,-40.36648626876847,mm
+kf576_kr384,steering_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.04708334759718796,rad
+kf576_kr384,steering_target_slew,execution,0.01,,False,0.0,0.0,0,0.23414565610480886,rad/s
+kf576_kr384,front_slip_amplitude_clip,execution,0.01,3.71,False,0.15,0.15,1,0.0,1
+kf576_kr384,front_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.27984922199801887,1/s
+kf576_kr384,rear_slip_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.08301196447414756,1
+kf576_kr384,rear_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.12540920719024712,1/s
+kf576_kr384,actual_steering_rate,execution,0.0005,1.47,False,0.7725,0.0075,432,-1.4352963262354024e-12,deg/s
+kf576_kr384,wheel_budget_projection,budget,0.01,,False,0.0,0.0,0,28.392206140785845,rad/s2
+kf576_kr384,empty_joint_wheel_budget,hard,0.01,,False,0.0,0.0,0,0.7999999999999972,rad/s
+kf576_kr384,torque_protection,protection,0.01,,False,0.0,0.0,0,2095.6855187344718,N m
+kf576_kr384,contact_velocity_nonpositive,hard,0.01,,False,0.0,0.0,0,9.869173050195478,m/s
+kf576_kr384,torque_budget_violation,hard,0.0005,,False,0.0,0.0,0,2095.6855187344718,N m
+kf576_kr384,nonpositive_normal_load,hard,0.0005,,False,0.0,0.0,0,880.0391052321326,N
+kf576_kr384,rear_spring_domain_RL,model_domain,0.0005,,False,0.0,0.0,0,18.888198435790184,mm
+kf576_kr384,rear_spring_domain_RR,model_domain,0.0005,0.0,True,5.3265,5.3265,1,-40.341472362991524,mm
+kf384_kr192,steering_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.04678446465895615,rad
+kf384_kr192,steering_target_slew,execution,0.01,,False,0.0,0.0,0,0.21285213074963283,rad/s
+kf384_kr192,front_slip_amplitude_clip,execution,0.01,3.69,False,0.18,0.18,1,0.0,1
+kf384_kr192,front_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.2961490479187884,1/s
+kf384_kr192,rear_slip_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.07985347957292242,1
+kf384_kr192,rear_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.09150480863003008,1/s
+kf384_kr192,actual_steering_rate,execution,0.0005,1.48,False,0.767,0.0075,433,-1.4352963262354024e-12,deg/s
+kf384_kr192,wheel_budget_projection,budget,0.01,,False,0.0,0.0,0,26.661141674235154,rad/s2
+kf384_kr192,empty_joint_wheel_budget,hard,0.01,,False,0.0,0.0,0,0.7999999999999972,rad/s
+kf384_kr192,torque_protection,protection,0.01,,False,0.0,0.0,0,2089.4404677389575,N m
+kf384_kr192,contact_velocity_nonpositive,hard,0.01,,False,0.0,0.0,0,9.83866368183145,m/s
+kf384_kr192,torque_budget_violation,hard,0.0005,,False,0.0,0.0,0,2089.4404677389575,N m
+kf384_kr192,nonpositive_normal_load,hard,0.0005,,False,0.0,0.0,0,1208.6625955746276,N
+kf384_kr192,rear_spring_domain_RL,model_domain,0.0005,,False,0.0,0.0,0,18.96862196243131,mm
+kf384_kr192,rear_spring_domain_RR,model_domain,0.0005,0.0,True,5.522,5.522,1,-40.37285410739548,mm
+kf384_kr576,steering_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.048105063268277265,rad
+kf384_kr576,steering_target_slew,execution,0.01,,False,0.0,0.0,0,0.2545908537098962,rad/s
+kf384_kr576,front_slip_amplitude_clip,execution,0.01,3.73,False,0.12,0.12,1,0.0,1
+kf384_kr576,front_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.27050487642553367,1/s
+kf384_kr576,rear_slip_amplitude_clip,execution,0.01,,False,0.0,0.0,0,0.08627923836164784,1
+kf384_kr576,rear_slip_target_slew,execution,0.01,,False,0.0,0.0,0,0.14784380042263634,1/s
+kf384_kr576,actual_steering_rate,execution,0.0005,1.44,False,0.7775,0.007,428,-1.4352963262354024e-12,deg/s
+kf384_kr576,wheel_budget_projection,budget,0.01,,False,0.0,0.0,0,29.271016732345032,rad/s2
+kf384_kr576,empty_joint_wheel_budget,hard,0.01,,False,0.0,0.0,0,0.7999999999999972,rad/s
+kf384_kr576,torque_protection,protection,0.01,,False,0.0,0.0,0,2073.8774300521272,N m
+kf384_kr576,contact_velocity_nonpositive,hard,0.01,,False,0.0,0.0,0,9.870519663375234,m/s
+kf384_kr576,torque_budget_violation,hard,0.0005,,False,0.0,0.0,0,2073.8774300521272,N m
+kf384_kr576,nonpositive_normal_load,hard,0.0005,,False,0.0,0.0,0,449.72242571729606,N
+kf384_kr576,rear_spring_domain_RL,model_domain,0.0005,,False,0.0,0.0,0,18.88131635183001,mm
+kf384_kr576,rear_spring_domain_RR,model_domain,0.0005,0.0,True,5.2755,5.2755,1,-40.3367818760136,mm

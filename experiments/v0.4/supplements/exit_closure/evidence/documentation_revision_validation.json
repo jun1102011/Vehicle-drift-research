@@ -1,0 +1,19 @@
+{
+  "document_revision": "2026-10-09",
+  "vehicle_simulations": 0,
+  "original_v04_commit": "63e158a64d033251da65bbe30c44cefd9e1fb190",
+  "original_tag_object": "9cefbfc9ae690354b3b71d8b540c87685406fe71",
+  "original_files_protected": 182,
+  "original_publication_mapping_verified": true,
+  "supplemental_byte_mapping_verified": true,
+  "local_links_checked": 42,
+  "tables_checked": 11,
+  "combined_rows_checked": 5,
+  "new_files_bytes": 2329276,
+  "new_data_source": "Step35m five runs, Step35n offline analysis",
+  "original_model_and_initializer_unchanged": true,
+  "raw_data_not_uploaded": true,
+  "main_report_sha256": "f1c0c5c7f2eec569f46c192a794190518385705d04a2c0d804caa185c49a0e05",
+  "exit_report_sha256": "4d8558630db35cda36b093ff971ca8f45414300c8f256fdb5e200acb30711b8e",
+  "passed": true
+}

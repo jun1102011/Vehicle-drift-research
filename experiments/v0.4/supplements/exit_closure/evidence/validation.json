@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "vehicle_runs": 0,
+  "protected_manifest": {
+    "files": 378,
+    "manifest_sha256": "c6ed5bffb3b07ee271bb694f35120ff7074a42c13dcd72d3a1226f237849e5f1",
+    "all_match": true
+  },
+  "cases": [
+    {
+      "case": "kf384_kr384",
+      "raw_hash_match": true,
+      "config_hash_match": true,
+      "native_window": 30000,
+      "control_window": 1500,
+      "independent_event_match": true,
+      "historical_metrics_match": true,
+      "reference_equal_error": 0.0,
+      "Aux_error": 2.2737367544323206e-13
+    },
+    {
+      "case": "kf192_kr384",
+      "raw_hash_match": true,
+      "config_hash_match": true,
+      "native_window": 30000,
+      "control_window": 1500,
+      "independent_event_match": true,
+      "historical_metrics_match": true,
+      "reference_equal_error": 0.0,
+      "Aux_error": 2.2737367544323206e-13
+    },
+    {
+      "case": "kf576_kr384",
+      "raw_hash_match": true,
+      "config_hash_match": true,
+      "native_window": 30000,
+      "control_window": 1500,
+      "independent_event_match": true,
+      "historical_metrics_match": true,
+      "reference_equal_error": 0.0,
+      "Aux_error": 4.547473508864641e-13
+    },
+    {
+      "case": "kf384_kr192",
+      "raw_hash_match": true,
+      "config_hash_match": true,
+      "native_window": 30000,
+      "control_window": 1500,
+      "independent_event_match": true,
+      "historical_metrics_match": true,
+      "reference_equal_error": 0.0,
+      "Aux_error": 2.2737367544323206e-13
+    },
+    {
+      "case": "kf384_kr576",
+      "raw_hash_match": true,
+      "config_hash_match": true,
+      "native_window": 30000,
+      "control_window": 1500,
+      "independent_event_match": true,
+      "historical_metrics_match": true,
+      "reference_equal_error": 0.0,
+      "Aux_error": 4.547473508864641e-13
+    }
+  ],
+  "constraint_tolerances": {
+    "amplitude_slew": 1e-10,
+    "actual_rate_deg_s": 1e-07,
+    "stop_force_N": 1e-06
+  },
+  "post_window": "2000 samples immediately after confirmation sample",
+  "hold_integral": "sum of 30000 left-held native samples times 0.0005 s"
+}

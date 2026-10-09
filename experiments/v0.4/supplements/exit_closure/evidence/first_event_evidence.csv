@@ -1,0 +1,16 @@
+﻿case,constraint,tau_s,active,request,budget,lower,upper,unit
+kf384_kr384,front_slip_amplitude_clip,3.71,False,0.04969891780077164,0.04969891780077164,-0.1,0.05,1
+kf384_kr384,front_slip_amplitude_clip,3.72,True,0.050159756572761095,0.05,-0.1,0.05,1
+kf384_kr384,front_slip_amplitude_clip,3.73,True,0.050622104216402314,0.05,-0.1,0.05,1
+kf192_kr384,front_slip_amplitude_clip,3.72,False,0.049970429462847916,0.04997042946284865,-0.1,0.05,1
+kf192_kr384,front_slip_amplitude_clip,3.73,True,0.050426682044839174,0.05,-0.1,0.05,1
+kf192_kr384,front_slip_amplitude_clip,3.74,True,0.05089629475335501,0.05,-0.1,0.05,1
+kf576_kr384,front_slip_amplitude_clip,3.7,False,0.049855133948596184,0.04985513394859581,-0.1,0.05,1
+kf576_kr384,front_slip_amplitude_clip,3.71,True,0.05034451337826226,0.05,-0.1,0.05,1
+kf576_kr384,front_slip_amplitude_clip,3.72,True,0.050843811836106985,0.05,-0.1,0.05,1
+kf384_kr192,front_slip_amplitude_clip,3.68,False,0.049656179041171186,0.049656179041171186,-0.1,0.05,1
+kf384_kr192,front_slip_amplitude_clip,3.69,True,0.050201620311962195,0.05,-0.1,0.05,1
+kf384_kr192,front_slip_amplitude_clip,3.7,True,0.05075164061877485,0.05,-0.1,0.05,1
+kf384_kr576,front_slip_amplitude_clip,3.72,False,0.049646595298529765,0.049646595298529765,-0.1,0.05,1
+kf384_kr576,front_slip_amplitude_clip,3.73,True,0.05006392890829915,0.05,-0.1,0.05,1
+kf384_kr576,front_slip_amplitude_clip,3.74,True,0.05047134273844728,0.05,-0.1,0.05,1

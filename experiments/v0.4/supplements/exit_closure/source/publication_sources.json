@@ -1,0 +1,158 @@
+{
+  "entry_batch": "Step35f/g unchanged",
+  "exit_batch": "Step35m; Step35n offline reanalysis",
+  "new_vehicle_runs": 0,
+  "original_v04_model_unchanged": true,
+  "byte_preserved_files": [
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\report.md",
+      "published": "docs/v0.4/exit_closure/report.md",
+      "sha256": "4d8558630db35cda36b093ff971ca8f45414300c8f256fdb5e200acb30711b8e",
+      "bytes": 9166
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\summary.csv",
+      "published": "docs/v0.4/exit_closure/summary.csv",
+      "sha256": "36e5e3f73d3a6c0d03db1b1cf7217370f7b2c4913c2efa145fc598810b78227a",
+      "bytes": 5449
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\constraint_events.csv",
+      "published": "docs/v0.4/exit_closure/constraint_events.csv",
+      "sha256": "aa218c14d7025ea63c6d78b1e2a440eaebf099a46683dba090797647d089eeaf",
+      "bytes": 7007
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\details.json",
+      "published": "docs/v0.4/exit_closure/details.json",
+      "sha256": "7516cf1e36fd5488ed4a3c539b6c0ceeac159cf78b93c30ddfd68bd927da93d4",
+      "bytes": 678781
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\comparison_rules.json",
+      "published": "docs/v0.4/exit_closure/comparison_rules.json",
+      "sha256": "e0c6e13b126e9d7a6487c66c1acf7ae290157e25205ae28d39d785ffbe4b0a24",
+      "bytes": 470
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\01_recovery.png",
+      "published": "docs/v0.4/exit_closure/figures/01_recovery.png",
+      "sha256": "b11c5fd8f916a11f5cf2e7498ccf179fee9ac7e7e3f44a8741458c7a3ba63b37",
+      "bytes": 147003
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\02_tradeoffs.png",
+      "published": "docs/v0.4/exit_closure/figures/02_tradeoffs.png",
+      "sha256": "ddacbda82967334ebb6d16acec49e4b1b78b505f19fe645c0db583e04f2c1562",
+      "bytes": 169484
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\03_constraints.png",
+      "published": "docs/v0.4/exit_closure/figures/03_constraints.png",
+      "sha256": "4c8808e768bf1343afefbcef32502167b4c54c082ebc6d2ab23a84006da7b4ba",
+      "bytes": 168309
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\04_load_suspension.png",
+      "published": "docs/v0.4/exit_closure/figures/04_load_suspension.png",
+      "sha256": "9c5f60edd88b3330e5922528e10ccd8a3ffd224fba2edd9f428462c80525e068",
+      "bytes": 183855
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\05_tires.png",
+      "published": "docs/v0.4/exit_closure/figures/05_tires.png",
+      "sha256": "d96a9ec76e15abb0d06d9cfbf9b977b716544599ae30b9f63dd1d47c57d28010",
+      "bytes": 189149
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\06_actual_inputs.png",
+      "published": "docs/v0.4/exit_closure/figures/06_actual_inputs.png",
+      "sha256": "972dc480c9513d62d42fd6e54fdc734e4bcbcca506b8bc28ec8145712ccc5a3d",
+      "bytes": 164449
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\07_actual_structure.png",
+      "published": "docs/v0.4/exit_closure/figures/07_actual_structure.png",
+      "sha256": "9dacda52cadc8d5b5d99162021a52912a5af6097995563b0a8317ed7c1b7dd18",
+      "bytes": 185143
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\results\\figures\\07_actual_structure.svg",
+      "published": "docs/v0.4/exit_closure/figures/07_actual_structure.svg",
+      "sha256": "b7c55824bd9e0c11bf0f01624627d330a33a975ff4717c2ca75f23ef180c2688",
+      "bytes": 283254
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\audit\\validation.json",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/validation.json",
+      "sha256": "4f5cc8eb3e501d45c2e7ef8c6e0c87d1e292cf5dd53643b940b0f2018407d29b",
+      "bytes": 2167
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\audit\\recorded_schedule_protocol.json",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/recorded_schedule_protocol.json",
+      "sha256": "ecce5259de8f52abe438438e2659b70e27b0d6d04fa371c4f90c8d39dd58c886",
+      "bytes": 30461
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\audit\\first_event_evidence.csv",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/first_event_evidence.csv",
+      "sha256": "c8b78f7927b6c178ef74724c70f2fa45de2adaacdc8c907258496b277a87a6ce",
+      "bytes": 1444
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\audit\\rebuild_verified.json",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/rebuild_verified.json",
+      "sha256": "3e6c738ad60c8c056310b1717f9170bd24031023a003d73822c0607665f2befb",
+      "bytes": 4998
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\audit\\cleanup_result.json",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/cleanup_result.json",
+      "sha256": "2a176329eacfe69ba6c221789308427c4cdd7df44c72ba91a9687b0d212bc766",
+      "bytes": 105
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\internal\\analyze_closure.py",
+      "published": "experiments/v0.4/supplements/exit_closure/source/analysis/analyze_closure.py",
+      "sha256": "8a5568710e742d224b73f89dc27e2819425e78a1b0332a5e695d276530e3164e",
+      "bytes": 16749
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\internal\\verify_recorded_schedule.py",
+      "published": "experiments/v0.4/supplements/exit_closure/source/analysis/verify_recorded_schedule.py",
+      "sha256": "c9777b63f6a20589d35b8c33d6dfc15a7712cfbd8fd00c77917803cbdabaf92e",
+      "bytes": 1851
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35n_exit_closure_20261009\\internal\\render_closure.m",
+      "published": "experiments/v0.4/supplements/exit_closure/source/analysis/render_closure.m",
+      "sha256": "e9e375ac30f615037990345f4722393f84bdb3e662c025f654b73e091744f947",
+      "bytes": 8385
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35m_synchronous_exit_20261009\\internal\\state_cycle_core.m",
+      "published": "experiments/v0.4/supplements/exit_closure/source/state_cycle_core.m",
+      "sha256": "235d188c5e0ee0c0b145829bb5f3bfd458efffe0cd94bc716373d2725e3fb9d8",
+      "bytes": 7562
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35m_synchronous_exit_20261009\\internal\\schedule_math.py",
+      "published": "experiments/v0.4/supplements/exit_closure/source/schedule_math.py",
+      "sha256": "48b51bff03323f1d00f6ee8e2e11c1aaf56d7c4268dc529729492f79b6400d5a",
+      "bytes": 1544
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35m_synchronous_exit_20261009\\source\\profiles\\V12_beta30_state_only_R3_S.json",
+      "published": "experiments/v0.4/supplements/exit_closure/source/profile.json",
+      "sha256": "158d579dcdca01678171b5cd24e0ed839de134e735ad20200de821d839b4c9e7",
+      "bytes": 20709
+    },
+    {
+      "source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35m_synchronous_exit_20261009\\audit\\reference_formula_check.json",
+      "published": "experiments/v0.4/supplements/exit_closure/evidence/reference_formula_check.json",
+      "sha256": "de99652a7c5d2a3364f949b0298aea3d43c69a52409686a3b830388dbc3e1468",
+      "bytes": 16095
+    }
+  ]
+}

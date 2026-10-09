@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "cache\\kf192_kr384_constraints.csv",
+      "bytes": 208338,
+      "sha256": "2b506a1fda0588049aadadda5f5f450ec8facdefafbbcc58837ffb39b3f253a8"
+    },
+    {
+      "path": "cache\\kf192_kr384_input.csv",
+      "bytes": 268219,
+      "sha256": "bf46ccc0850d353a8c7a722e3066ecf0bddb9e5626742f995d4bf856fbf70cb4"
+    },
+    {
+      "path": "cache\\kf192_kr384_physical.csv",
+      "bytes": 619441,
+      "sha256": "e091c97a6b8fe1c135e367c703f899c2a05170970a1ee46b7e4ba35ca811466b"
+    },
+    {
+      "path": "cache\\kf192_kr384_states.csv",
+      "bytes": 208857,
+      "sha256": "14d622bb11a410b1259d1643fa9b290afb3e648c91610401c6ff86d3d17d855e"
+    },
+    {
+      "path": "cache\\kf192_kr384_stops.csv",
+      "bytes": 69654,
+      "sha256": "9310cfefcd58b12614f96a6a5d863fc67ed8a154b6d392c0f60cd110a8c5f38f"
+    },
+    {
+      "path": "cache\\kf384_kr192_constraints.csv",
+      "bytes": 208191,
+      "sha256": "3a185fdc4a9f1869e04f76d9fe1eccd338ca9c2a2023ee542aae0cbb66c7b5d4"
+    },
+    {
+      "path": "cache\\kf384_kr192_input.csv",
+      "bytes": 267801,
+      "sha256": "4374131485deeee2c52018d571fa3d755ea4e6e95cf8e2827cfeceb230f50dd4"
+    },
+    {
+      "path": "cache\\kf384_kr192_physical.csv",
+      "bytes": 620177,
+      "sha256": "bf74101f721d9b768092fd2dcee32f4978dc48c02ab54f69f2005a4c399d0e5e"
+    },
+    {
+      "path": "cache\\kf384_kr192_states.csv",
+      "bytes": 208972,
+      "sha256": "bd6c5de415eafec6b7acd5ec08ead08b6e7ccf7eeeffb47fd581d3a9675b8249"
+    },
+    {
+      "path": "cache\\kf384_kr192_stops.csv",
+      "bytes": 69032,
+      "sha256": "ba666948a6dab99dda950b9f80d268941e51faa50b53ffebd46bf92d735f912f"
+    },
+    {
+      "path": "cache\\kf384_kr384_constraints.csv",
+      "bytes": 208301,
+      "sha256": "66aa2e25ea27392f87b417d6db4cc26b1ec9942f1c2cd4b75b56fc7444bdaaab"
+    },
+    {
+      "path": "cache\\kf384_kr384_input.csv",
+      "bytes": 267081,
+      "sha256": "8f30fccadde37faff7254119d3460a3a6984e030d081a5b2286371d50cdbeb2f"
+    },
+    {
+      "path": "cache\\kf384_kr384_physical.csv",
+      "bytes": 622421,
+      "sha256": "77c8005c8b0891e44610fd68bd1ae6f03687690be1ace404a8ba46d974473108"
+    },
+    {
+      "path": "cache\\kf384_kr384_states.csv",
+      "bytes": 208808,
+      "sha256": "e829176a48aaa274017ce6019644a7838573572d80d908c0d96b6f916753b9c8"
+    },
+    {
+      "path": "cache\\kf384_kr384_stops.csv",
+      "bytes": 67377,
+      "sha256": "19e9fd459ef5320971378fe1eb08a67384b0a1c7837b76728e4094e29261db39"
+    },
+    {
+      "path": "cache\\kf384_kr576_constraints.csv",
+      "bytes": 208352,
+      "sha256": "458049304bbfdc048c3bc355280a59d6614431eac0c3f29e1cf9f1e2d9d871cb"
+    },
+    {
+      "path": "cache\\kf384_kr576_input.csv",
+      "bytes": 267555,
+      "sha256": "e90a34be003ca49b4fac55e67fa76f1627a74509ac242c1ab546b73f8355309b"
+    },
+    {
+      "path": "cache\\kf384_kr576_physical.csv",
+      "bytes": 619596,
+      "sha256": "8e1efa3c01ed06719bbd679981c16178e6ea0bdab33ff3fe577ad7682c352d7a"
+    },
+    {
+      "path": "cache\\kf384_kr576_states.csv",
+      "bytes": 208384,
+      "sha256": "36c7bfc79f240300aedb40481a7382f5593532d76800c9b1d67465c9719d2a2a"
+    },
+    {
+      "path": "cache\\kf384_kr576_stops.csv",
+      "bytes": 64483,
+      "sha256": "90cb1c99d2d9229013aa6d9b09578bbc4bbdaac67849fa0762798f401a7cd298"
+    },
+    {
+      "path": "cache\\kf576_kr384_constraints.csv",
+      "bytes": 208340,
+      "sha256": "f3532223a9d4be8690226ffb27191e18353add274067bfb7f4ffd7697a15affc"
+    },
+    {
+      "path": "cache\\kf576_kr384_input.csv",
+      "bytes": 267108,
+      "sha256": "7ae050351d6e8277415e34deba680a7df7b439686642c625453bda838776e524"
+    },
+    {
+      "path": "cache\\kf576_kr384_physical.csv",
+      "bytes": 620105,
+      "sha256": "f7a87bc682d19b51ed4bd289d8f4455717889598e17af3dd3f60e58dbde47ee3"
+    },
+    {
+      "path": "cache\\kf576_kr384_states.csv",
+      "bytes": 208350,
+      "sha256": "6765a66ffb1db5a4b3d6735c5589c79bb396e7c2c09d2aee02baa800b72e86fc"
+    },
+    {
+      "path": "cache\\kf576_kr384_stops.csv",
+      "bytes": 64392,
+      "sha256": "f277c354a8f85bab791a1317d0f5aa2d0d75ade1c1e1c71cc06649680e7c052a"
+    },
+    {
+      "path": "results\\comparison_rules.json",
+      "bytes": 470,
+      "sha256": "e0c6e13b126e9d7a6487c66c1acf7ae290157e25205ae28d39d785ffbe4b0a24"
+    },
+    {
+      "path": "results\\constraint_events.csv",
+      "bytes": 7007,
+      "sha256": "aa218c14d7025ea63c6d78b1e2a440eaebf099a46683dba090797647d089eeaf"
+    },
+    {
+      "path": "results\\details.json",
+      "bytes": 678781,
+      "sha256": "7516cf1e36fd5488ed4a3c539b6c0ceeac159cf78b93c30ddfd68bd927da93d4"
+    },
+    {
+      "path": "results\\summary.csv",
+      "bytes": 5449,
+      "sha256": "36e5e3f73d3a6c0d03db1b1cf7217370f7b2c4913c2efa145fc598810b78227a"
+    }
+  ]
+}
