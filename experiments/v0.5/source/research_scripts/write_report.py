@@ -1,0 +1,130 @@
+"""将道路诊断、逐样本回归及五组复算结果整理为唯一中文主报告。"""
+from prepare_research import *
+def table(headers,rows):
+ return '| '+' | '.join(headers)+' |\n| '+' | '.join(['---']*len(headers))+' |\n'+'\n'.join('| '+' | '.join(map(str,r))+' |' for r in rows)
+def main():
+ out=W/'results/analysis';rows=read(out/'summary.json');details=read(out/'details.json');sep=read(out/'separation.json');audit=read(W/'audit/final_road_validation.json');road=read(W/'audit/road_diagnosis.json')
+ assert audit['passed'] and len(rows)==5
+ fmt=lambda x,n=4:'未达到' if x is None else f'{x:.{n}f}'
+ headers=['前/后Aux刚度','本批结果','左起漂/s','换向至右漂/s','最终恢复/s','右维持β RMSE/°','右自然半径/m']
+ mainrows=[[f"{r['Kf']}/{r['Kr']}",r['classification'],fmt(r['left_entry_s']),fmt(r['right_entry_from_reversal_s']),fmt(r['recovery_s']),fmt(r['right_beta_rmse_deg']),fmt(r['right_radius_m'])] for r in rows]
+ costs=[[f"{r['Kf']}/{r['Kr']}",fmt(r['reversal_Vmin']),fmt(r['reversal_minFz'],2),fmt(r['reversal_torque_RMS'],2),fmt(r['reversal_torque_peak'],2),fmt(r['exit_Vmin']),fmt(r['exit_minFz'],2)] for r in rows]
+ errors=[[x['case'],fmt(x['error']['t_s']),fmt(x['error']['center_distance_m'],6),fmt(x['error']['geometric_inverse_sensitivity_R_over_distance'],2)] for x in road['cases'] if 'error' in x]
+ regression=[]
+ for r in rows:
+  q=read(W/f"audit/road_regression_{r['case']}.json");old=read(P/f"audit/review_{r['case']}.json")
+  regression.append([f"{r['Kf']}/{r['Kr']}",fmt(old['actual_end_s']),fmt(r['actual_end_s']),len(q['identical_channels']),'是' if q['all_common_bitwise_equal'] else '否'])
+ fastest=min(rows,key=lambda r:r['recovery_s'] if r['recovery_s'] is not None else float('inf'));slowest=max((r for r in rows if r['recovery_s'] is not None),key=lambda r:r['recovery_s'])
+ domainrows=[]
+ for c in CASES:
+  z=read(out/f'{c}_suspension_domain.json')
+  rear=[a for a in z['table_domains'] if a['table'] in ['FS_COMP_TABLE(2,1)','FS_COMP_TABLE(2,2)']]
+  assert len(rear)==2
+  parts=[f"{a['wheel']}查询峰值{a['query']['max']:.3f} mm，超上界{a['high']['max_excess']:.3f} mm、累计{a['high']['cumulative_left_hold_s']:.4f} s" for a in rear]
+  domainrows.append(f"- `{c}`："+'；'.join(parts)+'。')
+ content=f'''# Step37c：道路坐标异常核查与五刚度完整对照
+
+## 结论先行
+
+本批完成五次60 s任务，{sum(r['classification']=='PASS' for r in rows)}组通过原状态任务验收。上批两组中断不能作为刚度导致失控的证据。它们在同一控制器、同一物理平面下，换用直线道路参考坐标后补齐了右漂维持和退漂记录。
+
+关键证据不只是“这次跑通”：五组各自与Step37b旧记录的全部56个数值通道，在旧记录可用时间内逐位一致。旧三组完整60 s响应复现；旧两组中断前的响应也复现，随后才新增原来缺失的时段。未更改增益、参考、输入限速或验收门槛。
+
+这是**道路坐标表示问题的隔离修复**。几何分析支持旧圆心附近坐标变换条件恶化；没有读取CarSim内部迭代过程，不能声称已定位其具体迭代代码缺陷，也不能把报错查询点冒称质心或某个车轮。
+
+## 1. 原因：物理路面与道路参考线不是一回事
+
+旧Echo显示：道路参考线起点(0,−16)、初始方向0°、半径15 m、完整360°圆，圆心为(0,−1)。界面历史标题“100 m”“16 m”不是实际采用的半径。
+
+与此同时，真实路面为均匀平面：高度0 m、μ=0.85、滚阻表面系数1，无附加高程层。内置驾驶员OPT_DM=0，OPT_INIT_PATH=0，控制器不使用XY/道路投影推进任务。CarSim仍要进行道路坐标查询，因此“控制器无路径反馈”不等于“CarSim不需要道路坐标”。
+
+圆坐标可写为：
+
+```text
+X = (15−L) sin(S/15)
+Y = −1−(15−L) cos(S/15)
+Jacobian determinant = 1−L/15
+```
+
+L接近15 m时，沿路坐标对位置变化十分敏感；在圆心处S不唯一。旧报错点并未恰好落在圆心，而是距圆心约15—19 cm：
+
+{table(['旧组别','报错时间/s','距圆心/m','局部几何敏感度R/d'],errors)}
+
+原生最后样本与内部错误时刻可能相差一个求解子步：后576组原生结束32.4640 s，日志错误32.4642 s。上述X/Y来自错误日志中的查询点，身份未暴露。报告不把它与质心轨迹强行重合。
+
+本机CarSim 2020《Paths and Road Surfaces》3—6页说明S/L用于路面查询、XY→SL存在迭代及多解问题，并给出直线坐标的使用方式。在线官方概述亦说明路面高度、摩擦与滚阻基于道路S/L坐标：[Paths and Roads](https://www.carsim.com/products/supporting/paths_roads/index.php)。本轮版本依据以本机手册及实际Echo为准。
+
+![道路坐标与旧报错位置](../figures/road_diagnosis.png)
+
+## 2. 改了什么、怎样证明比较条件相同
+
+在独立Step37c sim/par内，将OPT_PATH_LOOP从1改为0、SEGMENT_TYPE从3改为0，半径/圆心角两行替换为SEGMENT_LENGTH 2000。保留参考线起点(0,−16)和朝向0°，因此新坐标为S=X、L=Y+16，不存在原圆心奇异性。
+
+高度、μ、滚阻、±2000 m横向边界参数、初态、车辆、轮胎、悬架和求解周期保持。坐标改变后边界在全局平面中的形状也改变，本轮轨迹未接近这些边界；等价性限定在本任务实际经过区域。直线是路面的坐标参考，**不是要求车辆沿直线走**。自然左右圆漂目标及其约20 m半径没有改变。正式sim/par和GUI数据库未写回；旧标题仍是来源标签，真实配置由Echo核验。
+
+五组间只保留两项Aux系数差异；同组新旧配置只有上述道路坐标白名单和运行输出路径差异。控制模型、初始化、核心函数和LeftRight_R3 profile与Step37b字节一致。准备阶段验证五组控制数值一致，并以XY扰动检查请求/阶段不受路径信号影响。
+
+实际四轮地面高度、X/Y坡度及MuX/MuY也已逐组核对：高度/坡度在数值精度内为零，纵横向附着在VSB浮点精度内为0.85。该证据保持原VSB的0.01 s分辨率，不冒称0.0005 s原生地面查询记录；完整结果在final_road_validation.json。
+
+先完成384/384回归，再逐组运行和审核，没有带着未解释差异继续：
+
+{table(['配置','旧有效终点/s','新终点/s','逐位一致通道数','共同段逐位一致'],regression)}
+
+此证据支持：本次道路坐标修改没有改变已观察到的车辆状态、实际8路输入、轮胎/悬架和控制响应。旧两组终点后的响应是新仿真获得，未拼接、补点或复原快照。旧FAIL记录保留为“道路求解中断”，本批独立评价，不覆盖历史结果。
+
+## 3. 补齐后的五组结果
+
+统一任务：普通初态→左−30°→首次10 s维持→29/3 s连续换向→右+30°→首次10 s维持→43/6 s同步退漂→自然直行。V=12 m/s，五状态R3冻结，外部ASB为零、无路径跟踪。
+
+事件使用600个原生样本起漂、20,000个原生样本固定维持、2,000个原生样本恢复；所有门槛继承Step37a/37b。表中时间取持续合格段起点相对于对应阶段起点；确认时刻另存details.json。半径只是诊断，不加入本轮状态任务PASS。
+
+{table(headers,mainrows)}
+
+最终恢复最快为{fastest['Kf']}/{fastest['Kr']}，{fastest['recovery_s']:.4f} s；最慢为{slowest['Kf']}/{slowest['Kr']}，{slowest['recovery_s']:.4f} s，相差{(slowest['recovery_s']-fastest['recovery_s'])*1000:.1f} ms。这是本次确定性任务的差异，不是统计显著性、鲁棒性或绝对能力边界。
+
+![五组完整状态对照](../figures/states.png)
+
+![自然左右漂移轨迹](../figures/trajectories.png)
+
+## 4. 差异和代价分别看
+
+{table(['配置','换向最低V/m·s⁻¹','换向最低Fz/N','换向轮矩RMS/N·m','换向轮矩峰/N·m','退漂最低V/m·s⁻¹','退漂最低Fz/N'],costs)}
+
+轮矩RMS按固定窗口四轮平方均值开方计算，不是能耗；各组最低轮荷不是同刻调载量。完整起漂8 s、换向15 s、最终退漂15 s窗口均使用原生0.0005 s数据；控制裁剪按0.01 s诊断。
+
+本批起漂/换向时序复现旧结果：384/576更早进入左右漂移，384/192较慢；但后576换向最低轮荷更低、反向横摆幅值更大。后192的轮荷余量较大、最终恢复较快。不能据此选出各阶段全部指标最优的配置。
+
+同刻五组β极差峰值：起漂{sep['entry']['same_time_state_range_peak'][1]:.6f}°，换向{sep['reversal']['same_time_state_range_peak'][1]:.6f}°，最终退漂{sep['exit']['same_time_state_range_peak'][1]:.6f}°。各窗口及调度不同，不能把这些比值当作车辆固有灵敏度。β曲线分离不是通过条件。
+
+![实际控制输入](../figures/actual_inputs.png)
+![轮荷代价](../figures/wheel_loads.png)
+![Aux实际作用](../figures/aux_roll.png)
+
+四轮实际滑移、轮胎Fx/Fy及请求—预算后目标分别见wheel_slip.png、tire_forces.png和request_budget.png。力维持原轮胎坐标，不能直接将左右Fy相加冒充车体系轴合力。
+
+## 5. 模型适用范围与研究边界
+
+本轮修复的是道路坐标，不是悬架外推。后簧、几何和轮胎表端警告继续保留；原始查询、超域幅度/时长、止挡及约束审计随本批记录保存，未扩表。正轮荷和任务PASS不等同实车机械安全。模型仍限于当前CarSim参数和既定外推。
+
+{chr(10).join(domainrows)}
+
+这里研究的是固定内部Aux刚度，Kaux也不是整轴总侧倾刚度。外部主动ASB未介入，不将结果称为主动ASB控制收益。自然左右双环未规定交叉点和闭合位置，不能称指定几何八字路径跟踪通过。
+
+![实际系统结构](../figures/system_structure.png)
+
+## 6. 保存与复核
+
+每组一份无损56通道原生raw_numeric.mat及必要CarSim证据；历史只引用，旧短记录未删除。主表summary.csv，详细窗口/事件details.json，同刻极差separation.json；独立道路身份和源文件保护见audit/final_road_validation.json。
+
+- `internal/review_case.py <case>`：只读原生数据复算验收、执行公式与同组新旧回归。
+- `internal/compare_cases.py`：只读五组生成总表和可重建绘图缓存。
+- MATLAB `render_comparison; render_road_diagnosis`：只绘图，不启动车辆。
+- `internal/run_state_only_case.m`与`run_remaining.m`：已完成的车辆运行入口，不为看图再次调用。
+- 唯一初始化仍保留`model/a001_step37a_initialize.m`原名与原字节，避免改动回调。报告结构图与本批真实执行配置配套。
+
+本批完成后停止；未追加控制器整定、主动ASB、其他刚度或Git发布。
+'''
+ (out/'report.md').write_text(content,encoding='utf-8')
+ (W/'先看这里.md').write_text('# Step37c：道路坐标修复与五刚度补齐\n\n已完成五组。先读[主报告](results/analysis/report.md)与[总表](results/analysis/summary.csv)。旧道路坐标中断记录保持；本批仅直线道路参考坐标，物理路面和控制器冻结。\n\n重画图：Python internal/compare_cases.py 重建cache，再MATLAB render_comparison、render_road_diagnosis；不运行车辆入口。模型初始化保留model/a001_step37a_initialize.m原名，正式工程及GUI未修改。\n',encoding='utf-8')
+ print('REPORT_WRITTEN')
+if __name__=='__main__':main()

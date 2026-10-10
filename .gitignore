@@ -13,3 +13,8 @@ Thumbs.db
 experiments/v0.4/**/raw*.mat
 experiments/v0.4/**/*.vsb*
 experiments/v0.4/**/cache/
+
+# V0.5大原始记录与派生缓存仅本地保存
+experiments/v0.5/**/raw*.mat
+experiments/v0.5/**/*.vsb*
+experiments/v0.5/**/cache/

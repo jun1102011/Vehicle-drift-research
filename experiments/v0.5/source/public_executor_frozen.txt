@@ -1,0 +1,14 @@
+% 公共执行层：真实接地点速度、实际Fx负载补偿与冻结的局部执行预算。
+lo=[ref.v(1)-entry_cfg.steer_deviation;entry_cfg.slip_low];hi=[ref.v(1)+entry_cfg.steer_deviation;entry_cfg.slip_high];
+v=min(max(request,lo),hi);slew=[entry_cfg.steering_rate_rad_s;entry_cfg.slip_rate;entry_cfg.slip_rate];v=min(max(v,vprev-slew*Ts),vprev+slew*Ts);vprev=v;
+contact=Rw*omega./(1+y(27:30));assert(all(isfinite(contact))&&all(contact>0),'Invalid contact velocity');
+candidate=contact/Rw.*(1+[v(2);v(2);v(3);v(3)]);loadTorque=Rw*y(9:12)+ref.offset;kw=entry_cfg.wheel_kw;
+if first,wd=omega;dwd=zeros(4,1);
+else
+ gain=kw+Iw/Ts;low=(-entry_cfg.torque_limit+kw*omega+Iw/Ts*wprev-loadTorque)/gain;high=(entry_cfg.torque_limit+kw*omega+Iw/Ts*wprev-loadTorque)/gain;
+ low=max(low,wprev-entry_cfg.omega_acceleration*Ts);high=min(high,wprev+entry_cfg.omega_acceleration*Ts);assert(all(low<=high),'Empty torque and wheel acceleration budget');
+ wd=min(max(candidate,low),high);dwd=(wd-wprev)/Ts;
+end
+feedback=kw*(wd-omega);inertia=Iw*dwd;raw=feedback+inertia+loadTorque;T=min(max(raw,-entry_cfg.torque_limit),entry_cfg.torque_limit);wprev=wd;
+protection=any(abs(T)>=entry_cfg.torque_limit-1e-6);command=[v(1);T];
+diag=[phase;progress;mix;double(inside);double(prepareFailed);readyTime;captureTime;satTime;x;ref.x;ref.v;request;v;candidate;wd;omega;feedback;inertia;loadTorque;raw;T;double(any(abs(v-request)>1e-9));double(any(abs(wd-candidate)>1e-9));double(protection);contact];

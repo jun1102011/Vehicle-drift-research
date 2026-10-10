@@ -1,0 +1,46 @@
+{
+  "raw_not_uploaded": true,
+  "records": [
+    {
+      "case": "kf384_kr384",
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\results\\runs\\LeftRight_R3_kf384_kr384\\raw_numeric.mat",
+      "sha256": "82047b076cb1e87a39b3ae2ab71558c6b6888304a099b4c5f8228e9728a0b391",
+      "bytes": 76469291,
+      "channels": 56,
+      "native_step_s": 0.0005
+    },
+    {
+      "case": "kf192_kr384",
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\results\\runs\\LeftRight_R3_kf192_kr384\\raw_numeric.mat",
+      "sha256": "b3b66b484fe2dcd5bb0efdb6903eee40e81cd9f019930bed46f9aa375287fc35",
+      "bytes": 76183898,
+      "channels": 56,
+      "native_step_s": 0.0005
+    },
+    {
+      "case": "kf576_kr384",
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\results\\runs\\LeftRight_R3_kf576_kr384\\raw_numeric.mat",
+      "sha256": "12274eb42f9372b68c2c3b3e7c187d2f8b2ff59891c498120d18ee5a101b8cab",
+      "bytes": 76375371,
+      "channels": 56,
+      "native_step_s": 0.0005
+    },
+    {
+      "case": "kf384_kr192",
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\results\\runs\\LeftRight_R3_kf384_kr192\\raw_numeric.mat",
+      "sha256": "a37ba694d43412e8e180badeceda1a14c71476c2605f2fd860b13339e2e97cce",
+      "bytes": 76418742,
+      "channels": 56,
+      "native_step_s": 0.0005
+    },
+    {
+      "case": "kf384_kr576",
+      "path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\results\\runs\\LeftRight_R3_kf384_kr576\\raw_numeric.mat",
+      "sha256": "67a61d94a0335306c343c329fd105908e72168ebf52ca81de0d9e5d607f80779",
+      "bytes": 73385760,
+      "channels": 56,
+      "native_step_s": 0.0005
+    }
+  ],
+  "history": "Step37b旧完整与中断记录仍在原处，回归哈希见evidence/batch/road_regression_*.json"
+}

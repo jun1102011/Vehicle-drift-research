@@ -1,0 +1,241 @@
+{
+  "verified": true,
+  "physical_surface_from_echo": {
+    "NROAD_DZ": "0",
+    "ROAD_ZS_CONSTANT(1)": "0",
+    "MU_ROAD_CONSTANT(1)": "0.85",
+    "MU_ROAD_L_CONSTANT(1)": "0",
+    "RR_SURF(1)": "1",
+    "OPT_DM": "0",
+    "OPT_INIT_PATH": "0",
+    "ROAD_SMAX_NEW_ID(1)": "0",
+    "ROAD_SMIN_NEW_ID(1)": "0"
+  },
+  "echo_source": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf384_kr384\\LastRun_echo.par.evidence",
+  "echo_sha256": "65fc11d57b2cd3474ed0c4f83a3364eedce6cf9b4f4b0279e2e4c76355f845c8",
+  "manual": "C:\\Program Files (x86)\\CarSim2020.0_Prog\\Help\\Screens\\roads.pdf",
+  "manual_sha256": "60b13bb941eb75e175e51c7867fc381d9a858c24ebaa29d7de9566d0a0b994ab",
+  "manual_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "circle": {
+    "start": [
+      0,
+      -16
+    ],
+    "heading_deg": 0,
+    "radius_m": 15,
+    "center": [
+      0,
+      -1
+    ],
+    "transform": [
+      "X=(15-L)*sin(S/15)",
+      "Y=-1-(15-L)*cos(S/15)"
+    ],
+    "jacobian": "1-L/15",
+    "interpretation": "circle center singular; observed errors nearby, iterative algorithm itself not instrumented"
+  },
+  "straight": {
+    "start": [
+      0,
+      -16
+    ],
+    "heading_deg": 0,
+    "length_m": 2000,
+    "loop": false,
+    "transform": [
+      "S=X",
+      "L=Y+16"
+    ],
+    "jacobian": 1
+  },
+  "cases": [
+    {
+      "case": "kf384_kr384",
+      "old_log": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf384_kr384\\LastRun_log.txt.evidence",
+      "old_log_sha256": "a643bd7186d3ee726bb0b1d637928f7227e91461d397e11c014d6f58704454d7",
+      "old_par_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "new_par_sha256": "db07bf0a7a17d612cc2f54ce195acb7a67917ef4435bb4f190b8dbee9d2b8680",
+      "diff": [
+        "--- old_circle\n",
+        "+++ straight_coordinates\n",
+        "@@ -4461,7 +4461,7 @@\n",
+        " #FullDataName Path: Segment Builder`16 m Radius`Circles",
+        " SET_IPATH_FOR_ID 1000",
+        " OPT_PATH_START 1",
+        "-OPT_PATH_LOOP 1",
+        "+OPT_PATH_LOOP 0",
+        " SPATH_START 0",
+        " X_PATH_START 0.0",
+        " Y_PATH_START -16",
+        "@@ -4470,9 +4470,8 @@\n",
+        " set_description path_id 16 m Radius",
+        " NSEGMENTS 1",
+        " IPATHSEG 1",
+        "-SEGMENT_TYPE 3",
+        "-SEGMENT_RADIUS 15.000000",
+        "-SEGMENT_ARC 360.000000",
+        "+SEGMENT_TYPE 0",
+        "+SEGMENT_LENGTH 2000",
+        " Title 16 m Radius <Circles>",
+        " LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 16 m Radius",
+        " EXIT_PARSFILE Roads\\BuilderSegment\\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+      ]
+    },
+    {
+      "case": "kf192_kr384",
+      "old_log": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf192_kr384\\LastRun_log.txt.evidence",
+      "old_log_sha256": "1d7726b8b52fdf95016a0c7bc9986967ef84cd1b1811eeafbc9adf6b37ed3a91",
+      "old_par_sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+      "new_par_sha256": "f9593ee5c50f668b1dfa8a1c43bb64469cd553b9c5b055cbc5a604f9bb8092df",
+      "diff": [
+        "--- old_circle\n",
+        "+++ straight_coordinates\n",
+        "@@ -4461,7 +4461,7 @@\n",
+        " #FullDataName Path: Segment Builder`16 m Radius`Circles",
+        " SET_IPATH_FOR_ID 1000",
+        " OPT_PATH_START 1",
+        "-OPT_PATH_LOOP 1",
+        "+OPT_PATH_LOOP 0",
+        " SPATH_START 0",
+        " X_PATH_START 0.0",
+        " Y_PATH_START -16",
+        "@@ -4470,9 +4470,8 @@\n",
+        " set_description path_id 16 m Radius",
+        " NSEGMENTS 1",
+        " IPATHSEG 1",
+        "-SEGMENT_TYPE 3",
+        "-SEGMENT_RADIUS 15.000000",
+        "-SEGMENT_ARC 360.000000",
+        "+SEGMENT_TYPE 0",
+        "+SEGMENT_LENGTH 2000",
+        " Title 16 m Radius <Circles>",
+        " LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 16 m Radius",
+        " EXIT_PARSFILE Roads\\BuilderSegment\\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+      ],
+      "error": {
+        "t_s": 32.6965,
+        "best_S": 2.96737,
+        "best_L": 14.8186,
+        "query_X": -0.000137451,
+        "query_Y": -1.18504,
+        "center_distance_m": 0.18504005105051563,
+        "jacobian_at_best_L": 0.01209333333333329,
+        "geometric_inverse_sensitivity_R_over_distance": 81.06353146165651,
+        "query_point_identity": "not exposed in error; do not assume CG or particular wheel"
+      }
+    },
+    {
+      "case": "kf576_kr384",
+      "old_log": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf576_kr384\\LastRun_log.txt.evidence",
+      "old_log_sha256": "4d40ad3b5d6e078b52fdc807c489435fb7a92d08f99a836102bb13639017c542",
+      "old_par_sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+      "new_par_sha256": "109cb5840eac66309954eb59bbe940e416e1c20a3c5f2374642c05a32167a83a",
+      "diff": [
+        "--- old_circle\n",
+        "+++ straight_coordinates\n",
+        "@@ -4461,7 +4461,7 @@\n",
+        " #FullDataName Path: Segment Builder`16 m Radius`Circles",
+        " SET_IPATH_FOR_ID 1000",
+        " OPT_PATH_START 1",
+        "-OPT_PATH_LOOP 1",
+        "+OPT_PATH_LOOP 0",
+        " SPATH_START 0",
+        " X_PATH_START 0.0",
+        " Y_PATH_START -16",
+        "@@ -4470,9 +4470,8 @@\n",
+        " set_description path_id 16 m Radius",
+        " NSEGMENTS 1",
+        " IPATHSEG 1",
+        "-SEGMENT_TYPE 3",
+        "-SEGMENT_RADIUS 15.000000",
+        "-SEGMENT_ARC 360.000000",
+        "+SEGMENT_TYPE 0",
+        "+SEGMENT_LENGTH 2000",
+        " Title 16 m Radius <Circles>",
+        " LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 16 m Radius",
+        " EXIT_PARSFILE Roads\\BuilderSegment\\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+      ]
+    },
+    {
+      "case": "kf384_kr192",
+      "old_log": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf384_kr192\\LastRun_log.txt.evidence",
+      "old_log_sha256": "e0197f9cc116f62f65140b0adb7fab8d9514f7efeacc5007c3a6459cd6df7003",
+      "old_par_sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+      "new_par_sha256": "9503701c1ca55efa00bcf09d0ab25f04d8c566ccc81772511ba24e79b7da93be",
+      "diff": [
+        "--- old_circle\n",
+        "+++ straight_coordinates\n",
+        "@@ -4461,7 +4461,7 @@\n",
+        " #FullDataName Path: Segment Builder`16 m Radius`Circles",
+        " SET_IPATH_FOR_ID 1000",
+        " OPT_PATH_START 1",
+        "-OPT_PATH_LOOP 1",
+        "+OPT_PATH_LOOP 0",
+        " SPATH_START 0",
+        " X_PATH_START 0.0",
+        " Y_PATH_START -16",
+        "@@ -4470,9 +4470,8 @@\n",
+        " set_description path_id 16 m Radius",
+        " NSEGMENTS 1",
+        " IPATHSEG 1",
+        "-SEGMENT_TYPE 3",
+        "-SEGMENT_RADIUS 15.000000",
+        "-SEGMENT_ARC 360.000000",
+        "+SEGMENT_TYPE 0",
+        "+SEGMENT_LENGTH 2000",
+        " Title 16 m Radius <Circles>",
+        " LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 16 m Radius",
+        " EXIT_PARSFILE Roads\\BuilderSegment\\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+      ]
+    },
+    {
+      "case": "kf384_kr576",
+      "old_log": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37b_bidirectional_stiffness_20261010\\results\\runs\\LeftRight_R3_kf384_kr576\\LastRun_log.txt.evidence",
+      "old_log_sha256": "7e58af0508ce16e1519e28e0bda1f4e5dd9ec4648df972ee1580484e99f2cc65",
+      "old_par_sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+      "new_par_sha256": "63d15adfc26ebd9651e98870452e167e26fbb1c1ffc335dbcb7b59706de2d4c6",
+      "diff": [
+        "--- old_circle\n",
+        "+++ straight_coordinates\n",
+        "@@ -4461,7 +4461,7 @@\n",
+        " #FullDataName Path: Segment Builder`16 m Radius`Circles",
+        " SET_IPATH_FOR_ID 1000",
+        " OPT_PATH_START 1",
+        "-OPT_PATH_LOOP 1",
+        "+OPT_PATH_LOOP 0",
+        " SPATH_START 0",
+        " X_PATH_START 0.0",
+        " Y_PATH_START -16",
+        "@@ -4470,9 +4470,8 @@\n",
+        " set_description path_id 16 m Radius",
+        " NSEGMENTS 1",
+        " IPATHSEG 1",
+        "-SEGMENT_TYPE 3",
+        "-SEGMENT_RADIUS 15.000000",
+        "-SEGMENT_ARC 360.000000",
+        "+SEGMENT_TYPE 0",
+        "+SEGMENT_LENGTH 2000",
+        " Title 16 m Radius <Circles>",
+        " LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 16 m Radius",
+        " EXIT_PARSFILE Roads\\BuilderSegment\\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+      ],
+      "error": {
+        "t_s": 32.4642,
+        "best_S": 94.212,
+        "best_L": 14.8487,
+        "query_X": -0.00537527,
+        "query_Y": -1.15126,
+        "center_distance_m": 0.1513554793443993,
+        "jacobian_at_best_L": 0.010086666666666688,
+        "geometric_inverse_sensitivity_R_over_distance": 99.10443985888678,
+        "query_point_identity": "not exposed in error; do not assume CG or particular wheel"
+      }
+    }
+  ],
+  "only_aux_differences_between_cases": true
+}

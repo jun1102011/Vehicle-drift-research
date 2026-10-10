@@ -1,0 +1,26 @@
+{
+  "name": "Step37c 道路坐标异常隔离与五刚度补齐",
+  "cases": [
+    "kf384_kr384",
+    "kf192_kr384",
+    "kf576_kr384",
+    "kf384_kr192",
+    "kf384_kr576"
+  ],
+  "max_full_runs": 5,
+  "duration_s": 60,
+  "controller": "Step37b exact bytes",
+  "road": "non-loop straight reference, same homogeneous flat plane",
+  "whitelist": [
+    "OPT_PATH_LOOP 1->0",
+    "SEGMENT_TYPE 3->0",
+    "SEGMENT_RADIUS/ARC -> SEGMENT_LENGTH 2000"
+  ],
+  "baseline_gate": "56 common numeric channels bitwise identical full60s",
+  "other_gate": "56 common available prefix identical; any unexplained difference stops",
+  "criteria": "unchanged 600/20000/2000 native samples",
+  "no_ASB": true,
+  "no_path": true,
+  "expected_raw_and_evidence_GB": 0.45,
+  "GUI_changed": false
+}

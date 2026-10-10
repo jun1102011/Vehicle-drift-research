@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "identical_control_files": [
+    {
+      "path": "model/stabilizer_bar_step37a.slx",
+      "sha256": "e436ed83ac904f77b6bec4a3071eb481f99f1eec91d9a9c54fcc526b3b80e00f"
+    },
+    {
+      "path": "model/a001_step37a_initialize.m",
+      "sha256": "4ea5902db85c15fcc905eea993a3fa02e8fe6dc60e2eb4f5b220807a82a5ea7a"
+    },
+    {
+      "path": "internal/state_cycle_core.m",
+      "sha256": "42422ff1d6c0bdffab6b5e0eb8884c18d435d90af730feb600558ba387d69b57"
+    },
+    {
+      "path": "internal/native_state_capture.m",
+      "sha256": "a93dfabb28b584d55814ff41ec272f319c87a60d48b336105410518c73717ad4"
+    },
+    {
+      "path": "source/profiles/LeftRight_R3.json",
+      "sha256": "8488f6393a8ca865c5916e313da1c4445bad4f82002bb23e7d8d24d867119adc"
+    }
+  ],
+  "protected_count": 2396,
+  "vehicle_started": false
+}

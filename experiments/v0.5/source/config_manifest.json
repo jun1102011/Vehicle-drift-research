@@ -1,0 +1,82 @@
+{
+  "schema": "step37c-road-coordinate-config-manifest-v1",
+  "preparation_only_no_simulation": true,
+  "gui_database_mutated": false,
+  "cases": [
+    {
+      "case": "kf384_kr384",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\source\\file_cases\\kf384_kr384\\aux_case_cfg.json",
+      "configuration_identity_sha256": "2974b61624d24dec7cbc729e31fd1c5ce128e8120c48e667db7a4082e6f0bffc",
+      "origin_par_sha256": "2d4f8730bc06e6b0cbfea22d42731b2c017e0a1ff056f066b18c1df53b7a6df5",
+      "origin_sim_sha256": "f4a245862f2b90e528801d547e538e5b5d93efbb86e4d924c84c1251274e2e4b",
+      "derived_par_sha256": "db07bf0a7a17d612cc2f54ce195acb7a67917ef4435bb4f190b8dbee9d2b8680",
+      "derived_sim_sha256": "ab54da782be4ac9cf1fa929a606699846c02465dedfa15b59993a2514d77516e",
+      "byte_whitelist_review": [
+        "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf192_kr384",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\source\\file_cases\\kf192_kr384\\aux_case_cfg.json",
+      "configuration_identity_sha256": "a2ac287720e482249f75097213b1b082a90aaf5d2969dd463b99669407d73c13",
+      "origin_par_sha256": "aa232f20f5565ea11b9e8c263646e5bcb5c1cb5eda1c50edc9fdaa9322447a05",
+      "origin_sim_sha256": "53a7f5c9a5db554e30ad09df171ff3e89b8a796f493f2eb05fdd9d6c181bb121",
+      "derived_par_sha256": "f9593ee5c50f668b1dfa8a1c43bb64469cd553b9c5b055cbc5a604f9bb8092df",
+      "derived_sim_sha256": "6a9fca3c43fad042272a45449e2991e6a2a813ba7482c2acf03a5370975f4ea5",
+      "byte_whitelist_review": [
+        "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf576_kr384",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\source\\file_cases\\kf576_kr384\\aux_case_cfg.json",
+      "configuration_identity_sha256": "9a0a7e661d17155e25406a165977168d37b32c7601c294b904aaa9f5ada2fa59",
+      "origin_par_sha256": "ae09778eea9cfb6d3b3a5f939e5422d506708dc6e4285523fc2b57ac1424cfc4",
+      "origin_sim_sha256": "7851b8f9c3b15b19228f7c0f59e77010c62b7f047cd6c35d45b353157c373311",
+      "derived_par_sha256": "109cb5840eac66309954eb59bbe940e416e1c20a3c5f2374642c05a32167a83a",
+      "derived_sim_sha256": "4fafffe46e9e975b6cc29b12f20da5690103f9d7a255d2e13a22be89f18dea6c",
+      "byte_whitelist_review": [
+        "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf384_kr192",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\source\\file_cases\\kf384_kr192\\aux_case_cfg.json",
+      "configuration_identity_sha256": "c064cdebe03c33706ad071e6ff5151ed6c90fe1aec35466f8371118597286912",
+      "origin_par_sha256": "61dd3fd559f37182ab47245b51b8eae1f33cd07386968af0c31434ec247cee3b",
+      "origin_sim_sha256": "5925986adbbce4232d760ce58a934ccc55f5f2eabb5235625879f3d60559d1b9",
+      "derived_par_sha256": "9503701c1ca55efa00bcf09d0ab25f04d8c566ccc81772511ba24e79b7da93be",
+      "derived_sim_sha256": "4e99257211eb4e82e3809da95e285c0ea8a5c2f0fdd79484a349081c62d9bf61",
+      "byte_whitelist_review": [
+        "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    },
+    {
+      "case": "kf384_kr576",
+      "configuration_identity": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step37c_road_coordinate_20261010\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+      "configuration_identity_sha256": "460114530c34215cd5588316b7cfe7a617f5b70410e9e8663586e87db5ca4c27",
+      "origin_par_sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+      "origin_sim_sha256": "9166ac9cd7ce0906d6e12e7467f1933712e471442d4f864df0cc44ef3ecb15b2",
+      "derived_par_sha256": "63d15adfc26ebd9651e98870452e167e26fbb1c1ffc335dbcb7b59706de2d4c6",
+      "derived_sim_sha256": "84372f4cf930b19c8245c4b25220b73c3595099ec96bef1af14a5eb3ce0fe4db",
+      "byte_whitelist_review": [
+        "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+        "sim INPUT",
+        "sim OUTPUT_FILE_PREFIX"
+      ],
+      "post_run_echo_identity": "pending; runner checks MX_AUX_COEFFICIENT(1/2)"
+    }
+  ]
+}

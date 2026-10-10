@@ -1,0 +1,1068 @@
+{
+  "passed": true,
+  "frozen_execution_files": 27,
+  "protected_files": 2396,
+  "cases": [
+    {
+      "case": "kf384_kr384",
+      "actual_end_s": 60.0,
+      "classification": "PASS",
+      "raw_sha256": "82047b076cb1e87a39b3ae2ab71558c6b6888304a099b4c5f8228e9728a0b391",
+      "common_bitwise_equal": true,
+      "echo_surface_verified": {
+        "OPT_PATH_LOOP(1)": "0",
+        "SEGMENT_TYPE(1,1)": "0",
+        "SEGMENT_LENGTH(1,1)": "2000",
+        "Y_PATH_START(1)": "-16",
+        "ROAD_ZS_CONSTANT(1)": "0",
+        "MU_ROAD_CONSTANT(1)": "0.85",
+        "MU_ROAD_L_CONSTANT(1)": "0",
+        "RR_SURF(1)": "1",
+        "OPT_INIT_PATH": "0",
+        "OPT_DM": "0"
+      },
+      "actual_ground_outputs": {
+        "Zgnd_L1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L1": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_L2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L2": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        }
+      },
+      "wheel_center_boundary_diagnostic": {
+        "L1": {
+          "wheel_center_L_min_m": 8.396512508392334,
+          "wheel_center_L_max_m": 176.92120361328125,
+          "wheel_center_boundary_margin_m": 1823.0787963867188
+        },
+        "R1": {
+          "wheel_center_L_min_m": 9.903134822845459,
+          "wheel_center_L_max_m": 177.98263549804688,
+          "wheel_center_boundary_margin_m": 1822.0173645019531
+        },
+        "L2": {
+          "wheel_center_L_min_m": 7.007388114929199,
+          "wheel_center_L_max_m": 174.70872497558594,
+          "wheel_center_boundary_margin_m": 1825.291275024414
+        },
+        "R2": {
+          "wheel_center_L_min_m": 8.385663032531738,
+          "wheel_center_L_max_m": 175.77008056640625,
+          "wheel_center_boundary_margin_m": 1824.2299194335938
+        }
+      },
+      "ground_evidence_step_s": 0.01,
+      "warning_lines": [
+        "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+        "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027",
+        "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.006 mm at T = 1.027",
+        "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775",
+        "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0063 mm at T = 1.02775",
+        "Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0002 deg at T = 4.75925",
+        "Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0002 deg at T = 4.75925",
+        "Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0003 deg at T = 4.771",
+        "Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0003 deg at T = 4.771",
+        "Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395",
+        "Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395",
+        "Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395",
+        "Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0124 mm at T = 5.395",
+        "Function SUSP_X_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0003 mm at T = 25.674",
+        "Function SUSP_LAT_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0003 mm at T = 25.674",
+        "Function CAMBER_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0003 mm at T = 25.674",
+        "Function TOE_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0003 mm at T = 25.674"
+      ]
+    },
+    {
+      "case": "kf192_kr384",
+      "actual_end_s": 60.0,
+      "classification": "PASS",
+      "raw_sha256": "b3b66b484fe2dcd5bb0efdb6903eee40e81cd9f019930bed46f9aa375287fc35",
+      "common_bitwise_equal": true,
+      "echo_surface_verified": {
+        "OPT_PATH_LOOP(1)": "0",
+        "SEGMENT_TYPE(1,1)": "0",
+        "SEGMENT_LENGTH(1,1)": "2000",
+        "Y_PATH_START(1)": "-16",
+        "ROAD_ZS_CONSTANT(1)": "0",
+        "MU_ROAD_CONSTANT(1)": "0.85",
+        "MU_ROAD_L_CONSTANT(1)": "0",
+        "RR_SURF(1)": "1",
+        "OPT_INIT_PATH": "0",
+        "OPT_DM": "0"
+      },
+      "actual_ground_outputs": {
+        "Zgnd_L1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L1": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_L2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L2": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        }
+      },
+      "wheel_center_boundary_diagnostic": {
+        "L1": {
+          "wheel_center_L_min_m": 3.826441764831543,
+          "wheel_center_L_max_m": 185.73146057128906,
+          "wheel_center_boundary_margin_m": 1814.268539428711
+        },
+        "R1": {
+          "wheel_center_L_min_m": 5.330299377441406,
+          "wheel_center_L_max_m": 186.6894989013672,
+          "wheel_center_boundary_margin_m": 1813.3105010986328
+        },
+        "L2": {
+          "wheel_center_L_min_m": 2.4292192459106445,
+          "wheel_center_L_max_m": 183.38546752929688,
+          "wheel_center_boundary_margin_m": 1816.6145324707031
+        },
+        "R2": {
+          "wheel_center_L_min_m": 3.804922103881836,
+          "wheel_center_L_max_m": 184.34344482421875,
+          "wheel_center_boundary_margin_m": 1815.6565551757812
+        }
+      },
+      "ground_evidence_step_s": 0.01,
+      "warning_lines": [
+        "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+        "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0066 mm at T = 1.027",
+        "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0066 mm at T = 1.027",
+        "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0057 mm at T = 1.02775",
+        "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0057 mm at T = 1.02775",
+        "Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0014 deg at T = 4.6895",
+        "Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0014 deg at T = 4.6895",
+        "Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0018 deg at T = 4.70725",
+        "Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0018 deg at T = 4.70725",
+        "Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0009 mm at T = 5.21825",
+        "Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0009 mm at T = 5.21825",
+        "Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0009 mm at T = 5.21825",
+        "Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0009 mm at T = 5.21825",
+        "Function SUSP_X_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0059 mm at T = 25.283",
+        "Function SUSP_LAT_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0059 mm at T = 25.283",
+        "Function CAMBER_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0059 mm at T = 25.283",
+        "Function TOE_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0059 mm at T = 25.283"
+      ]
+    },
+    {
+      "case": "kf576_kr384",
+      "actual_end_s": 60.0,
+      "classification": "PASS",
+      "raw_sha256": "12274eb42f9372b68c2c3b3e7c187d2f8b2ff59891c498120d18ee5a101b8cab",
+      "common_bitwise_equal": true,
+      "echo_surface_verified": {
+        "OPT_PATH_LOOP(1)": "0",
+        "SEGMENT_TYPE(1,1)": "0",
+        "SEGMENT_LENGTH(1,1)": "2000",
+        "Y_PATH_START(1)": "-16",
+        "ROAD_ZS_CONSTANT(1)": "0",
+        "MU_ROAD_CONSTANT(1)": "0.85",
+        "MU_ROAD_L_CONSTANT(1)": "0",
+        "RR_SURF(1)": "1",
+        "OPT_INIT_PATH": "0",
+        "OPT_DM": "0"
+      },
+      "actual_ground_outputs": {
+        "Zgnd_L1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L1": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_L2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L2": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        }
+      },
+      "wheel_center_boundary_diagnostic": {
+        "L1": {
+          "wheel_center_L_min_m": 14.353450655937195,
+          "wheel_center_L_max_m": 162.6409149169922,
+          "wheel_center_boundary_margin_m": 1837.3590850830078
+        },
+        "R1": {
+          "wheel_center_L_min_m": 15.862533494830132,
+          "wheel_center_L_max_m": 163.8431854248047,
+          "wheel_center_boundary_margin_m": 1836.1568145751953
+        },
+        "L2": {
+          "wheel_center_L_min_m": 12.971727132797241,
+          "wheel_center_L_max_m": 160.64955139160156,
+          "wheel_center_boundary_margin_m": 1839.3504486083984
+        },
+        "R2": {
+          "wheel_center_L_min_m": 14.047486662864685,
+          "wheel_center_L_max_m": 161.85177612304688,
+          "wheel_center_boundary_margin_m": 1838.1482238769531
+        }
+      },
+      "ground_evidence_step_s": 0.01,
+      "warning_lines": [
+        "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+        "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0055 mm at T = 1.027",
+        "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0055 mm at T = 1.027",
+        "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0068 mm at T = 1.02775",
+        "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0068 mm at T = 1.02775",
+        "Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0006 deg at T = 4.84425",
+        "Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0006 deg at T = 4.84425",
+        "Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 4.845",
+        "Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 4.845",
+        "Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 5.642",
+        "Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 5.642",
+        "Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 5.642",
+        "Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 5.642",
+        "Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1 N at T = 22.3715",
+        "Function SUSP_X_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 26.155",
+        "Function SUSP_LAT_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 26.155",
+        "Function CAMBER_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 26.155",
+        "Function TOE_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0045 mm at T = 26.155",
+        "Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.00008 N at T = 42.216"
+      ]
+    },
+    {
+      "case": "kf384_kr192",
+      "actual_end_s": 60.0,
+      "classification": "PASS",
+      "raw_sha256": "a37ba694d43412e8e180badeceda1a14c71476c2605f2fd860b13339e2e97cce",
+      "common_bitwise_equal": true,
+      "echo_surface_verified": {
+        "OPT_PATH_LOOP(1)": "0",
+        "SEGMENT_TYPE(1,1)": "0",
+        "SEGMENT_LENGTH(1,1)": "2000",
+        "Y_PATH_START(1)": "-16",
+        "ROAD_ZS_CONSTANT(1)": "0",
+        "MU_ROAD_CONSTANT(1)": "0.85",
+        "MU_ROAD_L_CONSTANT(1)": "0",
+        "RR_SURF(1)": "1",
+        "OPT_INIT_PATH": "0",
+        "OPT_DM": "0"
+      },
+      "actual_ground_outputs": {
+        "Zgnd_L1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L1": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_L2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L2": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        }
+      },
+      "wheel_center_boundary_diagnostic": {
+        "L1": {
+          "wheel_center_L_min_m": 15.68682086467743,
+          "wheel_center_L_max_m": 130.37806701660156,
+          "wheel_center_boundary_margin_m": 1869.6219329833984
+        },
+        "R1": {
+          "wheel_center_L_min_m": 16.524307787418365,
+          "wheel_center_L_max_m": 131.82803344726562,
+          "wheel_center_boundary_margin_m": 1868.1719665527344
+        },
+        "L2": {
+          "wheel_center_L_min_m": 13.209986686706543,
+          "wheel_center_L_max_m": 128.94617462158203,
+          "wheel_center_boundary_margin_m": 1871.053825378418
+        },
+        "R2": {
+          "wheel_center_L_min_m": 14.047486662864685,
+          "wheel_center_L_max_m": 130.3960952758789,
+          "wheel_center_boundary_margin_m": 1869.603904724121
+        }
+      },
+      "ground_evidence_step_s": 0.01,
+      "warning_lines": [
+        "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+        "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0071 mm at T = 1.027",
+        "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0071 mm at T = 1.027",
+        "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0052 mm at T = 1.02775",
+        "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0052 mm at T = 1.02775",
+        "Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0006 deg at T = 4.941",
+        "Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0006 deg at T = 4.941",
+        "Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 5.005",
+        "Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 5.005",
+        "Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0051 mm at T = 5.71375",
+        "Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0051 mm at T = 5.71375",
+        "Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0051 mm at T = 5.71375",
+        "Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0051 mm at T = 5.71375",
+        "Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.00002 N at T = 22.6688",
+        "Function SUSP_X_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0076 mm at T = 26.4885",
+        "Function SUSP_LAT_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0076 mm at T = 26.4885",
+        "Function CAMBER_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0076 mm at T = 26.4885",
+        "Function TOE_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0076 mm at T = 26.4885",
+        "Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.00004 N at T = 42.6523"
+      ]
+    },
+    {
+      "case": "kf384_kr576",
+      "actual_end_s": 60.0,
+      "classification": "PASS",
+      "raw_sha256": "67a61d94a0335306c343c329fd105908e72168ebf52ca81de0d9e5d607f80779",
+      "common_bitwise_equal": true,
+      "echo_surface_verified": {
+        "OPT_PATH_LOOP(1)": "0",
+        "SEGMENT_TYPE(1,1)": "0",
+        "SEGMENT_LENGTH(1,1)": "2000",
+        "Y_PATH_START(1)": "-16",
+        "ROAD_ZS_CONSTANT(1)": "0",
+        "MU_ROAD_CONSTANT(1)": "0.85",
+        "MU_ROAD_L_CONSTANT(1)": "0",
+        "RR_SURF(1)": "1",
+        "OPT_INIT_PATH": "0",
+        "OPT_DM": "0"
+      },
+      "actual_ground_outputs": {
+        "Zgnd_L1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L1": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R1": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R1": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R1": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_L2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_L2": {
+          "unit": "-",
+          "min": -0.0,
+          "max": -0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_L2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_L2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "Zgnd_R2": {
+          "unit": "m",
+          "min": -5.551115123125783e-17,
+          "max": 5.551115123125783e-17,
+          "expected": 0,
+          "max_abs_error": 5.551115123125783e-17
+        },
+        "dZdX_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "dZdY_R2": {
+          "unit": "-",
+          "min": 0.0,
+          "max": 0.0,
+          "expected": 0,
+          "max_abs_error": 0.0
+        },
+        "MuX_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        },
+        "MuY_R2": {
+          "unit": "-",
+          "min": 0.8500000238418579,
+          "max": 0.8500000238418579,
+          "expected": 0.85,
+          "max_abs_error": 2.384185793236071e-08
+        }
+      },
+      "wheel_center_boundary_diagnostic": {
+        "L1": {
+          "wheel_center_L_min_m": 2.049708366394043,
+          "wheel_center_L_max_m": 187.8509521484375,
+          "wheel_center_boundary_margin_m": 1812.1490478515625
+        },
+        "R1": {
+          "wheel_center_L_min_m": 3.5544557571411133,
+          "wheel_center_L_max_m": 188.7779998779297,
+          "wheel_center_boundary_margin_m": 1811.2220001220703
+        },
+        "L2": {
+          "wheel_center_L_min_m": 0.6540241241455078,
+          "wheel_center_L_max_m": 185.46893310546875,
+          "wheel_center_boundary_margin_m": 1814.5310668945312
+        },
+        "R2": {
+          "wheel_center_L_min_m": 2.0297489166259766,
+          "wheel_center_L_max_m": 186.39593505859375,
+          "wheel_center_boundary_margin_m": 1813.6040649414062
+        }
+      },
+      "ground_evidence_step_s": 0.01,
+      "warning_lines": [
+        "Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0",
+        "Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0",
+        "Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0",
+        "Function FS_EXT_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0051 mm at T = 1.027",
+        "Function FS_COMP_TABLE(2,2) extrapolated (out of range HIGH) for X = 50.0051 mm at T = 1.027",
+        "Function FS_EXT_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0072 mm at T = 1.02775",
+        "Function FS_COMP_TABLE(2,1) extrapolated (out of range HIGH) for X = 50.0072 mm at T = 1.02775",
+        "Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 4.67825",
+        "Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0001 deg at T = 4.67825",
+        "Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0009 deg at T = 4.70025",
+        "Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0009 deg at T = 4.70025",
+        "Function SUSP_X_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0024 mm at T = 5.412",
+        "Function SUSP_LAT_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0024 mm at T = 5.412",
+        "Function CAMBER_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0024 mm at T = 5.412",
+        "Function TOE_TABLE(2,2) extrapolated (out of range HIGH) for X = 70.0024 mm at T = 5.412",
+        "Function SUSP_X_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0007 mm at T = 25.6155",
+        "Function SUSP_LAT_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0007 mm at T = 25.6155",
+        "Function CAMBER_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0007 mm at T = 25.6155",
+        "Function TOE_TABLE(2,1) extrapolated (out of range HIGH) for X = 70.0007 mm at T = 25.6155"
+      ]
+    }
+  ],
+  "old_failures_preserved": true,
+  "GUI_not_changed": true
+}

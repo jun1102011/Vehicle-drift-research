@@ -1,0 +1,30 @@
+{
+  "schema": "step37a-state-only-file-case-v1",
+  "configuration_mode": "file_derived_road_coordinates_straight_uniform_plane",
+  "case": "kf384_kr576",
+  "kf_deg": 384,
+  "kr_deg": 576,
+  "source_path": "C:\\Users\\28583\\AppData\\Local\\Temp\\step37c_road_coordinate_20261010\\kf384_kr576\\Run_all.par",
+  "source_sha256": "63d15adfc26ebd9651e98870452e167e26fbb1c1ffc335dbcb7b59706de2d4c6",
+  "simfile_path": "C:\\Users\\28583\\AppData\\Local\\Temp\\step37c_road_coordinate_20261010\\kf384_kr576\\simfile.sim",
+  "simfile_sha256": "84372f4cf930b19c8245c4b25220b73c3595099ec96bef1af14a5eb3ce0fe4db",
+  "origin_cfg_path": "E:\\00硕士毕业论文\\第四章_赵选铭漂移复现_维修版\\分步维修记录\\step35b_large_beta_equilibrium_20261006\\source\\file_cases\\kf384_kr576\\aux_case_cfg.json",
+  "origin_cfg_sha256": "91f9bae14c1dc5db11cff4a15c6dc6bbc1fe819f9ee4431f9445890b38e1fb3e",
+  "origin_source_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr576\\Run_all.par",
+  "origin_source_sha256": "a3bd517d86d97e133a8688d2daf5f15a2282c7da7e13c9ef80d56b591faa7715",
+  "origin_simfile_path": "C:\\Users\\Public\\Documents\\CarSim2020.0_Data\\Extensions\\Simulink\\00carsim_workspace\\009\\stabilizer_bar\\step35b_file_runs\\kf384_kr576\\simfile.sim",
+  "origin_simfile_sha256": "9166ac9cd7ce0906d6e12e7467f1933712e471442d4f864df0cc44ef3ecb15b2",
+  "authorized_diffs": [
+    "Run_all.par: only OPT_PATH_LOOP 1->0, SEGMENT_TYPE 3->0, radius/arc -> SEGMENT_LENGTH 2000; physical flat road unchanged",
+    "sim INPUT",
+    "sim OUTPUT_FILE_PREFIX"
+  ],
+  "effective_tstop_s": 60,
+  "opt_stop": 0,
+  "external_asb_zero_required": true,
+  "step_s": 0.0005,
+  "ports_import": 12,
+  "ports_export": 76,
+  "gui_database_mutated": false,
+  "prepared_by": "internal/prepare_state_configs.py"
+}

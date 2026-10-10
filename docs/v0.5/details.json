@@ -1,0 +1,1517 @@
+[
+  {
+    "case": "kf384_kr384",
+    "windows": {
+      "entry": {
+        "complete": true,
+        "start_s": 2.62,
+        "duration_s": 8,
+        "samples": 16000,
+        "own_J": [
+          1.8027041848067726,
+          190.06340110316535,
+          0.012365270045846173
+        ],
+        "own_rmse": [
+          0.4746978229367042,
+          4.874210206576617,
+          0.0393148668537841
+        ],
+        "own_peak": [
+          1.271991214773255,
+          11.414806945419883,
+          0.1359891088558045
+        ],
+        "V_min": 10.728008785472278,
+        "V_max": 12.284073047093997,
+        "beta_min": -29.997870734314123,
+        "beta_max": 0.15985451154134397,
+        "AVz_min": -0.008819313159440382,
+        "AVz_max": 0.7349688501273137,
+        "min_Fz_N": 2412.3241173725482,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 1.2745,
+        "torque_rms": 669.756787392446,
+        "torque_peak": 1396.9340535043027,
+        "torque_margin_Nm": 1603.0659464956973,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.5765,
+        "steer_rate_limit_longest_s": 0.006500000000000001,
+        "amplitude_clip_s": [
+          1.53,
+          0.0,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.05,
+          1.18
+        ],
+        "request_budget_max": [
+          0.11149223394521482,
+          0.0037704421095865817,
+          0.19229342106542577
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.017271524687443,
+          0.0032490973298398115,
+          0.0006644959519076957
+        ],
+        "pre_1s_peak_to_peak": [
+          0.29166217826385754,
+          0.00017700255756457903,
+          9.261631740578894e-05
+        ]
+      },
+      "reversal": {
+        "complete": true,
+        "start_s": 17.19,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          1.0034410536717908,
+          235.25038303534717,
+          0.060144999803995604
+        ],
+        "own_rmse": [
+          0.25864274636027595,
+          3.9602220731952826,
+          0.06332192869456604
+        ],
+        "own_peak": [
+          0.8891398193793165,
+          11.336999999998019,
+          0.15653416286873922
+        ],
+        "V_min": 11.110860180206291,
+        "V_max": 12.299506570163736,
+        "beta_min": -29.99924302663894,
+        "beta_max": 29.993792155902444,
+        "AVz_min": -0.7507603127303885,
+        "AVz_max": 0.5989756164613514,
+        "min_Fz_N": 799.4101040630047,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 4.847,
+        "torque_rms": 537.3729096037027,
+        "torque_peak": 1552.5519500060946,
+        "torque_margin_Nm": 1447.4480499939054,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 1.3840000000000001,
+        "steer_rate_limit_longest_s": 0.057,
+        "amplitude_clip_s": [
+          0.76,
+          0.36,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.06,
+          0.0,
+          0.76
+        ],
+        "request_budget_max": [
+          0.07845008741294486,
+          0.013453155843697828,
+          0.21706895902098683
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.000382472820412,
+          -29.99923818683401,
+          0.5989774309218401
+        ],
+        "pre_1s_peak_to_peak": [
+          1.9337047145739916e-06,
+          3.403389825251679e-05,
+          3.0610955904508685e-06
+        ]
+      },
+      "exit": {
+        "complete": true,
+        "start_s": 37.6,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.19039776222068633,
+          106.98314452685534,
+          0.04792410709622092
+        ],
+        "own_rmse": [
+          0.11266403218439218,
+          2.6706197099406888,
+          0.056523804481664136
+        ],
+        "own_peak": [
+          0.3053471510436907,
+          8.122276215170368,
+          0.17105899128199442
+        ],
+        "V_min": 11.827033816011538,
+        "V_max": 12.305347150266524,
+        "beta_min": -1.24340882778402,
+        "beta_max": 29.993989144372968,
+        "AVz_min": -0.5990034690716307,
+        "AVz_max": 0.0013147313966289037,
+        "min_Fz_N": 861.4306796136838,
+        "min_Fz_wheel": "RR",
+        "min_Fz_tau_s": 4.2805,
+        "torque_rms": 226.08165043643388,
+        "torque_peak": 918.9761477342498,
+        "torque_margin_Nm": 2081.02385226575,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.7775,
+        "steer_rate_limit_longest_s": 0.008,
+        "amplitude_clip_s": [
+          0.0,
+          0.14,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "request_budget_max": [
+          0.0,
+          0.0050210438289234535,
+          0.0
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "final_target_J": [
+          0.1903977617208498,
+          2495.095253921201,
+          1.3670426523005577
+        ],
+        "pre_1s_mean": [
+          11.999320102049582,
+          29.993995486823312,
+          -0.5990023164606856
+        ],
+        "pre_1s_peak_to_peak": [
+          1.6435851719620587e-06,
+          3.062373653506256e-05,
+          3.529109172895062e-06
+        ]
+      }
+    },
+    "actual_end_s": 60.0,
+    "terminal_state_V_beta_deg_AVz": [
+      12.00000374633052,
+      0.0015577965138163547,
+      0.0013143532472259239
+    ],
+    "right_hold_observed_s": null,
+    "events": {
+      "left": {
+        "single_state_events": [
+          {
+            "start_s": 2.62,
+            "confirmed_s": 2.9195,
+            "index": 5240,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 6.213,
+            "confirmed_s": 6.5125,
+            "index": 12426,
+            "elapsed_s": 3.593
+          },
+          {
+            "start_s": 4.3975,
+            "confirmed_s": 4.697,
+            "index": 8795,
+            "elapsed_s": 1.7774999999999999
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 6.3825,
+          "confirmed_s": 6.682,
+          "index": 12765,
+          "elapsed_s": 3.7625
+        }
+      },
+      "right": {
+        "single_state_events": [
+          {
+            "start_s": 17.19,
+            "confirmed_s": 17.4895,
+            "index": 34380,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 26.580000000000002,
+            "confirmed_s": 26.8795,
+            "index": 53160,
+            "elapsed_s": 9.39
+          },
+          {
+            "start_s": 26.796,
+            "confirmed_s": 27.0955,
+            "index": 53592,
+            "elapsed_s": 9.605999999999998
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 26.796,
+          "confirmed_s": 27.0955,
+          "index": 53592,
+          "elapsed_s": 9.605999999999998
+        }
+      },
+      "recovery": {
+        "single_state_events": [
+          {
+            "start_s": 37.6,
+            "confirmed_s": 38.5995,
+            "index": 75200,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 42.966,
+            "confirmed_s": 43.9655,
+            "index": 85932,
+            "elapsed_s": 5.366
+          },
+          {
+            "start_s": 44.093,
+            "confirmed_s": 45.0925,
+            "index": 88186,
+            "elapsed_s": 6.493000000000002
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 44.093,
+          "confirmed_s": 45.0925,
+          "index": 88186,
+          "elapsed_s": 6.493000000000002,
+          "reexit_samples_after_confirm": 0
+        }
+      }
+    },
+    "recovery_after_confirmation_outside_samples": 0
+  },
+  {
+    "case": "kf192_kr384",
+    "windows": {
+      "entry": {
+        "complete": true,
+        "start_s": 2.62,
+        "duration_s": 8,
+        "samples": 16000,
+        "own_J": [
+          1.3973081271378296,
+          160.19083340176047,
+          0.01561031202435652
+        ],
+        "own_rmse": [
+          0.4179276443264177,
+          4.474802138108462,
+          0.04417339700594199
+        ],
+        "own_peak": [
+          1.1685877595938816,
+          11.073364499882834,
+          0.14518757958545148
+        ],
+        "V_min": 10.831412240624996,
+        "V_max": 12.28407485168531,
+        "beta_min": -30.180007209504918,
+        "beta_max": 0.1570828382308773,
+        "AVz_min": -0.008819901371281282,
+        "AVz_max": 0.7441673208569607,
+        "min_Fz_N": 2301.0140807542894,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 1.408,
+        "torque_rms": 663.1190569186804,
+        "torque_peak": 1371.7554334520635,
+        "torque_margin_Nm": 1628.2445665479365,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.5775,
+        "steer_rate_limit_longest_s": 0.006500000000000001,
+        "amplitude_clip_s": [
+          1.29,
+          0.0,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.05,
+          1.1300000000000001
+        ],
+        "request_budget_max": [
+          0.08083686369307966,
+          0.0037704728736513773,
+          0.19229344791179181
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.017271544150368,
+          0.0032678560357222164,
+          0.0006588116495156758
+        ],
+        "pre_1s_peak_to_peak": [
+          0.29166218345195283,
+          0.00018708545404589336,
+          8.975545208209264e-05
+        ]
+      },
+      "reversal": {
+        "complete": true,
+        "start_s": 16.97,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.9486728442069463,
+          227.87755419508224,
+          0.061658696116514124
+        ],
+        "own_rmse": [
+          0.25148530032680455,
+          3.8976707077867436,
+          0.06411380304662126
+        ],
+        "own_peak": [
+          0.866427023275973,
+          11.261898154595595,
+          0.15721745770903467
+        ],
+        "V_min": 11.133572976303801,
+        "V_max": 12.306300598625775,
+        "beta_min": -30.180801929758672,
+        "beta_max": 30.177067691740554,
+        "AVz_min": -0.7535674789050338,
+        "AVz_max": 0.5984489408648928,
+        "min_Fz_N": 825.7280566023364,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 4.844,
+        "torque_rms": 537.8517796489747,
+        "torque_peak": 1540.505970664873,
+        "torque_margin_Nm": 1459.494029335127,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 1.4015,
+        "steer_rate_limit_longest_s": 0.0565,
+        "amplitude_clip_s": [
+          0.67,
+          0.35000000000000003,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.06,
+          0.0,
+          0.76
+        ],
+        "request_budget_max": [
+          0.07679299122309755,
+          0.012357651688726656,
+          0.2157008901656392
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.015198397366266,
+          -30.180806028759637,
+          0.5984472165952459
+        ],
+        "pre_1s_peak_to_peak": [
+          1.678272738558917e-06,
+          3.0130737609823655e-05,
+          3.5134077416287823e-06
+        ]
+      },
+      "exit": {
+        "complete": true,
+        "start_s": 37.35,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.19796871157405926,
+          108.42263679866971,
+          0.04868026607716102
+        ],
+        "own_rmse": [
+          0.11488217487903546,
+          2.688526694414244,
+          0.05696798286591105
+        ],
+        "own_peak": [
+          0.3116533258103491,
+          8.09570257859267,
+          0.17178036920760842
+        ],
+        "V_min": 11.828401939465223,
+        "V_max": 12.31165332503987,
+        "beta_min": -1.2364835045844558,
+        "beta_max": 30.177195956701233,
+        "AVz_min": -0.5984629438443353,
+        "AVz_max": 0.001360301001311416,
+        "min_Fz_N": 829.8778903803402,
+        "min_Fz_wheel": "RR",
+        "min_Fz_tau_s": 4.273,
+        "torque_rms": 227.37515802774305,
+        "torque_peak": 936.3818083432145,
+        "torque_margin_Nm": 2063.6181916567857,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.791,
+        "steer_rate_limit_longest_s": 0.0085,
+        "amplitude_clip_s": [
+          0.0,
+          0.12,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "request_budget_max": [
+          0.0,
+          0.004597196320379977,
+          0.0
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "final_target_J": [
+          0.19796871106104066,
+          2518.372440506916,
+          1.3612999228635556
+        ],
+        "pre_1s_mean": [
+          12.014407295318568,
+          30.177211218661373,
+          -0.598463083244378
+        ],
+        "pre_1s_peak_to_peak": [
+          1.722977792439906e-06,
+          3.0197332829828838e-05,
+          3.437305032605309e-06
+        ]
+      }
+    },
+    "actual_end_s": 60.0,
+    "terminal_state_V_beta_deg_AVz": [
+      12.000004039878602,
+      0.0014146981551048997,
+      0.0013601499806656003
+    ],
+    "right_hold_observed_s": null,
+    "events": {
+      "left": {
+        "single_state_events": [
+          {
+            "start_s": 2.62,
+            "confirmed_s": 2.9195,
+            "index": 5240,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 5.934,
+            "confirmed_s": 6.2335,
+            "index": 11868,
+            "elapsed_s": 3.314
+          },
+          {
+            "start_s": 6.162,
+            "confirmed_s": 6.4615,
+            "index": 12324,
+            "elapsed_s": 3.542
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 6.162,
+          "confirmed_s": 6.4615,
+          "index": 12324,
+          "elapsed_s": 3.542
+        }
+      },
+      "right": {
+        "single_state_events": [
+          {
+            "start_s": 16.97,
+            "confirmed_s": 17.2695,
+            "index": 33940,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 26.2745,
+            "confirmed_s": 26.574,
+            "index": 52549,
+            "elapsed_s": 9.3045
+          },
+          {
+            "start_s": 26.546,
+            "confirmed_s": 26.8455,
+            "index": 53092,
+            "elapsed_s": 9.576
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 26.546,
+          "confirmed_s": 26.8455,
+          "index": 53092,
+          "elapsed_s": 9.576
+        }
+      },
+      "recovery": {
+        "single_state_events": [
+          {
+            "start_s": 37.35,
+            "confirmed_s": 38.3495,
+            "index": 74700,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 42.742000000000004,
+            "confirmed_s": 43.7415,
+            "index": 85484,
+            "elapsed_s": 5.392000000000003
+          },
+          {
+            "start_s": 43.826,
+            "confirmed_s": 44.8255,
+            "index": 87652,
+            "elapsed_s": 6.475999999999999
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 43.826,
+          "confirmed_s": 44.8255,
+          "index": 87652,
+          "elapsed_s": 6.475999999999999,
+          "reexit_samples_after_confirm": 0
+        }
+      }
+    },
+    "recovery_after_confirmation_outside_samples": 0
+  },
+  {
+    "case": "kf576_kr384",
+    "windows": {
+      "entry": {
+        "complete": true,
+        "start_s": 2.62,
+        "duration_s": 8,
+        "samples": 16000,
+        "own_J": [
+          2.344421465932366,
+          229.35389285936307,
+          0.013535996181806936
+        ],
+        "own_rmse": [
+          0.541343406020195,
+          5.3543661256418,
+          0.04113392180094024
+        ],
+        "own_peak": [
+          1.376885507259125,
+          11.764528300677549,
+          0.12704977994229405
+        ],
+        "V_min": 10.623114492998825,
+        "V_max": 12.284072308357356,
+        "beta_min": -29.830548745584146,
+        "beta_max": 0.1625306257311766,
+        "AVz_min": -0.008818605332438313,
+        "AVz_max": 0.7260295212138033,
+        "min_Fz_N": 2387.7880114071904,
+        "min_Fz_wheel": "FL",
+        "min_Fz_tau_s": 3.0455,
+        "torque_rms": 678.4305118994448,
+        "torque_peak": 1419.1074100200872,
+        "torque_margin_Nm": 1580.8925899799128,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.5700000000000001,
+        "steer_rate_limit_longest_s": 0.006500000000000001,
+        "amplitude_clip_s": [
+          1.82,
+          0.0,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.05,
+          1.22
+        ],
+        "request_budget_max": [
+          0.14094361260294327,
+          0.0037704520811418507,
+          0.19229353420410736
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.017271530548957,
+          0.003234142835714405,
+          0.0006693324566169086
+        ],
+        "pre_1s_peak_to_peak": [
+          0.2916621790894016,
+          0.00016923669504384292,
+          9.53916802626483e-05
+        ]
+      },
+      "reversal": {
+        "complete": true,
+        "start_s": 17.48,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          1.0601589920462942,
+          242.90054908908579,
+          0.05847022922261301
+        ],
+        "own_rmse": [
+          0.265851962822206,
+          4.024098649296807,
+          0.062434087496395216
+        ],
+        "own_peak": [
+          0.9146050542630917,
+          11.404250850555773,
+          0.15394273426077693
+        ],
+        "V_min": 11.08539494533974,
+        "V_max": 12.29258553111329,
+        "beta_min": -29.832929561575217,
+        "beta_max": 29.825378315612124,
+        "AVz_min": -0.7472590400272106,
+        "AVz_max": 0.5992823069587077,
+        "min_Fz_N": 859.4003025270323,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 4.8965000000000005,
+        "torque_rms": 537.5486457294559,
+        "torque_peak": 1564.7817284990304,
+        "torque_margin_Nm": 1435.2182715009696,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 1.3555,
+        "steer_rate_limit_longest_s": 0.0575,
+        "amplitude_clip_s": [
+          0.85,
+          0.39,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.06,
+          0.0,
+          0.76
+        ],
+        "request_budget_max": [
+          0.08291337420173392,
+          0.014526010052639926,
+          0.2181946745214345
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          11.986028401217926,
+          -29.832917307548488,
+          0.5992810812573729
+        ],
+        "pre_1s_peak_to_peak": [
+          1.7222680916972877e-06,
+          2.867936057882048e-05,
+          3.3948694738716867e-06
+        ]
+      },
+      "exit": {
+        "complete": true,
+        "start_s": 37.910000000000004,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.18415631309475428,
+          106.11521956631398,
+          0.04710450877762941
+        ],
+        "own_rmse": [
+          0.11080201956485398,
+          2.6597646458075195,
+          0.056038384926542034
+        ],
+        "own_peak": [
+          0.2988942500753815,
+          8.158279032415216,
+          0.16717321878578711
+        ],
+        "V_min": 11.82563066023638,
+        "V_max": 12.298894249284775,
+        "beta_min": -1.2403833717908268,
+        "beta_max": 29.82560688188679,
+        "AVz_min": -0.5993188902994122,
+        "AVz_max": 0.0012792140498448976,
+        "min_Fz_N": 880.2302449872685,
+        "min_Fz_wheel": "RR",
+        "min_Fz_tau_s": 4.3245000000000005,
+        "torque_rms": 225.50351610695583,
+        "torque_peak": 904.0417011771754,
+        "torque_margin_Nm": 2095.958298822825,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.772,
+        "steer_rate_limit_longest_s": 0.0075,
+        "amplitude_clip_s": [
+          0.0,
+          0.15,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "request_budget_max": [
+          0.0,
+          0.005995775259502394,
+          0.0
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "final_target_J": [
+          0.18415631260733714,
+          2473.920958374933,
+          1.3725558839313172
+        ],
+        "pre_1s_mean": [
+          11.98463637291547,
+          29.82559566990667,
+          -0.5993198098354331
+        ],
+        "pre_1s_peak_to_peak": [
+          1.5505118131642348e-06,
+          2.6952435963067956e-05,
+          3.6536537755260667e-06
+        ]
+      }
+    },
+    "actual_end_s": 60.0,
+    "terminal_state_V_beta_deg_AVz": [
+      12.00000349240299,
+      0.0016722594139279019,
+      0.0012781518403787986
+    ],
+    "right_hold_observed_s": null,
+    "events": {
+      "left": {
+        "single_state_events": [
+          {
+            "start_s": 2.62,
+            "confirmed_s": 2.9195,
+            "index": 5240,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 6.558,
+            "confirmed_s": 6.8575,
+            "index": 13116,
+            "elapsed_s": 3.9379999999999997
+          },
+          {
+            "start_s": 6.6775,
+            "confirmed_s": 6.977,
+            "index": 13355,
+            "elapsed_s": 4.0575
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 6.6775,
+          "confirmed_s": 6.977,
+          "index": 13355,
+          "elapsed_s": 4.0575
+        }
+      },
+      "right": {
+        "single_state_events": [
+          {
+            "start_s": 17.48,
+            "confirmed_s": 17.7795,
+            "index": 34960,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 26.9495,
+            "confirmed_s": 27.249000000000002,
+            "index": 53899,
+            "elapsed_s": 9.4695
+          },
+          {
+            "start_s": 24.62,
+            "confirmed_s": 24.9195,
+            "index": 49240,
+            "elapsed_s": 7.140000000000001
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 27.1065,
+          "confirmed_s": 27.406,
+          "index": 54213,
+          "elapsed_s": 9.6265
+        }
+      },
+      "recovery": {
+        "single_state_events": [
+          {
+            "start_s": 37.910000000000004,
+            "confirmed_s": 38.9095,
+            "index": 75820,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 43.249,
+            "confirmed_s": 44.2485,
+            "index": 86498,
+            "elapsed_s": 5.338999999999999
+          },
+          {
+            "start_s": 44.4155,
+            "confirmed_s": 45.415,
+            "index": 88831,
+            "elapsed_s": 6.505499999999998
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 44.4155,
+          "confirmed_s": 45.415,
+          "index": 88831,
+          "elapsed_s": 6.505499999999998,
+          "reexit_samples_after_confirm": 0
+        }
+      }
+    },
+    "recovery_after_confirmation_outside_samples": 0
+  },
+  {
+    "case": "kf384_kr192",
+    "windows": {
+      "entry": {
+        "complete": true,
+        "start_s": 2.62,
+        "duration_s": 8,
+        "samples": 16000,
+        "own_J": [
+          3.621844493101174,
+          315.07257879299,
+          0.02700546762435774
+        ],
+        "own_rmse": [
+          0.6728525556447317,
+          6.275673059451372,
+          0.058100632122591554
+        ],
+        "own_peak": [
+          1.5054673347782934,
+          12.162589429649246,
+          0.14412691119246213
+        ],
+        "V_min": 10.49453266548502,
+        "V_max": 12.284072008163953,
+        "beta_min": -29.77653862153454,
+        "beta_max": 0.16453740465244487,
+        "AVz_min": -0.008813953238747922,
+        "AVz_max": 0.7243095038873951,
+        "min_Fz_N": 2400.8719568592824,
+        "min_Fz_wheel": "FL",
+        "min_Fz_tau_s": 7.024,
+        "torque_rms": 699.5138388630204,
+        "torque_peak": 1447.206509687991,
+        "torque_margin_Nm": 1552.793490312009,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.5655,
+        "steer_rate_limit_longest_s": 0.007,
+        "amplitude_clip_s": [
+          2.48,
+          0.0,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.05,
+          1.25
+        ],
+        "request_budget_max": [
+          0.1740243329259796,
+          0.00377052729718437,
+          0.1922935855103197
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.01727149090504,
+          0.0032702944225196334,
+          0.0006561041686125004
+        ],
+        "pre_1s_peak_to_peak": [
+          0.2916621851653751,
+          0.000190678633489563,
+          9.02447604426166e-05
+        ]
+      },
+      "reversal": {
+        "complete": true,
+        "start_s": 18.19,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          1.1853159127194537,
+          252.96648424563,
+          0.05666389513027485
+        ],
+        "own_rmse": [
+          0.2811068495216073,
+          4.106632718303647,
+          0.06146212662026095
+        ],
+        "own_peak": [
+          0.9472890740660489,
+          11.424953919161409,
+          0.1519669548232485
+        ],
+        "V_min": 11.0527109255591,
+        "V_max": 12.286332722864092,
+        "beta_min": -29.783257664374233,
+        "beta_max": 29.779317078448855,
+        "AVz_min": -0.740624526412418,
+        "AVz_max": 0.5995717337937739,
+        "min_Fz_N": 1188.320150914326,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 4.8345,
+        "torque_rms": 541.1202178222763,
+        "torque_peak": 1583.8221894241954,
+        "torque_margin_Nm": 1416.1778105758046,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 1.3625,
+        "steer_rate_limit_longest_s": 0.057,
+        "amplitude_clip_s": [
+          0.96,
+          0.4,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.06,
+          0.0,
+          0.77
+        ],
+        "request_budget_max": [
+          0.08626737298899284,
+          0.014670652770322437,
+          0.21592875612029444
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          11.96926076992222,
+          -29.783262076266407,
+          0.5995721010388717
+        ],
+        "pre_1s_peak_to_peak": [
+          3.833370278982784e-07,
+          7.837660767506804e-06,
+          7.162357191781155e-07
+        ]
+      },
+      "exit": {
+        "complete": true,
+        "start_s": 38.75,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.17356653328920377,
+          106.88356846354822,
+          0.04570395328070249
+        ],
+        "own_rmse": [
+          0.10756905790830489,
+          2.669376562215083,
+          0.05519900559533205
+        ],
+        "own_peak": [
+          0.2935201789577775,
+          8.200520824856072,
+          0.16928368149336853
+        ],
+        "V_min": 11.819138719704126,
+        "V_max": 12.29352017815365,
+        "beta_min": -1.303240355850614,
+        "beta_max": 29.779535306489304,
+        "AVz_min": -0.5995886074267106,
+        "AVz_max": 0.0013990769983558563,
+        "min_Fz_N": 1208.9151571142438,
+        "min_Fz_wheel": "RR",
+        "min_Fz_tau_s": 4.259,
+        "torque_rms": 226.55168517079875,
+        "torque_peak": 910.5092715744421,
+        "torque_margin_Nm": 2089.490728425558,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.7665000000000001,
+        "steer_rate_limit_longest_s": 0.0075,
+        "amplitude_clip_s": [
+          0.0,
+          0.18,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "request_budget_max": [
+          0.0,
+          0.00811935920634694,
+          0.0
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "final_target_J": [
+          0.17356653281849105,
+          2468.0802872924623,
+          1.3714504111544916
+        ],
+        "pre_1s_mean": [
+          11.968433877210934,
+          29.77952406742065,
+          -0.5995896615789441
+        ],
+        "pre_1s_peak_to_peak": [
+          1.8596251454283674e-06,
+          3.269492613355851e-05,
+          3.161994373557242e-06
+        ]
+      }
+    },
+    "actual_end_s": 60.0,
+    "terminal_state_V_beta_deg_AVz": [
+      12.000004119669443,
+      0.0013674311137627211,
+      0.0013983827888996911
+    ],
+    "right_hold_observed_s": null,
+    "events": {
+      "left": {
+        "single_state_events": [
+          {
+            "start_s": 2.62,
+            "confirmed_s": 2.9195,
+            "index": 5240,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 7.2395000000000005,
+            "confirmed_s": 7.539000000000001,
+            "index": 14479,
+            "elapsed_s": 4.6195
+          },
+          {
+            "start_s": 7.385,
+            "confirmed_s": 7.6845,
+            "index": 14770,
+            "elapsed_s": 4.765
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 7.385,
+          "confirmed_s": 7.6845,
+          "index": 14770,
+          "elapsed_s": 4.765
+        }
+      },
+      "right": {
+        "single_state_events": [
+          {
+            "start_s": 18.19,
+            "confirmed_s": 18.4895,
+            "index": 36380,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 27.715,
+            "confirmed_s": 28.0145,
+            "index": 55430,
+            "elapsed_s": 9.524999999999999
+          },
+          {
+            "start_s": 25.341,
+            "confirmed_s": 25.6405,
+            "index": 50682,
+            "elapsed_s": 7.151
+          }
+        ],
+        "last_limiting_states": [
+          "V"
+        ],
+        "joint_event": {
+          "start_s": 27.941,
+          "confirmed_s": 28.2405,
+          "index": 55882,
+          "elapsed_s": 9.750999999999998
+        }
+      },
+      "recovery": {
+        "single_state_events": [
+          {
+            "start_s": 38.75,
+            "confirmed_s": 39.7495,
+            "index": 77500,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 44.165,
+            "confirmed_s": 45.164500000000004,
+            "index": 88330,
+            "elapsed_s": 5.414999999999999
+          },
+          {
+            "start_s": 45.213,
+            "confirmed_s": 46.2125,
+            "index": 90426,
+            "elapsed_s": 6.463000000000001
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 45.213,
+          "confirmed_s": 46.2125,
+          "index": 90426,
+          "elapsed_s": 6.463000000000001,
+          "reexit_samples_after_confirm": 0
+        }
+      }
+    },
+    "recovery_after_confirmation_outside_samples": 0
+  },
+  {
+    "case": "kf384_kr576",
+    "windows": {
+      "entry": {
+        "complete": true,
+        "start_s": 2.62,
+        "duration_s": 8,
+        "samples": 16000,
+        "own_J": [
+          1.2643406391029826,
+          152.78960433967842,
+          0.0168053613178964
+        ],
+        "own_rmse": [
+          0.3975456953456707,
+          4.370206006867388,
+          0.04583306846303278
+        ],
+        "own_peak": [
+          1.1351214363312643,
+          11.00508673746627,
+          0.1482292829944417
+        ],
+        "V_min": 10.864878563878557,
+        "V_max": 12.284075134172346,
+        "beta_min": -30.16762515193412,
+        "beta_max": 0.15560994558615557,
+        "AVz_min": -0.008824506186516257,
+        "AVz_max": 0.7472090242659509,
+        "min_Fz_N": 2317.847516306384,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 1.409,
+        "torque_rms": 659.7068201607567,
+        "torque_peak": 1357.8146148621063,
+        "torque_margin_Nm": 1642.1853851378937,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.5750000000000001,
+        "steer_rate_limit_longest_s": 0.006500000000000001,
+        "amplitude_clip_s": [
+          1.22,
+          0.0,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.05,
+          1.12
+        ],
+        "request_budget_max": [
+          0.0729053372932752,
+          0.003770403116896269,
+          0.19229339786330585
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.017271552825289,
+          0.003232091426639241,
+          0.0006713890540175347
+        ],
+        "pre_1s_peak_to_peak": [
+          0.29166220284514033,
+          0.00016622854121876559,
+          9.472086254806288e-05
+        ]
+      },
+      "reversal": {
+        "complete": true,
+        "start_s": 16.89,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.9071841212276591,
+          225.01784897294505,
+          0.062171964068120374
+        ],
+        "own_rmse": [
+          0.24592466613818403,
+          3.873136962660844,
+          0.06438010255149768
+        ],
+        "own_peak": [
+          0.853195867008699,
+          11.255565642222615,
+          0.16287233616477303
+        ],
+        "V_min": 11.146804132565194,
+        "V_max": 12.309327868854346,
+        "beta_min": -30.168402621364876,
+        "beta_max": 30.161454777942595,
+        "AVz_min": -0.754805967940361,
+        "AVz_max": 0.5984220369959292,
+        "min_Fz_N": 452.9111431396039,
+        "min_Fz_wheel": "RL",
+        "min_Fz_tau_s": 4.8735,
+        "torque_rms": 535.4982514352276,
+        "torque_peak": 1527.762825702507,
+        "torque_margin_Nm": 1472.237174297493,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 1.3815,
+        "steer_rate_limit_longest_s": 0.057,
+        "amplitude_clip_s": [
+          0.65,
+          0.35000000000000003,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.06,
+          0.0,
+          0.76
+        ],
+        "request_budget_max": [
+          0.07624928187888587,
+          0.012441566295254364,
+          0.21733161014744268
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "pre_1s_mean": [
+          12.024339344125712,
+          -30.168389177553028,
+          0.598422120240237
+        ],
+        "pre_1s_peak_to_peak": [
+          1.4612620660159337e-06,
+          2.650995066844075e-05,
+          3.574818975060623e-06
+        ]
+      },
+      "exit": {
+        "complete": true,
+        "start_s": 37.230000000000004,
+        "duration_s": 15,
+        "samples": 30000,
+        "own_J": [
+          0.20976193082173314,
+          108.24665674020399,
+          0.04894000105049232
+        ],
+        "own_rmse": [
+          0.11825450824999813,
+          2.6863439434815986,
+          0.05711975784874694
+        ],
+        "own_peak": [
+          0.31410956630697306,
+          8.096717892936264,
+          0.17301330088817124
+        ],
+        "V_min": 11.831220519491692,
+        "V_max": 12.314109565543161,
+        "beta_min": -1.16033634883176,
+        "beta_max": 30.161616104552856,
+        "AVz_min": -0.5984603575466968,
+        "AVz_max": 0.0012426844696856246,
+        "min_Fz_N": 450.38617111153553,
+        "min_Fz_wheel": "RR",
+        "min_Fz_tau_s": 4.3015,
+        "torque_rms": 226.7088162966353,
+        "torque_peak": 926.0138626119451,
+        "torque_margin_Nm": 2073.986137388055,
+        "steer_rate_peak_deg_s": 54.794500000001435,
+        "steer_rate_limit_s": 0.7775,
+        "steer_rate_limit_longest_s": 0.007,
+        "amplitude_clip_s": [
+          0.0,
+          0.12,
+          0.0
+        ],
+        "slew_clip_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "request_budget_max": [
+          0.0,
+          0.0036336807412193917,
+          0.0
+        ],
+        "wheel_projection_s": 0.0,
+        "torque_protection_s": 0.0,
+        "final_target_J": [
+          0.2097619302992639,
+          2517.214139957327,
+          1.3669049247009473
+        ],
+        "pre_1s_mean": [
+          12.02299153275309,
+          30.161606069667076,
+          -0.5984590371673955
+        ],
+        "pre_1s_peak_to_peak": [
+          1.6937067961464436e-06,
+          2.9028708954825788e-05,
+          3.5413422824204233e-06
+        ]
+      }
+    },
+    "actual_end_s": 60.0,
+    "terminal_state_V_beta_deg_AVz": [
+      12.000003424641324,
+      0.0017175857992138205,
+      0.0012427240334267594
+    ],
+    "right_hold_observed_s": null,
+    "events": {
+      "left": {
+        "single_state_events": [
+          {
+            "start_s": 2.62,
+            "confirmed_s": 2.9195,
+            "index": 5240,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 5.867,
+            "confirmed_s": 6.1665,
+            "index": 11734,
+            "elapsed_s": 3.247
+          },
+          {
+            "start_s": 6.0895,
+            "confirmed_s": 6.389,
+            "index": 12179,
+            "elapsed_s": 3.4695
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 6.0895,
+          "confirmed_s": 6.389,
+          "index": 12179,
+          "elapsed_s": 3.4695
+        }
+      },
+      "right": {
+        "single_state_events": [
+          {
+            "start_s": 16.89,
+            "confirmed_s": 17.1895,
+            "index": 33780,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 26.1815,
+            "confirmed_s": 26.481,
+            "index": 52363,
+            "elapsed_s": 9.2915
+          },
+          {
+            "start_s": 26.422,
+            "confirmed_s": 26.7215,
+            "index": 52844,
+            "elapsed_s": 9.532
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 26.422,
+          "confirmed_s": 26.7215,
+          "index": 52844,
+          "elapsed_s": 9.532
+        }
+      },
+      "recovery": {
+        "single_state_events": [
+          {
+            "start_s": 37.230000000000004,
+            "confirmed_s": 38.2295,
+            "index": 74460,
+            "elapsed_s": 0.0
+          },
+          {
+            "start_s": 42.548500000000004,
+            "confirmed_s": 43.548,
+            "index": 85097,
+            "elapsed_s": 5.3185
+          },
+          {
+            "start_s": 43.743,
+            "confirmed_s": 44.7425,
+            "index": 87486,
+            "elapsed_s": 6.512999999999998
+          }
+        ],
+        "last_limiting_states": [
+          "AVz"
+        ],
+        "joint_event": {
+          "start_s": 43.743,
+          "confirmed_s": 44.7425,
+          "index": 87486,
+          "elapsed_s": 6.512999999999998,
+          "reexit_samples_after_confirm": 0
+        }
+      }
+    },
+    "recovery_after_confirmation_outside_samples": 0
+  }
+]

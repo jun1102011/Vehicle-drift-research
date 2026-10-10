@@ -1,0 +1,1 @@
+{"run_id":"LeftRight_R3_kf384_kr192","actual_end":60,"error":"","duration_s":60,"feedback_state_count":5,"internal_K_Nm_per_deg":[384,192],"ordinary_initial_state":true,"external_ASB_zero_required":true,"task":"state_only_no_path","performance_acceptance":"pending_independent_analysis"}
